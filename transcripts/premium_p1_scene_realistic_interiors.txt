@@ -1,0 +1,35 @@
+[00:00] In this video you are going to learn how to create realistic interiors in blender.
+[00:04] This style is achieved by the use of high polyasset, realistic pvr materials, lighting and most times the use of EV instead of cycles,
+[00:14] although you can optimize EV for realism but we are not going to talk about that yet.
+[00:19] This style is commonly used by creators like Fern, Cypher or thinker but in this situation we are going to recreate this scene from Fern.
+[00:28] So you can understand the process of gathering assets and texturing them to achieve this style.
+[00:33] All the assets are going to be in the resources so let's get into it.
+[00:37] Okay so here we have the scene. In this tutorial I'm going to take a little bit of a faster approach
+[00:45] because if you think about it this kind of scene is like a mixture between the first class and the second class about scene building
+[00:53] it's like putting both of them together and we are going to discuss exactly the same techniques.
+[00:59] The only difference might be lighting also the assets and the texturing.
+[01:04] There's a couple new techniques that I can show you but as I already told you we are going to take a little bit of a faster approach in this video.
+[01:12] So the first thing that I imported to the scene was this bed right here so I'm going to select the bed.
+[01:20] Obviously everything is separated in collections. I don't think I mentioned this before but if you make something like a cube for example
+[01:31] and move it right here and then seven and now shift the shift the shift the and then you select all of them and M.
+[01:40] So I can either select an existing collection or I can select here new collection and name these cubes.
+[01:48] And now all these cubes are going to be in a separate collection and it's better this way because if we go here to the cube so we can just right click and select objects
+[01:59] and we are going to select everything and it's much more comfortable that way.
+[02:04] So the first thing I did was importing this bed right here that it's from SketchFab.
+[02:10] I was surprised about the quality of the beds in SketchFab. They are all free so this bed was free
+[02:17] and as you can see it's super high quality and the textures are also great. Let me show you the render view right here.
+[02:24] So this is the final scene and you can see the textures of the bed are great.
+[02:30] So let's get all the assets out of the way. This next stand was also from SketchFab and also this one
+[02:39] and it's the same process always I import them and then I texture them and then I position them wherever I want.
+[02:46] Also the plants right here all the plants are from polygon and also this decoration right here is from polygon.
+[02:54] This wall shelf was also from SketchFab and this door right here is also from SketchFab so I didn't use the normal door from blender.
+[03:07] Then I modeled the windows so I'm going to show you how to that in just a second.
+[03:13] As you can see they have like a bevel and some detail. Honestly that was a waste of time because you can't
+[03:20] see all of those details here in the final render and then the frame of the room was a little bit tricky so
+[03:29] the first thing I did was position in the bed then I tried to position the camera by the way this camera
+[03:40] is 24 millimeter camera. I started with 35 but then I went down to 24. What you want to do first
+[03:50] before doing the frame of the house is trying to get the perspective right with the camera so in
+[04:00] this case the first thing I did was import in the bed and then trying to get the framing right you know
+[04:08] and then what I was watching the camera view I made a cue and then I started playing with the size
+[04:17] until I had what I wanted so I wanted the door here the ceiling a little bit high so this entire building
+[04:26] is 3 meters of height then I wanted to see a little bit of the wall right here.
