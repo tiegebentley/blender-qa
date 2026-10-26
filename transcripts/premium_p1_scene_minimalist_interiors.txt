@@ -1,0 +1,101 @@
+[00:00] In this video you are going to learn how to create minimalistic interiors.
+[00:03] These types of scenes are characterized by low polyassets and minimalistic materials.
+[00:09] They are used by creators like spectator, lemmy, no spectacles and even some fern videos.
+[00:16] And obviously all of them have a maize hundreds of thousands or even a million views with this style.
+[00:22] So we can be sure about the fact that these types of scenes can achieve effective storytelling
+[00:28] without the need of expensive high quality assets or super detailed materials.
+[00:34] In this video I'll be recreating this scene from spectator.
+[00:37] So you can understand the process of gathering assets and texturing them to achieve this style.
+[00:44] You will also going to learn how to model the frame of the house and how to add windows and doors to it.
+[00:51] So let's get into it.
+[00:53] So we are going to make this scene right here.
+[00:55] So let me open a completely new scene and start from scratch.
+[01:01] Let me join this to the left and now let's start.
+[01:04] I'm going to be using EV.
+[01:06] I'm not going to bother with all these settings yet because I prefer to do other things first.
+[01:12] But what you should definitely look before start anything is here the output tab.
+[01:18] You want to make sure you have established your resolution and obviously the frame rate you are going to be working with.
+[01:26] So I'm going to press shift A, Mesh and Q, G-C and Control to lift it up to the floor of the world.
+[01:36] And now I'm going to change here the transform pivot point to 3D cursor.
+[01:42] And this is because I want to scale this up from this angle and I don't want it to expand below the ceiling.
+[01:50] So yeah, I'm going to go here to the item basically to see the dimensions of this cube that I have here.
+[01:58] And I want to scale it up up to 3 meters in the here in the C axis.
+[02:05] So 3 meters.
+[02:06] You may be asking why I want to do this.
+[02:10] And it's because in Blender it's ideal that your scene has similar proportions to the actual real world.
+[02:20] And that's because if you are going to be using a camera every perspective and also the depth of field it's going to look better if everything is proportional.
+[02:30] So I saw lots of you doing like giant people walking next to a building and the guy is as tall as the fourth floor of the building.
+[02:42] And that obviously it's not realistic.
+[02:45] So yeah, make sure to keep an eye on that.
+[02:47] Now I want to press S and then shift C to only scale on the X and Y axis.
+[02:55] And I want to make something like maybe something like this.
+[03:02] Now I want to press Ctrl A and apply scale.
+[03:05] Let me hide this for a second.
+[03:07] Now let's go to Edit Mode, press in TAL, and 3 to face select and select this face right here.
+[03:15] And X and then faces to delete the upper part.
+[03:20] Now I want to go to Edit Mode and press Ctrl R here.
+[03:25] And add a look cut, press left click and then right click to confirm.
+[03:31] And now while this is selected, let's press Ctrl B to make a bevel.
+[03:38] And you want to make something like this.
+[03:43] Now you want to press 3 and select this face right here and press E to extrude.
+[03:51] And you want something like this.
+[03:53] Again this is fine.
+[03:54] You will have a hole here so you want to press 2 and select these two lines right click.
+[04:01] Right here pressing shift and then F to fill this area right here.
+[04:07] Now you also want to select all these faces right here except this one.
+[04:13] So this one and except this one, yeah.
+[04:16] And now you want to all sorry, let me add that one.
+[04:21] And now press E and S, sorry S and shift C.
+[04:28] You basically make this thicker.
+[04:32] Something like this.
+[04:33] And as you can see we added thickness to the building.
+[04:37] Okay now that we have this, let's also go to Edit Mode.
+[04:41] I'm press 2 to select the lines.
+[04:44] And now because we extrude it, we have these holes right here so you can see.
+[04:50] So let's select this right here and press F to basically fill this area right here.
+[04:56] Now let's also select here F and here and here.
+[05:08] This wall right here and finally this wall right here.
+[05:17] Now we have to check face orientation.
+[05:22] Yeah I had problems while I was practicing with this so that's why I'm checking this before.
+[05:28] And yeah you probably don't actually know what this face orientation but is the direction,
+[05:35] the normals of your geometry is facing.
+[05:40] And you don't need to understand the science but every time you see red in a visible part
+[05:47] of your scene.
+[05:49] So for example, if all of this is blue and the outside part is red, that's good.
+[05:57] But in this case we are going to put the camera somewhere right here and we don't want this
+[06:02] to be red.
+[06:03] Basically because some effects or some maybe some things that we want to do are not going
+[06:09] to work because of this.
+[06:11] So yeah if you see some type of boog in your scene it's probably because you didn't check
+[06:16] the normals.
+[06:17] So yeah how you correct this, basically you have to enter Edit Mode and press 3 and select
+[06:23] all these faces right here that are red and you want to press Shift N to flip the normals.
+[06:35] I think that didn't work here so let's press Shift N and lift this part right here and
+[06:41] let's put inside and now it's good.
+[06:44] So yeah I'm not going to bother here because it's on the outside but yeah if some materials
+[06:52] don't work or something like that it's probably because of this.
+[06:55] Now let's click here and this select face orientation and everything's back to normal.
+[07:00] And also if you want to see these in colors and not gray you have to press here and then
+[07:06] go to, it's probably here in material you want to select random and that's it.
+[07:11] Now you want to press Shift A and mesh and oh sorry I forgot so you have to go here to render
+[07:20] sorry edit preferences and add-ons and you want to activate this one the Archimesh add-on.
+[07:29] So you look here Archimesh and you select it.
+[07:33] What this basically does is it gives you more options here in the mesh section here is Archimesh
+[07:40] and now you can add something like a door and there you have a door there.
+[07:47] So now you have to select this empty that basically controls the door press 7 and now yeah
+[07:54] you can move the entire door and it's pretty useful.
+[07:57] So the CGX sorry the wall is too thick so let me improve that.
+[08:07] Let's GY and let's put this roughly right here and now let's go here and enter 8 more
+[08:20] and let's select all the outside faces there you go and now S and Shift C to basically make them thinner
+[08:40] something like this now let's go back here 7 GY and you want a little bit from both sides.
+[08:56] Something like that there we go.
+[09:01] Okay so apparently we have to decrease the size the thickness here even more so let's go to edit mode again
+[09:10] S, Shift C, something like this and let's see GY there you go now it's visible from both sides
+[09:26] and the door has already the anchor point here so you just press rotate and the door will open
+[09:34] like this you see and the door it's flipped so it opens like this and we have to make it face
+[09:44] the other way so let's select here the empty and you have to press S X sorry Y and minus 1 it went
+[09:58] it went there and that's because the pivot point is the 3d cursor so we have to change it again
+[10:05] to medium point and now it should work fine so let's select this again S Y and minus 1 and yet that
+[10:15] basically works to flip the door so GY there you go let's make this thinner there you go
+[10:42] okay now we open this and obviously there's a folder so to make the door the hole of the door I
+[10:52] want to press number one shift S
