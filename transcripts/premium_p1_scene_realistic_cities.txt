@@ -1,0 +1,70 @@
+[00:00] In this video I'll teach you how to recreate the city shot from a fard video.
+[00:03] You're gonna learn how to import entire cities from Google Maps into blender,
+[00:07] how to model a simple building and how to animate the camera.
+[00:11] All useful links are in the description so let's start.
+[00:14] Okay the first thing you want to do is go to the link in the description.
+[00:18] There is ProGitectorGumbro.com and select the one that says $0.
+[00:24] You can absolutely select this one and it's a little bit better but for this tutorial we're going to
+[00:30] use the free version. Then you just have to place 0 here and then add to cart.
+[00:37] And now you just click get and that's it. Then in blender you want to go to edit preferences and go
+[00:46] to addons and then select this icon right here and install from disk and install the addon.
+[00:54] Please don't unzip the addon. Just click here and install from disk.
+[00:59] It's going to be the one that says blossom. Now with the addon activated you want to press this
+[01:05] icon right here and you have to fill some stuff here but before we have to go to Google again and go
+[01:12] here to the Google Maps platform and press here and get started. And now you want to start just
+[01:19] filling all this stuff that Google's ask you. Go to finish account setup. Press here,
+[01:25] agree and continue. And here it will ask you for a payment method. It probably already has that
+[01:31] information and don't worry it won't charge you anything. Now it's going to ask you some questions.
+[01:38] Just fill everything with whatever fits best for you. Now it's going to show you this right here
+[01:45] and you have to copy the appy key and then click here and go to Google Maps platform.
+[01:50] And here select maybe later. Now go here to appy and services. Scroll down and go to the one that says
+[01:59] map tiles appy and click here on enable. Once that's done you have to paste your appy key here and then
+[02:08] choose a folder where you want to store the data from this addon. So yeah after that you can start.
+[02:16] So this is the project you saw on the intro that I've been working on and I'm going to show you how
+[02:22] to do everything but I'm not going to do everything from zero. I'm going to import like a super tiny
+[02:30] location because important this took me around 15 to 20 minutes. Maybe less I don't know but the thing
+[02:37] is your first import is going to be heavy and it's going to take a lot of time. So make sure you import
+[02:45] a small part of the map and then add more as you need. For example here if I go to the last frame
+[02:54] right here I added these low quality versions of the rest of the map because if I hide this too
+[03:04] you can see the holes right here on the camera. So that's why I filled those areas with low quality
+[03:11] imports. You can see the difference but yeah let me show you how you can actually do this but before
+[03:18] that another important tip is that if you are going to make city shots in your documentary the best way
+[03:25] to save time and also maintain quality is actually making everything like an import from Google maps
+[03:35] and then model one specific building like this one I modeled this building myself and this one
+[03:41] is the one that you are going to focus on and you want to have the most amount of detail. So in
+[03:48] the end result where we are here most people are watching this and just assuming that the rest is real
+[03:57] and yeah it's burned us this a lot so it's a nice hack instead of I don't know modeling the entire
+[04:06] thing which will take probably months. So let me add a new scene a completely new scene and let me also
+[04:17] join these areas right here and tell you exactly what you have to do. First let's talk about
+[04:24] render settings I'm going to use cycles and GPU compute and experimental then I'm going to lower
+[04:31] the samples on the viewport to 60 and then use around 200 samples on the render activate denoise
+[04:40] and set this up to optics if you have any videographies card then go here and change to AGX and then look
+[04:51] very high contrast then go to output and I'm going to work with a 1920 by 1080 composition just because
+[04:58] I'm doing a tutorial if you want more quality you can bump this up to 4k right here and then the frames
+[05:06] per second I'm also going to use like 24 frames per second and again if you want more quality you can
+[05:14] just change this. Then in file format select here png or gba color depth to 8 and compression down to 0.
+[05:22] Another important thing that you have to do is click here and go all the way up and select view
+[05:30] and increase the end right here so I don't know what's the default value but whatever the value is
+[05:38] you just have to add another 0 and also maybe decrease the clip start right here would be a good option
+[05:46] and now let's scroll all the way down and we have the blossom album and now you have to press here
+[05:53] on sorry first you have to change this from open street map to three details which is the one I used
+[06:02] and then click here on select and in my case I went to Hong Kong because that's the location
+[06:11] friend used in his video so let me type Hong Kong China and then you want to go
+[06:21] here basically so this part right here that has this water and all that stuff you can even click here
+[06:30] and select this one so you can see better
+[06:34] and yeah this is pretty much the area that I want to work with and now you have to click here on show
+[06:42] selection rectangle and as I've already said you want to select like a small portion of the city
+[06:50] in my case I think I went something like this or maybe even bigger something like this
+[07:02] which is pretty big that's why it took like 15 to 20 minutes so for this demonstration I'm just
+[07:11] going to focus on this area right here maybe and these are the coordinates you just have to press here
+[07:19] copy now go back to blender and select paste and then the next section is also important you have
+[07:27] this level of detail you want to use like the one that is below which is the one that has the most
+[07:35] amount of detail this actually didn't work for me my pc couldn't handle it so I used buildings with
+[07:43] details and then the sections that were further from the camera I used whole city so yeah I'm going to
+[07:51] import here buildings with details and let's see how it goes click import right here so yeah as you
+[07:58] can see I've already imported this model if you can't actually see the model so let's see
+[08:05] view and let's delete one zero yeah if you see everything like this you have to go here to the end
+[08:12] and add one zero and you will be able to see everything now the next important thing that you have
+[08:19] to do is actually tweaking the materials basically if we go to the material preview you can see this
+[08:26] and this actually is not reacting to light so this is actually a light it's like an emissive material
+[08:36] so in order to kind of fix
