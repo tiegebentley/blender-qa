@@ -1,0 +1,119 @@
+[00:00] Okay so in this video I'm going to show you different camera movements you can use and different use cases for each one of them
+[00:07] So in this case I'm going to position myself roughly right here and press control alt-0 to bring the
+[00:15] Normal camera that was here to my view and now I'm going to split the view like this and I always like to do this
+[00:24] Let me go to the camera and then
+[00:27] Increase the viewport display right here the passport to one so I have less distractions right here and also turn off
+[00:35] Overlays right here now. I'm just going to position my camera in a better way
+[00:39] I'm going to set the rotation the X rotation to 90 and these two zero so it's
+[00:46] Straight up and now our X and something like this
+[00:52] our X and
+[00:55] X so the first type of camera movement that I'm going to show you is the pan so you can pan to the left to right
+[01:04] Up and down and this is the most common one but there's a few mistakes
+[01:09] That can ruin your entire scene if you don't apply them
+[01:14] So first I'm going to select my camera and add a location keyframes right here
+[01:19] Then I'm going to the frame 100 and then G X and I'm just going to make this movement right here
+[01:26] And as you can see this value is in orange you have to
+[01:30] Click this to confirm this keyframe. So you don't automatically make keyframes
+[01:37] Now let's say our composition is
+[01:41] 100 and 10 frames. There's a few mistakes here. First we have
+[01:45] Bay Syracy frames
+[01:46] So the camera is ramping up in velocity and then slowing down and that's not realistic in real life
+[01:54] So when cameras try to make this movement right here they were usually
+[02:01] Already in movement and then they never stop moving
+[02:06] So we are going to solve that by just selecting both of these and then pressing T and linear and
+[02:12] And now the camera has the same velocity throughout the entire movement
+[02:16] But we have this abrupt and make sure this doesn't happen in your documentaries because real-life cameras
+[02:24] Creole clearly don't behave this way and even if you're not trying to recreate like real-life cameras
+[02:30] This just looks off as you can see it looks ugly
+[02:34] So just move the keyframe right here or
+[02:38] decrease
+[02:39] The end and now we will have a clean
+[02:43] Pan to the right like this and it looks
+[02:47] More cinematic or at least it doesn't look off or weird now
+[02:53] I'm going to increase the end to 200 and now I'm going to go to the first keyframe and I'm going to show you another
+[03:00] Technique and this technique will allow you to make camera cuts inside your scene
+[03:06] So let's say I want my first frame right here to be this way
+[03:11] But then I want another camera movement here
+[03:14] So I'm just going to select my camera and go to the first frame and press control B on the timeline
+[03:22] So we make this camera the main camera for this section now we go
+[03:28] Here and now I'm going to press dot and then seven and make something like this and then
+[03:35] Shift A camera and while this new camera is selected I'm going to go to the timeline and press control B again
+[03:43] And now control all 0 and 0 again basically just
+[03:47] So I can position the camera right here. I'm going to increase the passport to one right here and maybe
+[03:55] lift this up a bit
+[03:58] And now I'm just going to make almost the same movement
+[04:03] As I did before
+[04:05] So I'm going to add here location keyframes and then I'm going to go to the last frame and
+[04:11] DX make another pan and then another keyframe right here and make sure both of these are T and linear and
+[04:20] Now we will have this
+[04:23] And then a camera cut right here
+[04:26] We have this other angle pretty interesting now. We are going to make
+[04:32] Another type of movement. I'm going to clear the markers right here
+[04:39] And another thing you can do to control your camera is with a cool let's say you want to make a scene where you enter
+[04:48] House and then you go up the stairs and entering some rooms and things like that
+[04:55] It will be tough to animate that with keyframes, but with curves is a lot easier
+[05:01] So I'm just going to make a
+[05:03] Tiny example right here. I'm going to press shift a and then curve and base here
+[05:09] And I'm going to scale this or we'll have this curve right here
+[05:13] It's pretty important that you are in orthographic view because it's going to be easier to manipulate
+[05:18] Now I'm just going to go to edit mode and select this right here
+[05:23] I put it roughly right here and then are to move the rotation right here and are again
+[05:30] Maybe I want something like this and then G
+[05:36] And maybe I want the cool to be less
+[05:39] exaggerated and maybe move this and
+[05:43] Something like this. Let's say and now I'm going to press one and I'm just going to lift
+[05:49] One up to somewhere right here
+[05:52] Now another thing I'm going to do is add an empty whatever empty you want in my case sphere and G
+[06:00] Seed control and then S so basically what I want to do is position this empty in the same place as my
+[06:08] Q right here and now I want to add a camera
+[06:13] And I don't want to move this camera. I'm going to press 0 in this view and increase the
+[06:18] People display the passport sorry, but I don't want to move this camera yet
+[06:23] I'm just want to select it and then go to the constraints and add constraints
+[06:29] And I want this one the follow path now. I'm going to
+[06:33] Select a target which is going to be this curve right here
+[06:38] And right now if we move the offset as you can see
+[06:41] We are moving along the curve, but we are not watching at the cube
+[06:45] And that's what we are going to solve right now by adding another constraint which is the track 2 and here in the target select the empty
+[06:55] So now we are looking at the cube. Maybe I want to decrease the focal length to 24 so we have more space right here
+[07:04] And maybe I want to lift
+[07:06] The empty a little bit and now we can have keyframes to the offset right here
+[07:12] So you just have to go into two constraints and here in follow path you have to select the fixed position and then
+[07:20] Make a keyframe here on the offset and then go to the frame 100 for example and move roughly right here to 1 and then
+[07:29] Make another keyframe and I want to go to the first frame and then
+[07:34] Select my empty and I also want to add a location keyframes right here
+[07:39] Go to the frame 100 and I want to lower this down so the cube stays in focus, you know
+[07:47] And then another keyframe and in this case we are going to make another type of camera movement
+[07:53] Sometimes you will want something more smooth so more stylized for
+[07:59] Your camera movement and that's where the graph editor comes into place
+[08:04] So I'm just going to add another window right here and select the graph editor and I'm going to press normalize
+[08:12] So I have these keyframes right here
+[08:15] You can select both of them
+[08:18] And then I will advise you to change the pivot point to
+[08:23] From bounding box to individual centers
+[08:27] So now if we press S and X we are going to scale this way the keyframe and for
+[08:32] A good amount of smoothness I recommend you to press S and then X and then control and look at this part of the screen right here
+[08:44] SX we have these numbers and when you press control you are going to activate snapping and this is going to be like a random value
+[08:52] So SX and I want
+[08:55] 1.6 roughly and I want to do the same with the keyframes of this empty so SX
+[09:01] And
+[09:02] 1.6 and let's see how that looks
+[09:08] So yes, you can see it looks super smooth. We are speed ramping right here
+[09:14] And looks great and let's say you don't want
+[09:17] These to be super close right here. You can actually press
+[09:22] 7 and edit your curve right here to something
+[09:27] Like this and maybe
+[09:30] Like this and let's see how that looks
+[09:36] Yeah, so now it looks a lot better and let me show you something
+[09:40] So if you camera stopped at whatever point in your video or documentary
+[09:46] You don't want the camera to start moving abruptly so with linear keyframes
+[09:52] That's why if your camera wasn't moving you always want to apply some easing right here like this to start the movement more slowly
+[10:01] So as you can see we are quiet right here and then
+[10:05] We slowly start moving and then we slowly stop moving and then we have this dead space right here
+[10:13] That doesn't feel unnatural because the keyframes are not linear
+[10:18] So let's say we make linear keyframes right here it looks super weird because we are not moving right here
+[10:25] And then suddenly we start
+[10:27] Moving and then abruptly we stop moving so it feels super unnatural
+[10:32] That's why I recommend
+[10:35] To use easing so we start slowly and
+[10:40] Stop moving slowly as you can see so now what if you want to stack
+[10:46] A lot of camera movements at the same time so I'm going to add a plane
