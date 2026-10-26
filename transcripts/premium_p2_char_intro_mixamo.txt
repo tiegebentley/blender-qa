@@ -1,0 +1,96 @@
+[00:00] Welcome to the Character Equation section of this course.
+[00:02] Here you will learn everything you need to know about adding characters to your scene,
+[00:07] going from the easiest to the hardest.
+[00:09] All of them are based on actual successful 3D documentary channels.
+[00:14] So no matter what you pick, you will still achieve great results.
+[00:18] Obviously if you have great storytelling, great compositions, title and thumbnail and all the stuff.
+[00:25] But in order to choose the right kind of character,
+[00:27] you need to take into account time and budget.
+[00:31] Because characters sits on a spectrum,
+[00:34] going from least customizable all the way to fully customizable.
+[00:39] Meaning the more costume you want your character to be,
+[00:43] the more time or budget you will need to invest on it.
+[00:47] Nonetheless, you can still achieve great results with low customization.
+[00:51] But I think some customization is important,
+[00:55] especially if you are trying to represent women, elderly persons or child.
+[01:00] In this first lesson, I'm going to show you how to import the easiest types of characters.
+[01:07] And I'm talking about mix and more characters.
+[01:09] These characters are used by creators like Imangazzi or BPPR,
+[01:14] which is a channel that recently blew up with just one video using these types of characters.
+[01:19] So let's get into it.
+[01:21] So here I am in mixamot.com.
+[01:24] And here you have a section of characters and animations.
+[01:28] We are going to focus on characters first.
+[01:30] And here you have a wide selection of characters.
+[01:34] Some of them are super stylized,
+[01:36] so I don't think you will actually use them in your documentaries.
+[01:40] But others are more realistic.
+[01:43] And those are the ones you really want to use for your documentaries.
+[01:47] For example, we have Remy here, Luis, James.
+[01:52] We have this mannequin that we are going to talk about him later in the course.
+[01:57] Then we have Megan, Kate.
+[01:59] So we have a lot of characters that you can actually use in your documentaries.
+[02:05] We have the Solivia, Leonor, and this character is the one that BPPR used.
+[02:11] Then we have the Swat Guy.
+[02:13] And this keeps going.
+[02:14] We have like three pages of characters.
+[02:17] We also have Adam, Sophie, Brian, Bryce, Joe,
+[02:23] Gass Mask, Joe, Shelley, Sabet, Chad.
+[02:27] And it keeps on and on.
+[02:29] So what you have to do is go here to the download bottom
+[02:33] and you want to download it in the T-Post and in the FBX format.
+[02:39] Basically. Now you just download it.
+[02:41] And now here in Blender, let's delete the default cube and make a default cube.
+[02:47] You see it on control.
+[02:49] Now shift A, mesh, plane.
+[02:52] Let's scale this up.
+[02:54] And let's make something super simple like this.
+[02:58] And let's see our camera.
+[03:01] How is it going?
+[03:04] I think I want 35 millimeters viewport display, passport one.
+[03:09] See it on my non-pad and now our X twice.
+[03:12] And I want something like this.
+[03:13] And I just made this to represent a normal scene.
+[03:17] And now you want to obviously add your character.
+[03:20] So in my case, I have here the Swat FBX.
+[03:24] I'm just going to drag and drop it right here and import FBX.
+[03:28] And there you go.
+[03:29] We have our character right here.
+[03:32] So G and Shift-C and R-C.
+[03:36] And yeah, we have our character.
+[03:38] And now you can already use this for your documentaries.
+[03:42] And we are going to talk about posting and character animation
+[03:46] in the next section of the course.
+[03:48] But here, let's say I want to customize a little bit more this character.
+[03:54] Because if we click the armature and then right click and select hierarchy
+[04:00] and then for slash key and then we go to the material preview.
+[04:05] This is already good, but I think it could be better.
+[04:09] So if we go right here to material, we are going to see here to the shaderator.
+[04:16] We are going to see that some things are not right.
+[04:20] So here, for example, the metallic is 0.5.
+[04:24] And this is not realistic.
+[04:26] So we can just decrease the metallic.
+[04:29] And then here we have this map, which I think is like the roughness.
+[04:36] So let's just plug this here into the roughness
+[04:40] and also add a color ramp because this has a color.
+[04:44] So if we preview this, we are going to see something like this.
+[04:48] And remember, the dark parts are the ones that will be shiny.
+[04:53] So let's contrast it.
+[04:55] Click here.
+[04:56] And now we can just invert this because I think it's not what we want.
+[05:02] And here, this is already so much better.
+[05:05] And if you want to decrease the roughness a little bit, sorry, the shininess,
+[05:09] you can increase the value here and you will have something like this.
+[05:14] And you can do actually the same to the rest of the clothes and all the stuff.
+[05:19] And here we have the normal map.
+[05:21] So we can increase it or decrease it.
+[05:24] So this is not as important.
+[05:27] And then here we can press backspace to get this back to normal.
+[05:32] And yeah, this is how you kind of correct your character because some characters.
+[05:38] Like this was decent, but some characters you just import them.
+[05:42] And they are so shiny because the metallics is all the way up
+[05:46] and also the roughness is all the way down.
+[05:49] So you have to do this kind of tweak in every time you want to use some characters like this.
+[05:54] So in the next section we are going to see how to tweak these characters
+[05:59] to make more of a stylized effect instead of a realistic effect like the mix of characters.
+[06:07] So I'll see you there.
