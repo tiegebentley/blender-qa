@@ -1,0 +1,91 @@
+[00:00] So in this video I'm going to show you how to make this women mannequin model
+[00:04] and also how to make this kid mannequin model which is pretty easy and you can probably guess how I did it.
+[00:11] So let's get into it.
+[00:12] The first thing you want to do is go to this website reallusion.com
+[00:16] and free 3D character base.
+[00:18] The link is going to be in the resources and this basically keeps you
+[00:23] these models right here that you can use as a character base.
+[00:27] And we are especially interested in this woman right here.
+[00:30] You just have to click download and then obviously you also need a mannequin character
+[00:35] that you can get from Mixamo and the link will be in the resources.
+[00:39] So here in Blender I have this CC character base so I'm just going to open it and then go to
+[00:44] FVX and then I'm going to choose this neutral female and neutral female FVX so I'm just going
+[00:51] to import it without animation and import it and we will have something like this.
+[00:56] Now I'm just going to import this mannequin FVX and I'm going to put it on the save.
+[01:02] So the first thing that you want to do is go to this woman right here and then go to edit mode.
+[01:07] Sorry I'm pressed 2 and yeah you essentially want to choose.
+[01:12] So this look cut it's like at the end of the chain right here.
+[01:17] You just want one below that so we are going to select this one and press alt
+[01:23] and let me turn on screencast keys so you can watch what I'm clicking and now I also want
+[01:31] this look cut right here and now you just have to go to the wireframe mode and try to align this
+[01:40] as much as you can and then press one to select the vertices and then press in C.
+[01:47] You enter circle selection mode and this is going to make everything easier.
+[01:54] We just want to select everything that is inside this selection that we did and then I'm going
+[02:01] to go back to solid view and try to see if everything is fine. In this case I just have to select
+[02:09] a couple more vertices and that's it. So now I'm just going to delete these vertices and as you can
+[02:16] see we have the eyes and also the mouth right here so we are just going to delete all of them
+[02:23] because we don't need them and then let me go to this mannequin right here and you want to do a
+[02:28] couple of things first. You want to select all of this and then right click and parent and clear
+[02:36] parent and give transformation. Then you want to delete this armature right here and then go to edit
+[02:45] mode and now press two to select the lines and now you want to select like this look cut right here
+[02:54] and now press one and go to wireframe mode align this and now see and you want to do the same
+[03:04] as before but we are not going to delete this so you just want to select everything. There you go
+[03:12] and now I go back to solid view and make sure everything is right and then press P and separate by
+[03:21] selection and now we've separated this head right here and I'm just going to click and I'm just going
+[03:29] to click right click and then set origin origin to geometry and now D and X and one and I'm going to try
+[03:40] to align this as good as I can so Gc S something like this now control 3 and G Y and something like this
+[03:55] so this already looks fine and reasonable for me maybe Gc and a little bit lower maybe S
+[04:07] I yeah more or less but we want now you just want to select both and press control J to make this
+[04:17] one object and now go to edit mode press two and press alt right here and alt right here and also
+[04:28] alt click right here I think I selected one loop below what I wanted so maybe if this goes bad I will
+[04:37] pre-try but just one loop above but yeah let's see we want to press right click and then loop tools
+[04:46] and if you don't have loop tools you just have to go to edit preferences add on and look for
+[04:54] loop tools right here and if you don't have it here you'll probably have to go to hear get extensions
+[05:00] and look for bulltools and I'm just going to press right click loop tools and bridge and I'm going
+[05:07] to open this and increase the segments maybe to something I think three is reasonable and then
+[05:18] let's see this is pretty good I'm just trying to you know see what settings work best for me
+[05:28] maybe I want to select this one yeah I think this is already fine so now if I go out of edit mode and
+[05:39] then I go to materials and delete all the materials this is reasonable like if you get super close
+[05:48] you will see a little bit of problems but wow I mean this is great you know okay so now that we have
+[05:55] this the only problem here is that if we go to edit mode and try to post this we won't be able to so
+[06:05] we have to solve for that so now you just want to select this mesh right here and go to modifiers
+[06:11] and here we have this armature modifier so we just want to select this armature right here
+[06:18] and that's not the only thing you want to do you also want to shift so select your armature
+[06:24] and then shift click on your mesh and then go to weight paint mode and then you want to select
+[06:32] the bone that controls the head so as you can see every bone has like a zone
+[06:41] where it is like effective or something like that but we don't have any painting right here so that's
+[06:50] why this head isn't moving so what you want to do is select this bone right here and then go to brush
+[06:59] and increase the strength to one and the weight to one and then you just want to paint this in red
+[07:06] so all the head should be red don't touch the neck yet you want all the head
+[07:15] to be fully red like this so once everything is red now you want to decrease the strength to 0.5
+[07:31] and you want to paint this neck area right here like this maybe increase the strength and give
+[07:41] more redness to this area so if it is red this will completely move with this bone but if it is like
+[07:55] these softer colors the mesh will move but not a lot you know so we want something like this and now
+[08:06] let's decrease the strength again and let's paint this area right here and now you want to select
+[08:18] this blur brush you want to select all this neck area just to soften everything a bit more
+[08:30] and as you can see we have this rainbow that goes all the way to red and here the head has
+[08:38] so this bone has full effectiveness on this head so now if we go back to object mold and then
+[08:45] select our armature and go to post mold we can post this so just be sure so as you can see here
+[08:55] we have a little bit of problems so don't use this a lot I think it's better to use this bone
+[09:03] instead it keeps less problems or just use this but not a lot something like this and then keep
+[09:13] rotating with this if you need to and now the other problem that we have is that if we move the armature
+[09:23] it won't move the mesh and that's a problem so basically what you want to do is select the mesh
+[09:29] and then the armature and then P sorry control P and object and now every time you move this you will
+[09:40] essentially move the entire thing and if you go to post mold and remember to enable fade geometry
+[09:49] you can post this character however you want as you can see so we can probably delete
+[09:58] these bones right here but they are not causing me problems so I don't care but we are not going to use
+[10:05] these bones right here and now in order to make like a child you just have to import your mannequin again
+[10:17] and a child is essentially like a smaller human something like this with
+[10:27] a big head so you want to select this and give it like a big head under you go you have your child
+[10:35] and obviously because of the muscles it doesn't look like a child but you just have to dress
+[10:42] this character and you will be good to go so now if you want to fully customize this character
+[10:48] you can add here to it with the techniques I showed in the previous lesson and you can also
+[10:56] select everything here and file export export the VX and just make sure you enable selected objects
+[11:05] and then just armature and mesh and then export the VX and then you can send this model to meta-tailor
+[11:12] and you can dress it however you want and the same with the child you can export this to meta-tailor
+[11:18] and then dress it however you want and also add here with the previous meta I showed you and obviously as a
+[11:25] final touch you can go to preview mode and you can add a new material and make it like something like
+[11:34] this to make like a thinker effect or maybe you want to reduce the saturation and reduce the roughness
+[11:43] and make something like this or maybe increase the metallic increase the roughness a little bit
+[11:50] and decrease the value and you have oh sorry and you have something like this so yeah the possibilities
+[11:57] are infinite and I'll see you in the next course lesson bye
