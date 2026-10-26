@@ -1,0 +1,32 @@
+[00:00] Okay so in this video I'm going to show you different camera movements you can use
+[00:04] and different use cases for each one of them. So in this case I'm going to position myself roughly
+[00:11] right here and press Ctrl Alt C to bring the normal camera that was here to my view.
+[00:18] And now I'm going to split the view like this and I always like to do this. Let me go to the camera
+[00:26] and then increase the viewport display right here the passport to one so I have less distractions
+[00:32] right here and also turn off overlays right here. Now I'm just going to position my camera in a
+[00:39] better way. I'm going to set the rotation the X rotation to 90 and these two zero so it's straight up
+[00:47] and now our X and something like this are our X and G X. So the first type of camera movement
+[00:58] that I'm going to show you is the pan so you can pan to the left to right up and down and this is
+[01:05] the most common one but there's a few mistakes that can ruin your entire scene if you don't apply them.
+[01:14] So first I'm going to select my camera and add a location keyframes right here then I'm going
+[01:21] into the frame 100 and then G X and I'm just going to make this movement right here and as you can see
+[01:27] this value is in orange you have to click this to confirm this keyframe so you don't automatically
+[01:35] make keyframes. Now let's say our composition is 100 and 10 frames. There's a few mistakes here
+[01:44] first we have the Cier keyframes so the camera is ramping up in velocity and then slowing down and
+[01:52] that's not realistic in real life so when cameras try to make this movement right here they were usually
+[02:01] already in movement and then they never stop moving. So we are going to solve that by just selecting
+[02:09] both of these and then pressing T and linear and now the camera has the same velocity throughout
+[02:15] the entire movement but we have this abrupt end. Make sure this doesn't happen in your documentaries
+[02:22] because real life cameras clearly don't behave this way and even if you're not trying to recreate
+[02:29] like real life cameras this just looks off as you can see it looks ugly so just move the keyframe
+[02:37] right here or decrease the end and now we will have a clean pan to the right like this and it looks
+[02:48] more cinematic or at least it doesn't look off or weird. Now I'm going to increase the end to 200
+[02:56] and now I'm going to go to the first keyframe and I'm going to show you another technique. At least
+[03:01] technique will allow you to make camera cuts inside your scene so let's say I want my first frame
+[03:09] right here to be this way but then I want another camera movement here so I'm just going to select my
+[03:16] camera and go to the first frame and press Ctrl B on the timeline so we make this camera the main
+[03:25] camera for this section. Now we go here and now I'm going to press dot and then seven and make
+[03:33] something like this and then shift A camera and while this new camera is selected I'm going to
+[03:40] go to the timeline and press Ctrl B again and now Ctrl Alt C to and C to again basically just so I can
+[03:49] position the camera right here. I'm going to increase the passport to one right here and maybe
+[03:56] lift this up a bit and now I'm just going to make almost the same movement.
