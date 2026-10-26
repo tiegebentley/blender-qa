@@ -1,0 +1,96 @@
+[00:00] Welcome to the lighting section of this course. Here you will learn the practical side of lighting
+[00:06] how each one works and how you can use them in Blender. Let's get into it. Okay here in Blender
+[00:12] I will leave this cube right here and I will add a plane and this will be roughly our scene. Now
+[00:22] Ctrl A and apply scale and go to edit mode. Select these two edges E and C and then select
+[00:30] these edges and Ctrl B to make a bubble with a bunch of look cuts and there you go. Now
+[00:37] shade smooth and let's open a new window right here with our camera. I'll set the passport to one
+[00:48] here in viewport display passport to one and our X twice. Something like this and let's make
+[00:56] these 24 millimeters and our X and that should be it. Now for demonstration purposes I will be working
+[01:04] in 1920 by 1080 composition with 24 frames per second although that doesn't matter because we are
+[01:10] not going to make an animation and just for illustration purposes I also going to be using
+[01:16] EV, experimental GPU compute, 60 samples on the viewport and activate denoise and we don't care
+[01:22] about the rest, maybe here lightputs. I want to set everything up so I hope also for illustration
+[01:29] purposes. Now let's go to the render view and we will have nothing I will decrease the strength
+[01:35] of the world and we will add the first type of light which is a point light so you just have to
+[01:41] press shift A and point light light and point light and I'm just going to lift it up and move it
+[01:49] from going to press 7 and move it roughly right here maybe and basically how a point light works
+[01:58] eat cast shadows on all directions so it doesn't have like a specific place where this is going.
+[02:05] The light is going everywhere from this point right here and if we want to see the
+[02:10] controllers here we have the color we can change the color of the light which is pretty intuitive
+[02:16] but we can also change the power here it is set in watts I honestly don't understand watts but still
+[02:24] manage to get good scenes just by I don't know playing around so yeah I'm just going to set this up
+[02:31] to 100 and let's see how that looks we have a little bit of light maybe I want a thousand and now this
+[02:39] is something way better now another thing you have to take into account is radius right now we have
+[02:46] a radius of 0 what that means is that this light is like super tiny super super tiny which in a
+[02:53] practical way means that the shadows are going to be super hard as you can see the shadows are pretty
+[03:02] defined right here but if we increase the radius let's say to 1 right now we are increasing the size
+[03:10] of this light meaning the light is reaching around this object right here which makes the shadows
+[03:19] softer that's basically the science so if you're inside a house and you're showing like a normal lamp
+[03:27] it will usually be like peace the inside of that room will have super hard shadows if you have a lamp
+[03:35] and something that wraps around that that diffuses that light your interior will have one and at the same time
+[03:44] if you are in a sunny day for example you have hard shadows but if you are in an overcast day you
+[03:54] have soft shadows and those are kind of the use cases so it's not always like how soft I want my shadows
+[04:02] it's also how realistic I want them okay moving on we are going to delete this point light and we are
+[04:10] going to add in this case a sunlight and how a sunlight works is that it doesn't matter where this is
+[04:22] as you can see it's not changing the light right here you can move this however you want and the
+[04:30] sun lamp will have a pretty strong strength from the beginning and as you can see it's pointing
+[04:37] directly down so if I want to make something like this and press 1 I can change the direction of
+[04:47] the light pressing R and as you can see I'm generating a shadow right there so yeah making something like
+[04:54] this and now with 7 I can point the light directly to here so now we have something like this and if we
+[05:04] want the sun to be like lower I don't know it's kind of going to a sunset you can increase the
+[05:13] the rotation to something like this and as you can see this will be like a sunset for example so I
+[05:18] will leave it maybe like this or just like this and then 7 and maybe like this just to have kind of
+[05:27] the similar lighting as before and now the angle is basically how soft you want your shadows to be so
+[05:36] in this case the normal setting makes pretty hard shadows and if you increase this you make softer
+[05:44] shadows if we want maybe like a sunset like this the shadows will be something like this and then the
+[05:51] color will be warm something like this so you just have to play with this now moving on we are going
+[05:59] to select the spotlight and the spotlight doesn't cast light everywhere but it does here in this
+[06:07] cone that you have right here so I'm going to position this roughly right here and then going to press
+[06:14] 1 and R to point directly to this and then 3 and then 7 and something like this to point directly
+[06:25] there and as you can see we have the color obviously and then the power so we are going to increase it
+[06:32] 1000 and as you can see we have this circle right here and that's basically the effect of a spotlight
+[06:41] let's add another zero right here and make something like this maybe 9 here we will have something like
+[06:51] this and obviously you can increase the radius to make the shadows softer something like this and you
+[06:59] will also make this transition softer and you have another setting right here which is the spot size
+[07:06] you can make this smaller or bigger maybe you can give a more dramatic effect like this and you can
+[07:12] increase the blend right here which blends the transition between the shadow and the light right here and
+[07:20] you can make that by increasing the radius or just increasing the blend but maybe if you have like
+[07:28] seed or radius and you increase the blend you have hard shadows right here and soft transition here
+[07:35] which is not that realistic but yeah something that you can experiment with so let's move on to another
+[07:43] type of light which is the area light and I really don't like the area light a lot I mean it's
+[07:54] similar to the spotlight but it doesn't have the round shape so you'll have something like this and let's
+[08:00] increase this to 800 okay that's better and yeah I mostly use plain light if I have like let's say I have
+[08:10] a billboard that should be cast in light but I don't want the light to come from the mission value
+[08:18] of that billboard I will probably add a plain light in front of that billboard and match the size to make
+[08:26] that effect but basically you can increase the size of your plain light and as you can see it will
+[08:35] soften or make the shadows harder as you can see with the size and you can also scale the size like in
+[08:44] a known uniform way like this and sometimes this is helpful you can also increase the size with this
+[08:53] controller right here and you will make the shadows softer and that's basically you can also change
+[08:59] the shape of the plane so you can make it a disc for example an increase the size and yeah I don't
+[09:06] use plain lights a lot but they are pretty helpful sometimes now I really want to show you a specific
+[09:13] technique that you will be using a lot in the future so I want to make something like this and then seven
+[09:23] and three are seven something like this and then increase the size a lot 8,000 right here maybe I
+[09:38] also want to make this bigger so we don't see the walls a lot and now I will add another cube and
+[09:49] make it bigger so it covers our entire scene and now controller and apply scale and now I will go
+[09:59] to the shader editor and I will make volume metric lighting and you will see what that does I will
+[10:06] name this material volume and I will delete the principal bstf and add a volumes pattern right here
+[10:14] and block it into the volume and now I have to decrease the intensity a lot so 0.003 maybe
+[10:24] maybe more like 5,8 and now increase the anisotropy a little bit to 0.2 and as you can see what is
+[10:34] generating here is this shape of the spot light and yeah this is basically the effect and if you
+[10:41] want to work more comfortably here you can go to object properties and viewport display and change
+[10:48] from texture to wire and now you will be able to work more comfortably here but yeah maybe we should
+[10:55] decrease the spot size and we will be able to see the effect a bit better right here and yes so this
+[11:04] is with volume and this is without volume as you can see so we add this atmosphere right here
+[11:11] and it's great it looks super cinematic in a lot of renders now another thing you can do with the
+[11:17] volume so let's erase here this light and let's add a point light and you see and then 7 and g so we want
+[11:28] this to be like on frame and now let's add some light here and what will happen if you have volume
+[11:39] right here is that you will see the light coming from here and if you don't want that to happen you just
+[11:46] have to select your point light then go to object and here in visibility you have to uncheck
+[11:53] volume scatter and as you can see this will disappear and another trick like that is that let's say you
+[12:00] don't have volume but you have a super reflective floor for example or a super reflective material so
+[12:10] let's name this glossy so it's a glossy material so we have this glossy material right here and
+[12:19] let's make it super glossy like point 15 and now we will see this reflection right here and it's
+[12:27] kind of annoying so you just have to go to your point light and then go to object properties and
+[12:34] disable the glossy and this will disappear and that's another trick you can use whenever you need it
+[12:41] and that's everything practical you need to know about lighting in blender hope it helps and I'll
+[12:48] see you in the next course lesson bye
