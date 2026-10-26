@@ -1,0 +1,295 @@
+[00:00] In this video I will teach you everything you need to render 3 animations to impress your
+[00:04] viewers and your clients. Obviously, without frying up your PC. The first thing you should
+[00:10] consider is the file format you will use when exporting your animation. To select this,
+[00:15] simply navigate to the output settings and then to the output format. If you are like me and come
+[00:20] from a video editing background, your first instinct might be to render your animation in an MP4 format.
+[00:27] But in 3D, this is actually a path choice. You see, rendering 3D work typically takes a lot more time
+[00:34] than 2D. For instance, imagine you are exporting a really heavy video and you let your computer run
+[00:39] for the entire night. But the next day, you realize that your PC crashed or maybe the power went down
+[00:46] and now you have to render the entire thing again. Well, that would be an agmer. But with 3D,
+[00:52] this is 10x worse. Fortunately, there is a smarter way to solve this. And that's by rendering each
+[00:58] frame individually as an image format. While these sound studios blend or automate this entire process.
+[01:05] So you don't have to hit the render button every time. Rendering individual frames offers more freedom
+[01:12] and flexibility. Let's say your animation has 400 frames and you only rendered 200 but then the
+[01:18] power went down. No worries because you can just resume your render from the frame 200 and 1. Or maybe
+[01:25] another example, you are unhappy with the frames 150 to 250. No problem because you can just re-render
+[01:33] that part of the animation and leave everything normal. Now that you know why rendering images is a
+[01:39] smarter choice, the question is which image format should you choose? I'll leave a bit in the resources
+[01:45] that covers this in more detail but here's a quick guide. If you require alpha transparency and
+[01:50] want to use compositing, choose PNG with RGBH channels and set compression to 15%. If you need alpha
+[01:57] transparency and want to use compositing, choose OpenEXR with RGBH channels, set float half and DWA
+[02:07] If alpha transparency isn't required and you want composite, choose JPEG and set it to 90% quality.
+[02:15] The next important step is choosing your render resolution. This really depends on personal preference
+[02:20] and what the client wants if you are working with one. However, an industry standard is 4K.
+[02:27] In terms of frames per second, the usual way of thinking of this is the more frames, the better.
+[02:33] But actually most movies and cinematic projects use between 24 and 30 frames per second.
+[02:41] If you work with clients and they provide you footage with their face, the idea is to match the
+[02:47] resolution and FPS they are using. So if you client sends you a 4K video with 60 FPS, you should
+[02:55] match that. However, many clients or projects are faceless and in that case, you should use the FPS
+[03:02] your client's request. So always ask. However, if they don't specify that or they don't bother,
+[03:09] just choose between 24 and 30 FPS. Coming back to resolution and other popular choice,
+[03:16] used by creators like Fernscyfer or thinker, is exporting in 21n instead of 16n.
+[03:23] This is a more cinematic resolution that keeps your videos a more longer and wider look that makes the
+[03:30] videos feel more like movies. So to wrap it up, use 4K with 24 frames per second as a standard
+[03:38] or match whatever resolution your client requests. Now let's talk about which render engine you should
+[03:45] choose. You can select this by going to the render tab and then render engine. If you don't want to
+[03:50] bother with a lot of settings and you want realistic results, the best option is cycles. I will leave
+[03:57] a bit in the resources that will teach you how to optimize cycles for quality and speed. But let
+[04:03] me show you how I like to set it up. Just note cycles will typically be a lot slower at rendering.
+[04:10] So you will be sacrificing speed for quality if you decide to go with cycles. So this is how I like to
+[04:18] set up cycles. First, obviously I change from EV to cycles. Then from supported to experimental and
+[04:25] this just lets you do more stuff and don't bother about the danger sign because there's no any danger.
+[04:31] Then in the bias, I change from CPU to GPU because it's faster. Your GPU always is going to be
+[04:38] faster at processing 3D work. But sometimes this is anecdotical. If my scene is super heavy and has
+[04:45] a lot of textures and I want to preview it in render view, I change from GPU to CPU and I don't know the
+[04:54] science but I know that if I preview my scene, my super heavy scene with CPU, it won't crash blender.
+[05:02] But then obviously when I want to do the final render, I change back to GPU. Then in sampling, you have
+[05:09] the samples for the viewport and the samples for the render. I don't really know what samples
+[05:17] but basically the more you have, the better quality your render has. Or at least the less noise it has
+[05:25] at the end or less flickering when you export your final result. So in my case for the viewport when
+[05:32] I just want to preview my scene or my animation, I lower this to 50 and then I activate the noise.
+[05:39] And this way I can preview my results without any problem. Then in render, you have your noise threshold,
+[05:48] your max samples and you denoiser. Basically the noise threshold, if you want more quality, you need to
+[05:55] lower this value. And this default value is already pretty low but some people have like another
+[06:03] zero here and then a five. And this is a super low noise threshold and it will increase your render
+[06:10] times but it will look better. But for most projects you just need 0.01. If you are working with animation,
+[06:17] I don't recommend you changing this because if you increase the noise threshold, for example
+[06:24] in the blender guru video that I left in the resources, he says you should increase this to 0.03.
+[06:32] But in my experience, this gave me like more noisy and more flickering results, especially in
+[06:39] animations. So that's why I just recommend to stay in 0.01 or maybe even lower. Then the max samples,
+[06:48] the default samples are super high. I recommend you to stay between 100 and 500. So I did a lot of
+[06:56] projects and most of the time I just use 100 samples, especially if I'm using 4K quality. But if I
+[07:05] noticed that the animation has some noise and a lot of flickering, then I increased this to 500.
+[07:13] And obviously the higher the number, the slower the render is going to be. Another thing to consider
+[07:18] is that if you have a 1080p resolution, you will need more samples than if you have a 4K resolution.
+[07:26] If you have 4K resolution, you can reduce the number of samples and it will still look good.
+[07:31] And then here you have the denoiser. The default is open image denoise, which is like the default. But
+[07:38] if you have an a videographic scarred, I recommend you to change to optics and this will perform better.
+[07:44] Then you have light buds and this depends on the types of material you have on your scene.
+[07:50] So I don't fully understand max bounces. So I asked chat GPT and here you have the definition.
+[07:57] The max bounces settings control how many times light is allowed to bounce from each type of
+[08:03] interaction. So let's say you have a light source and then you have an object and that object
+[08:09] has a specific type of material. How many times light will bounce off of that specific material?
+[08:17] That is what the light bounces control. So here you have the different types. You have the diffuse
+[08:23] bounce, which is scattered in a matte way like a wall. Then you have glossy bounce, reflect in a
+[08:31] mirror like way, like a shiny floor, transmission pass through glass water, etc. transparent passing through
+[08:39] surface using the transparent shader, like using a material with an alpha value. And then you have
+[08:46] volume scatter, which is like interacting with smoke, fog or surface scattering and that's it. So
+[08:52] what you should do is identify which types of materials you have and then lower these or increase
+[08:59] these. So let's say you only have diffuse and glossy. So you have normal materials and a couple of
+[09:07] them are shiny. You can just increase these to the max, which is the total right here. But let's say
+[09:14] you have some glass material and you can increase these. Let's say you have a volume material,
+[09:20] like a cube with fog. You can also increase these and then let's say you have a couple materials
+[09:28] that have an alpha transparency. You can also increase these. The default settings will find the only
+[09:35] problem with them is that you don't have any bounces from volume. So if you have volume on your
+[09:41] scene, you should increase this and then the total you can increase this however you want. I saw some
+[09:47] people increasing this to 32 and then obviously one of these has to be 32. But yeah, I recommend you
+[09:53] experimenting with this. If you are in render view and you tweak this, you are going to see this
+[09:59] in action. So you can tweak these settings depending on the type of scene you have. Then you have
+[10:05] fast GI approximation. I don't understand fast GI approximation and this is better explained on the
+[10:12] Blender Guru video that I left in the resources. But I've been experimenting with this and this reduces
+[10:17] the render time and it almost doesn't change the quality of the render. So I always set these two
+[10:25] two and the difference between having this on and off, it's not noticeable at all and it will
+[10:32] speed your renders. Then you have simplify right here. The interesting thing you can do with simplify
+[10:39] is go to the texture limit and then set the limit to your textures. Let's say you have some materials
+[10:45] that have 8k textures and you don't need those because you already have enough quality with 4k.
+[10:52] You can just set this up to 4k and now all your 8k textures are going to lower down to 4k and this
+[11:01] will decrease, sorry, it will decrease render times. You also have cooling and the interesting thing
+[11:07] here is camera cooling. I recommend setting this to two and this is pretty much the distance between
+[11:16] what is in the camera and what isn't. So I don't know, let's say you have some cubes here. The more you
+[11:24] increase this, the more the cubes are going to stay and now the cubes have to be super away from
+[11:33] the camera view to disappear. So like a medium value is two and just turning up the setting won't
+[11:41] activate camera cooling for everything because you have to go to your object and then go to object
+[11:48] properties and then here in visibility you have to check use camera call. So if you have multiple
+[11:55] objects what you should do is select all of them. So let me uncheck camera call. Let's make a lot of
+[12:03] objects here. Now I can press A and then while pressing Alt I check use camera call and now all the
+[12:12] objects have the camera call activated but this is not something I recommend. I actually recommend you
+[12:20] to check use camera call for things that don't affect lights and shadows. So if you have a sun lamp
+[12:29] you have a wall you shouldn't add the camera call to the wall because then the light from the
+[12:37] sunlight will pass through it. So all the tiny little things that don't affect lights and shadows
+[12:43] you should activate camera call for those. Lastly you have performance and here in final render I
+[12:50] always activate persistent data. So basically every time you render an image it will load all the textures
+[12:57] first and then it will start to render the image. If you don't activate persistent data it will load
+[13:03] the textures every time it starts a new frame. So instead of that if you just activate persistent data
+[13:10] it will load all the textures once and then we'll use the same information for the rest of the frames
+[13:16] without having to load them again. And finally you have the color management settings and the view
+[13:22] transforming is basically how the colors will behave and the look is how much contrast the final
+[13:30] image will have. And you can preview this in render mode and see which one you like the most but if you
+[13:36] want realistic renders I recommend you AGS and then tweak the contrast however you want. In my case I
+[13:44] always set it to high contrast and sometimes I set it to medium high contrast. Then instead of AGS if
+[13:50] you don't want realistic results you can change to standard or grown-us BBR neutral and this two will
+[13:57] give you a more saturated and stylized colors compared to AGS. Now let's talk about EV. It is a lot
+[14:05] faster but harder at achieving realism. If you will make videos like Lemino, Spectator and Spectacles
+[14:13] this is the way to go. However sometimes you can achieve almost same results as cycles just using EV.
+[14:20] So it's worth trying sometimes for realism. Again I will leave a bit in the resources that explains
+[14:26] every EV setting in detail but again let me show you how I like to set it up for my renders. I'm not
+[14:33] an expert in EV so I highly recommend you to watch the video I left in the resources. For example
+[14:40] I always leave it normal or maybe 100. I notice this doesn't give a lot of difference. Then if you
+[14:48] want your renders to be a little bit more realistic you have to activate ray tracing. Then you can go
+[14:53] here and increase the resolution of the ray tracing by increasing it to 1 to 1. Then the precision
+[15:01] to 0.8. Then fast GI approximation you can also increase the resolution to 1 to 1. Then here increase
+[15:10] the rays and steps. I always do this while watching at the render view and then you can also
+[15:18] increase the precision here and that's pretty much it. You can then go to color management and control
+[15:24] this the same way you do with cycles. Now that you know every setting you need to tweak before rendering
+[15:30] let me show you how you can render locally from your computer. This method is great because it's free
+[15:36] but it will take a lot more time. So I wouldn't recommend this method if you have only one PC and if
+[15:42] you are working with a client. Now let's see you have your animation done and you want to export
+[15:48] this locally. You have to make sure the format is right and you always have to set it up and you
+[15:54] always have to set this before starting animation ideally. Then in render properties you have to make
+[16:00] sure everything is okay and now in output properties you have to select and now put folder right
+[16:07] here where you will store all the frames for your final animation. Then in file format I already told
+[16:14] you how you can set this up. In my case I'm working with an OpenExR file format. So now you just have
+[16:22] to click a render and render animation. After the process is done you will have something like this.
+[16:27] It will be a folder with all the frames of your animation and now if you want to make this
+[16:34] a video and in the before video you should open a new file general and I do this because if you
+[16:41] are using the compositor the effects from the compositor are going to be applied to the frames of
+[16:48] your final animation and you don't want that because those effects are already applied once you export.
+[16:55] So yeah just go here and then press the plus button and then video editing and video editing and
+[17:02] you will be here. Now make sure the format matches the one you have and now while hovering over here
+[17:09] you want to press shift A and image sequence and then go to the folder where you have your frames
+[17:15] and select all of them by pressing A and now set the end frame to be the same as the last number
+[17:22] right here. So in this case 78 and an image strip and now as you can see the end is set to 250 but
+[17:29] our animation ends at the frame 78 so we can just got it at 78 and that's it. Now to export it as a
+[17:38] video you have to select an output folder as always and then change this from png2fmpeg video. Now go
+[17:47] to encoding and if you want to send this to a video editing software as a part of a bigger video and
+[17:53] you don't want to lose any quality you have to select quick time right here and then video codec
+[18:01] progress and now it won't lose any quality when you export it to Premiere for example but if you
+[18:09] want to export this as a final result let's say you want to upload this to social media instead of
+[18:15] quick time you have to select mpeg4 and then go here and change from progress to age 264
+[18:26] and then the output quality instead of medium quality will be the default you just have to change it
+[18:33] to high quality and once that's done you have to go to render and render animation but as I already
+[18:39] told you this method is not recommended for client work unless you have a super strong pc or you have
+[18:46] more than one pc so what should you do instead? The answer is using a render farm. Render
+[18:52] farms are networks of powerful computers that are designed to render your 3 animations much faster than
+[19:00] a single pc. Something that will usually take 10 hours to render might only take 20 minutes to render
+[19:06] with a render farm because it splits the jobs between many computers obviously render farms cost a lot
+[19:13] of money but a lot less than you might imagine. One of my favorite render farms is garage farm.net
+[19:19] let me show you exactly how to use it. First go to the link in the description and go to the garage farm
+[19:25] website. Here you will have a start free trial button that says get 25 credits for free to start but if
+[19:33] you go to solutions and then blender and then scroll all the way down you will have another start free
+[19:39] trial but this time with 50 dollars in free credits. Once you create your account you will redirect
+[19:45] you to here and you won't have all these things right here because these are my projects and here
+[19:52] when the credits you will have 50 dollars instead of the 10 that I have but what you have to do is go to
+[19:58] downloads and then download for windows or mac or whatever. This is like the connector between
+[20:05] this page and your blender project. Once you install the program that I just told you it will make
+[20:12] you login and all that stuff but then you have to go to plugins and then go to blender and here press
+[20:19] install. It will automatically install an add-on in blender that will help you send your project file
+[20:26] to the website and it's pretty important that you don't have blender. Once you have your scene ready to
+[20:31] go with all the settings and the output format and all that stuff you just have to go to render
+[20:38] and here you have an extra tab which is render beamer and you have to press be meetup animation.
+[20:43] Once the upload process is done this window will appear. I recommend you to first click this bottom
+[20:49] which says copy the link to clipboard just in case it happens to me that I press this bottom and then
+[20:57] the whole project disappeared and I never could submit it to the website. So yeah always click this
+[21:03] first and then click here to submit job. It will automatically redirect you to the website
+[21:09] so I'm going to press here full job instead of test job. What the test job does is skipping some
+[21:17] frames so you get an estimate of how your project is looking before doing the full job but in my case
+[21:23] I'm just going to do the full job and then click this right here then check that all of this is
+[21:29] right and then here you can select a priority. In my case I selected the cheapest one which is the low
+[21:37] and don't worry it is still pretty fast. Then you have this section right here if you have multiple
+[21:42] scenes it will ask you to check the scenes you want to render. Here it automatically selects the active
+[21:50] one which is the one that I had open while submitting the job but if you are going to select multiple
+[21:55] scenes just make sure that you have exactly the same cycle settings for all of them because if not
+[22:02] it's just going to take the settings from the active and apply it to all the other scenes and here if
+[22:08] you don't have any scene you have multiple cameras it will ask you to select the cameras that you want
+[22:14] to render. In that case don't select any camera because if you select let's say your animation has
+[22:20] three cameras if you select the three it will render three separate videos from each camera perspective
+[22:27] and it will obviously cost a lot more. Then here check that all of this is good and here
+[22:34] don't check create video sequence from output frames because it's going to charge you some extra
+[22:40] credits to do that and you can do that pretty easily and if you don't know how just watch whatever other
+[22:46] video from my channel and now just click submit. Now it will be added here here you have the status and
+[22:53] the notes is using and if you scroll to the right you can see some stats like how much is going to cost
+[23:02] how much it actually cost when you start the rendering and all the stuff and now as you can see my
+[23:07] animation is already done and if you want to download the frames from your animation you just have to
+[23:12] go to the render beamer then downloads and then refresh jobs and here it will appear so you do have to
+[23:20] check it and then download and something that I forgot to tell you is how to charge credits you just
+[23:26] have to go to billing and then you have the default method which is credit card and the minimum amount
+[23:33] of credits that you can buy is 10 but if you go to more payment methods you can pay with PayPal for
+[23:38] example and here just press buy and it will redirect you to the checkout another render farm that I like
+[23:44] is octa render it is a lot cheaper than a res farm but a bit slower and sometimes it has some issues
+[23:51] but if it works fine and if you're in a budget it's definitely a great option because it's super cheap
+[23:57] let me show you how to use it now to use octa render you just have to go to the link in description
+[24:03] and it will redirect you to this page and you have to press on get started and make your own account
+[24:08] once you made your account you will land here before doing anything you have to go here to
+[24:13] blender extension and download the addon that they have but this button is not reliable I think if
+[24:20] you press this it will download an older version of the addon so I'm just going to leave you a link in
+[24:27] the description that redirects you to their github page so you have the latest version that link
+[24:32] will redirect you to here the latest version right now at the moment that I'm filming this video is
+[24:39] the 1.22 so once you're here you have to click here on octa render extension.zip just click it and
+[24:47] don't unzip the file then you have to open blender as an administrator so right click and then start as
+[24:56] an administrator I don't know why you need that but that is what you have to do for the addon to work
+[25:02] so yeah just go to edit preferences and then go to get extensions and click this bottom right here
+[25:08] and then install from disk and select the zip you just downloaded once that's done go to addons and
+[25:16] then go to octa render and click here and here it will ask you to install dependencies so please do that
+[25:24] and here instead of saying log out it will ask you to give you a key basically and you get that
+[25:31] from this part of the website here copy blender config you just click that and then go back to blender
+[25:39] and paste that here and then you just click on verify key and once that's done you are able to use
+[25:47] the octa render addon so just go to the render properties and it will appear here octa render just
+[25:54] click here give this whatever name soopscribe then check on use scene output and use scene frame range
+[26:06] and then here if you have any addon that you're using in your animation let's say a camera shakeify
+[26:13] for example you can press here and then select the camera shakeify and check it and here you have all
+[26:20] your addons you essentially want to activate the ones that affect the camera for example but yeah once
+[26:27] that's done you have to click here on start transfer manager and this will connect octa render with the
+[26:34] website so just click here and once the transfer manager started you have to select a batch size I always
+[26:42] put like a random number and then if it's not the correct one it suggests other numbers but yeah I
+[26:48] just put five and then so mid job and in this case it will work here it says packing blend file you just
+[26:55] have to wait a little bit once that's done it will appear here on the transfer section from the
+[27:00] octa render website and once it is to 100% you will find it here on my projects here and now to charge
+[27:08] credits what you have to do is go to this top up balance and here you have a direction if you know
+[27:16] how to use crypto this will be easy if you don't know how you just have to see a couple tutorials it's
+[27:22] pretty easy you just have to open a new account on an exchange and then charge that account and then
+[27:29] transfer some usdt or usdc to this direction through the ethereum or finance smart chain networks in my
+[27:40] case I have an exchange from my cell phone so I just selected my usdc then went to the finance smart chain
+[27:50] and then took a picture of this to finally send my money and the minimum amount is $10 and now
+[27:57] nothing will happen because you have to rent some notes so in order to do that you have to go here to
+[28:03] rent notes and here scroll down to the part where it says score click here and click twice on this little
+[28:12] icon and this will basically show you the best machines first I don't really know what this means but
+[28:20] just do that and here all the prices are in octa so you can change that to usd so you understand it
+[28:27] a little bit better and now you have to select the best machines for the lowest price so here you
+[28:33] have a 6 rtx 3090 for half a dollar per hour so I'm just going to select it and you can select as much
+[28:42] as you want here I'm going to select a couple and once that's done you have to press here on rent
+[28:50] and it will redirect you to this part the sessions part so yeah now you just have to go to projects
+[28:56] and then here you have this and if they are blue means that nothing is happening once they are purple
+[29:04] means they are rendering that and once they are green means that that frame was already fully rendered
+[29:13] and if it's red you can just click it let's say this one is red you can press actions here and just
+[29:22] to retry that sometimes you will see that a lot of frames are ready but some get stock for a long time
+[29:30] you just have to click on the one that is stock and then click here on task logs and see if anything
+[29:37] is weird here if this happens means that for example it's just loading yeah here it says download in
+[29:45] file so it's not a rendering yet it's just preparing everything to start render and then once it
+[29:52] starts the the render you will see here you know the samples the dial size and all that stuff and if
+[30:00] it gets stock if you see something weird you can just click here and req and that's it as you can see
+[30:08] it already started rendering this animation right here and these frames are already good but then you
+[30:14] have all these other frames that are still running here you have more so yeah now if you want to download
+[30:20] your frames you just have to click here on download and it will ask you to select a folder and you will
+[30:27] download those frames into that folder and that's it in my case I paused the project because I don't need
+[30:34] this to be rendered the nodes are going to still work so what you have to do is go here to stop all sessions
+[30:43] so it stops using your money basically the last render farm I want to show you is super lumino
+[30:49] this one is the easiest to use but a bit more expensive at least for now they say they are going to
+[30:55] upgrade it to make it a lot cheaper so yeah for now let me show you how to use it now to use super
+[31:00] lumino just go to the link in the description and click here and start rendering to create an account
+[31:06] so once you created an account nothing will appear here you have to create a new project for the
+[31:13] process to work so in my case create a new project and let's name this test 2 and create project and now
+[31:22] I will be able to render to charge balance you just have to go here and as always the minimum amount
+[31:28] is 10 and here the only option you have is paying with a credit card I don't think you can pay with
+[31:36] and here if you want to support me you have the Lucas edits code basically to be fully transparent I will
+[31:44] earn 10% of every purchase and you will get 10 extra dollars for the first time you have some money
+[31:53] so in my case I used the firm code right here so the first time I added 10 dollars I actually received
+[32:01] 20 dollars now as always you have to download an add-on so you just have to click here on blender
+[32:07] add-on and you click here on download latest once you do that it's the same as always you have to go
+[32:13] to edit preferences and then add-ons and then click this bottom install from disk and install
+[32:20] the add-on you just downloaded the super lumino one the zip file once that's done it's going to ask you
+[32:26] to log in and then here in the render properties it will appear the super luminal render here I'm going
+[32:33] to change the project from test to test 2 which is the one that I just used here I can give a job name
+[32:41] to scribe again then use scene frame range you have to click it image format use scene image format
+[32:50] right here then here in upload settings you have include enabled add-ons and here you can add
+[32:57] your camera shake if I add-on for example if you have some camera shake to your scene and then
+[33:02] you just have to click here on submit animation and this window will appear you just have to wait a
+[33:09] little bit once the process is done you just have to press enter and this window will disappear and now
+[33:14] you just go to the super lumino website and go to the test tool right here under your projects
+[33:20] and this will be here as you can see you have a lot of stats here which are super helpful
+[33:27] here it says running as you can see it's already done and if you enter here you will be able to preview
+[33:33] your animation and all that stuff you will have your frames pretty similar to octa render but a lot
+[33:38] easier to understand to be honest and here I don't understand anything of these or these honestly
+[33:44] owners understand but this just works and it's super fast now if you want to download your frames you
+[33:50] just have to go back to blender and then go to the render properties and here in the add-on stuff you have
+[33:57] to go to render jobs and here refresh and here the animation you just rendered will appear you just have
+[34:04] to click it then give it a download path and then download job output and you will
