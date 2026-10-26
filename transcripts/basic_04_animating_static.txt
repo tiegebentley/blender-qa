@@ -1,0 +1,130 @@
+[00:00] Welcome to the Character Animation section of this course.
+[00:02] Here you will learn almost everything you need to know about posing
+[00:07] and animating your character so you can start uploading videos
+[00:10] or improving them as soon as possible.
+[00:13] Character Animation is similar to Character Creation
+[00:16] because the more customization you need, the more difficult it is.
+[00:20] The good thing is that you don't need to choose any specific method for your documentaries.
+[00:25] You can actually select the one that gives you the most return on time and effort,
+[00:29] depending on your needs.
+[00:30] And here we will discuss all of them, starting with static animations.
+[00:35] This is a simplest type of animation,
+[00:37] yet it is super effective because creators like friends,
+[00:41] cipher, imperial or thinker use this.
+[00:43] So it's a great method to simplify production without risking any potential views.
+[00:48] Let me show you how you can do this.
+[00:49] So I'm going to show you a couple samples.
+[00:51] As you can see here, one scene equals one pose.
+[00:57] So here we are in the same room
+[01:01] and they are all posing the same all the time.
+[01:05] So a rule of mind that you can have is that one scene or one camera angle equals one pose
+[01:13] if the camera gods to another position.
+[01:15] Or we completely change scenes.
+[01:18] That's where you change your poses.
+[01:20] But what if you have something like this is the same scene,
+[01:24] but the poses are changing every time the camera switches like this.
+[01:30] And yeah, I'm going to show you how you can do this effectively.
+[01:33] So I just imported a mannequin here from Mitsubo
+[01:37] and you can use whatever character as long as it has a rig.
+[01:41] It's fine.
+[01:42] The first thing you need to do is eliminate all the keyframes
+[01:46] so you can pose your character comfortably.
+[01:49] And now if it's just one scene,
+[01:52] you can select your armature and then go to pose mode
+[01:55] and make sure to enable fade geometry.
+[01:58] And now you can pose your character however you want.
+[02:02] I'm pressing R to rotate this.
+[02:06] And yeah, now it's where you start posing your character like this.
+[02:13] So it's pretty simple.
+[02:15] You can also select here this rotate bottom
+[02:19] to make something like this.
+[02:23] And maybe this is easier for you.
+[02:25] Something like this.
+[02:27] Maybe we can make this or separate it.
+[02:31] Yeah, it's a pretty simple process.
+[02:34] If you are posing fingers
+[02:36] and you can change from global to local
+[02:40] and this will be easier because it's going to be everything aligned
+[02:44] to the actual direction of the of the fingers.
+[02:47] And you can pose this however you want.
+[02:50] And yeah, this is the simplest type of animation
+[02:53] and you just need like a reference
+[02:56] or a pretty good idea of how your pose should be.
+[03:00] And yeah, most of the animations I copied on my channel
+[03:04] were like using this method
+[03:07] because I really like the static animations.
+[03:10] I just think they are better.
+[03:12] Like it's...
+[03:13] I like I'm super into minimalistic stuff.
+[03:16] So when I see a documentary with minimalistic animations,
+[03:19] I just like it, you know?
+[03:21] So then I make tutorials about it.
+[03:23] So yeah, this is how you pose your characters.
+[03:26] Obviously, I pose him pretty badly.
+[03:31] Like I could probably make this better
+[03:34] and tweak this as much as I want.
+[03:36] But yeah, okay, so let's say this is just one scene
+[03:40] and we have our camera.
+[03:41] Like this, in fact, I'm going to add a camera.
+[03:44] I'm going to open a new window
+[03:47] and close this and I like to increase the passport here to one.
+[03:53] So I have less distractions.
+[03:55] And okay, let's say this is already fine
+[03:57] and this is like an entire scene with just one thing.
+[04:01] But let's say we want to change the poses
+[04:04] as the camera changes.
+[04:05] And we don't want to import animation again
+[04:08] or make another scene of whatever.
+[04:10] So then we can just select the armature
+[04:13] and go to pose mode and then select everything
+[04:16] and press I to make a keyframe right here.
+[04:20] And then we can move to the frame 40.
+[04:22] And now let's pose our character in a different way.
+[04:27] So for example, maybe I want to do something.
+[04:38] I want to do something like this.
+[04:40] For example, I don't know, I'm not.
+[04:43] I didn't actually think this like properly.
+[04:47] I just want to show you like the technique.
+[04:51] But yeah, so also make sure to not like, for example,
+[04:56] I can fully rotate this,
+[04:57] but this will make some pretty bad thing in the geometry.
+[05:01] So you want to rotate it a little bit
+[05:05] until it starts deforming.
+[05:07] And then you rotate the other joint.
+[05:11] And that will make like the movements more natural.
+[05:16] Okay, so let's say we have something like this.
+[05:21] And let's make this character more upright.
+[05:24] So yeah, now that you post your character,
+[05:26] you want to press A and then I again,
+[05:30] I and this will make another keyframe.
+[05:32] And now we want to select this keyframes and press T
+[05:35] and select here constant.
+[05:37] Now I'm going to go back to object mode.
+[05:40] And now that I post this character,
+[05:42] let's select our camera and go to the first frame.
+[05:47] And here in the timeline, you want to press control B
+[05:50] to make this camera, the main camera for this part of the scene.
+[05:54] And now going to the frame 40.
+[05:56] I'm going to add another camera.
+[06:00] So shift A camera.
+[06:02] And while this is selected, I want to press control B again.
+[06:05] So we change our camera.
+[06:08] And now control Alt-C.
+[06:10] And let's increase the passport also here.
+[06:13] 0 and G, C, C and G X twice.
+[06:19] We have something like this for the first frame.
+[06:22] And then this for the second.
+[06:23] So you can see how this could play out in a video
+[06:26] where you have multiple camera angles in the same scene.
+[06:30] You can change cameras this way, pressing control B.
+[06:34] And then change the armature position using the constant keyframes.
+[06:38] So here A, select everything.
+[06:40] And here we have one keyframe.
+[06:42] And here another keyframe.
+[06:43] And this is again, pressing T and then constant.
+[06:46] And this is how you make this.
+[06:47] So like this.
+[06:49] And you can imagine this with maybe some camera movement
+[06:53] and a better scene and all of that.
+[06:55] But I really just wanted to show you the actual technique.
+[06:58] So you can implement this in whatever scene you have.
