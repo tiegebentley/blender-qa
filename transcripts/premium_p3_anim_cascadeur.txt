@@ -1,0 +1,129 @@
+[00:00] Today I'll show you how to recreate this animation in Blender inspired by this video from thinker.
+[00:04] You will learn how to design your characters and admit them and how to like your scene.
+[00:08] And if you want to follow along, all the assets are going to be in the description.
+[00:12] Now, let's get into it.
+[00:14] First you want to go to Mixamo, go to the character section, and in the first page you will have
+[00:19] this mannequin.
+[00:20] You want to download it and download it in the T-pose and in the FPX format.
+[00:25] Now you press download.
+[00:27] And for dressing our mannequins, we are going to be using Metatailor.
+[00:31] I talk about them in almost every video on my channel.
+[00:34] So you just have to try for free now or purchase the monthly subscription.
+[00:40] And I'll teach you how to use it in a minute.
+[00:42] So here in Metatailor, as you can see, I already have my characters.
+[00:47] You won't have anything here.
+[00:48] So the first thing you want to do is go to New Project and give it a name.
+[00:52] In this case, I oversaturated this joke, but yeah, please subscribe.
+[01:01] And now you'll have something like this.
+[01:03] You just have to go here to import, import avatar, and you want to import the mannequin.
+[01:09] You download it from Mixamo.
+[01:10] Once you import it, nothing will happen.
+[01:13] So you'll have to click this icon right here and select your mannequin right here.
+[01:18] So click here and change avatar and you will have your mannequin right here.
+[01:23] Now if you want to dress this character with custom clothing from the assets in the description,
+[01:29] you will have to go here to import cloth and accessory.
+[01:32] And in this case, I'm just going to import these shorts right here.
+[01:36] And you will have something like this.
+[01:38] You can go all the way down and you will have the textures.
+[01:41] So in my case, I'm going to load the base color and the normal and also the roughness
+[01:50] right here.
+[01:51] Then you just have to click Next Step.
+[01:52] Now select whatever preset makes sense.
+[01:55] In this case, I'm going to select pants and Next Step.
+[01:58] And now you just have to play with these parameters and try to align the clothes with the characters
+[02:05] as much as you can.
+[02:06] It doesn't have to be perfect.
+[02:08] So then you just have to confirm and then start post-match.
+[02:11] And yeah, basically you want to modify the position of your character to fit the clothes.
+[02:18] In this case, this is enough.
+[02:20] So I'm just going to click confirm and then Next Step.
+[02:23] And Metatailor will do its magic.
+[02:26] As you can see, the shorts are perfectly placed on my character.
+[02:31] And you will have to do that with the rest of the clothing that I left in the description.
+[02:36] So once you're happy with your character, you just have to click here on Export.
+[02:40] And then give it a name, choose an Export Path and Export.
+[02:43] Now here in Blender, I'm just going to import this character without animation and without
+[02:48] custom normals and import the px.
+[02:51] And I will have something like this.
+[02:53] Now that I have everything selected, I want to press Ctrl A and apply all transformations
+[02:59] just in case.
+[03:00] And now we are not going to care about the materials a lot.
+[03:04] We are going to try to simplify this character a little bit, so it's easier to animate.
+[03:11] Because for example, this mask right here, if we enter edit mode, as you can see, it's
+[03:16] pretty dense.
+[03:17] So we don't need that much density, you know.
+[03:21] So the first thing you can do is, for example, isolate your mannequin and press forward slash
+[03:27] key.
+[03:28] Although a normal mannequin from Mixamo has quad geometry, Metatailor always exports in
+[03:38] triangulated geometry.
+[03:41] But there's a quick fix and it's that if the model originally was quad geometry, it's pretty
+[03:48] easy to just press here face and then tries to quat and it will solve most of the issues.
+[03:55] So it won't be perfect, but as you can see, it's a lot better.
+[04:00] So yeah, just something to keep in mind.
+[04:02] Now I'm just going to bring everything back and press one, go to wireframe mold and then
+[04:09] select my mannequin and press tab to enter edit mode.
+[04:14] And I'm just going to delete everything that is under the clothes.
+[04:17] And this is going to one reduce the number of purchases and to is going to prevent any
+[04:25] clipping between the mesh of the mannequin and the actual clothes.
+[04:30] So I'm just going to press X and then delete vertices.
+[04:35] And there you go.
+[04:36] Now for example, we are going to select the mask and press forward slash key, enter edit
+[04:43] mode.
+[04:44] And one of the things that I could do is, for example, go to the back side of the mask and
+[04:50] press L. And as you can see, I have all this extra geometry that I won't be watching in
+[04:57] my video.
+[04:58] So I'm just going to delete all of this without problem.
+[05:02] Then another thing is that this mask was originally quad mesh, but then it turned into triangles
+[05:10] after meta tailors.
+[05:12] So I'm just going to press A and then face and tries to quat and it will make everything
+[05:19] quats again.
+[05:20] And now another thing that I could do while everything is selected is pressing M and by distance.
+[05:27] And as you can see, it eliminated a lot of vertices.
+[05:30] And the last thing I could do is go to the modifier staff and this is made modifier.
+[05:38] And I can this is made this all the way to point one and it will keep most of the details.
+[05:46] So as you can see, it barely lost any details and it has way less geometry, you know.
+[05:55] I increased this to 0.3 because I saw some problems, but from this view you can barely notice
+[06:02] any changes.
+[06:03] So now you just have to apply this modifier.
+[06:05] Now you have to do pretty much the same process with all the clothes.
+[06:10] So it has less geometry and you can animate this easily.
+[06:15] For example here with the hoodie, I went to edit mode and this was originally a quad mesh.
+[06:21] So I'm just going to select tries to quats and it will solve a lot.
+[06:27] Then I'm going to press L here because we have this inside face that we are not going to
+[06:33] be watching.
+[06:34] So delete vertices.
+[06:35] Then I'm going to press A and M and by distance and it will delete a lot of vertices.
+[06:41] And now I'm going to add subdivision surface and two just because it really looks way better
+[06:49] with subdivision as you can see.
+[06:51] I'm going to apply this and it doesn't add like a lot.
+[06:56] It's still pretty clean so yeah, you just have to do the same with the rest of the clothing
+[07:02] and also the other character.
+[07:05] And now you just have to press A and go to file and export, export FVX.
+[07:12] Choose whatever location and you just want to go here and delete to select objects and then
+[07:19] select armature and shift select mesh and then give it an aim obviously and export FVX.
+[07:26] And now for animating our characters I would like to try the software and obviously I've
+[07:31] already tried the software before recording this video and it's pretty good so I really
+[07:36] wanted to bring it to the channel and show it to you.
+[07:39] I'm going to use the pro version and just just just a free trial but yes, you can see the
+[07:47] plans are pretty accessible especially if you purchase the animal subscription but yeah, just
+[07:52] press here, start free trial and follow all the steps and I'll see you inside this software.
+[08:00] So here in cascabeeer I have this new scene and I really recommend you to go to settings
+[08:07] and hotkeys window I think, nope, settings, viewport input settings, yeah, this is better
+[08:15] and now because of my humble screen I can't see everything here so I'm just going to drag
+[08:21] this window right here and here you have this button all the way down, you have this
+[08:26] button that says blender preset and if you have blender I think it's a pretty good idea
+[08:32] because the controls are a bit confusing so yeah, with the blender preset you can do the same
+[08:40] thing as always like orbiting with the middle mouse bottom and shift and middle mouse bottom
+[08:47] to move yourself and all that stuff.
+[08:50] And now to import a character you just have to click here on file and import and import
+[08:56] FVX. You have to select the preset here model and just leave everything normal and then click here
+[09:03] on import. Select your character in my case is criminal optimized which is the criminal without
+[09:10] a lot of geometry and here you have this window you just have to click yes to everything because
+[09:16] you will appreciate it so just click yes and then yes and then okay and have regalements and just
+[09:26] generate reg and that's it. Another interesting thing from cascader is that this is not just iK
+[09:34] posing so as you can see this leg is like moving the entire body so coming up with realistic poses
+[09:45] it's really really easy because this is AI autopossing which means that you lift this leg and then
+[09:52] the AI guesses where the rest of the body should be and also the controllers are ultra simplified
+[10:00] because if you use blender rigify I mean the controllers are like a fucking maze and sometimes I get
+[10:09] pretty confused and this is great honestly. So now if you try to import another character it won't
+[10:16] rig it automatically so what
