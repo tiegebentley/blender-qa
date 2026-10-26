@@ -1,0 +1,85 @@
+[00:00] Welcome to the first lesson from the three documentary style Mastery course.
+[00:03] The goal of this one is to get you started with Blender as fast as possible.
+[00:07] So you get used to all the basics you need to know to set you up for success.
+[00:11] I'm going to show you how to install Blender, how to set up some useful addons
+[00:15] and how to make this 3D black void scene.
+[00:18] I like to call this style black void because it isolates the most important parts of your scene
+[00:24] without bothering about extra elements.
+[00:26] Some characters like Luke, Imperial and Spectacles have used this style many times.
+[00:31] But before we continue, I want you to know that you won't learn everything on this lesson.
+[00:36] You will just know the bare minimum to make your first render.
+[00:40] And then you are going to use that knowledge as a base for future lessons and obviously learn more
+[00:46] over time. Also, I'll skip some things throughout the tutorial because you don't need to learn them
+[00:52] right now. And I actually have much deeper lessons on those topics later in the course.
+[00:58] Finally, I'm a person that knows how to use Blender but don't necessarily know
+[01:03] at a deep level why some things work. So if you actually want to know all those things,
+[01:08] I will leave some videos in the resources. And I'm also going to insert some clips from other
+[01:15] tutorials in this one from people who explain things a little bit better than me.
+[01:20] So yeah, without further ado, all the assets are going to be in the resources. You just have to
+[01:25] scroll all the way down to the page and there will be a lot of links. You just have to click on the
+[01:30] one that says assets. Download that and now you can follow along. Now let's start. So in the resources,
+[01:36] you are going to have the link to the Blender's website and it will right there redirect you to here.
+[01:43] You just have to go to download and then just click on this bottom. I'm going to download it for Windows.
+[01:49] So all the tutorials from this course are going to be using the Windows bottoms but it's pretty
+[01:55] easy to translate that for Mac users. So don't worry. And the installation process is like every other
+[02:01] program should be super easy and I'll see you inside of Blender. So here in Blender you will find
+[02:08] something similar to this. Obviously, I have here my own files. It should be empty for you and you
+[02:14] just have to click off and you will be faced with something like this. So please don't freak out. I'm
+[02:22] going to show you exactly what you have to do and how to control the bottoms and all the stuff. So first,
+[02:28] I'm going to show you how you can activate some settings that will make your experience much better.
+[02:35] So first go to edit them preferences and then go to navigation and I'll recommend you to check both
+[02:43] orbit around selection and depth. Orbit around selection would let you orbit around your selected
+[02:50] object. If you don't have this apply, you just you will orbit around the mouse position and then
+[02:56] you have depth which allows you to get super close to objects. If you want to get really close to
+[03:04] see some detail, you will be able to do that. If you don't have that activated, it will be hard to do that.
+[03:12] So you don't want it. Then I recommend you to go to system and this by default would be here on
+[03:18] none and here instead of vulcan, it will say open GL. I actually recommend you to change this to vulcan.
+[03:25] Basically, this will speed up some processes inside of Blender, but if you want the scientific
+[03:32] explanation of what vulcan does, you will have that in the resources. Then here if you have an
+[03:38] videographic card, you should select optics and then you will have here your GPU and your CPU
+[03:45] and the common advice would be deactivating your CPU and this will make Blender work faster,
+[03:52] but honestly this depends on your hardware. So what you can do is take a screenshot of this part
+[03:57] right here and send that to chat GPT and ask him what you should do. And normally it gives you a
+[04:04] pretty good answer. If you have an AMD graphics card, you should select HIP right here. Once this is
+[04:11] done, you go here and save preferences and now you can exit from here. Now to move inside of Blender,
+[04:18] you can press shift and then middle mouse button to pan around, basically move up, down and to the
+[04:25] sides. Then if you want to orbit, you can do that by pressing the middle mouse button and if you select
+[04:34] something, you will orbit around that. Then if you want to get close to an object, you can do that by
+[04:41] scrolling up your middle mouse button and scrolling down. So that's how you do sumins and sum outs.
+[04:50] Then if you want to get close to certain objects, let's say to this cube right here, you can press
+[04:57] dot on your numpad like this. Then that's a like, for example, you can press dot and you will get close
+[05:03] to it. That's a camera, you press dot and you will get close to it. And if you don't have a numpad,
+[05:10] I will leave you a video in the resources that explains how you can use Blender without a numpad.
+[05:17] Now you have this normal view, which is the 3D view with depth, but you also have orthographic views
+[05:24] that you can toggle them, pressing the numbers on your numpad, for example, seven. If you press seven
+[05:31] on your numpad, you will have an orthographic view from the top of your scene. And orthographic,
+[05:37] it's not the same as doing this, for example. So just rotating up, it's actually a straight image without
+[05:45] any depth of the top part of your scene. And this is if you want to see things from the top,
+[05:53] but if you press one on your numpad, you will see things from the side, specifically from the Y axis.
+[06:00] And then if you press three on your numpad, you will see things from the side, specifically from
+[06:06] the X axis. And if you want like the opposite view of any of those, you can press control and then
+[06:13] the number on the numpad. So for example, I can press control seven to see everything from below,
+[06:20] or I can press control one instead of just one, like this, and then control three instead of three,
+[06:30] to basically see from the other perspective. So yeah, the green one is the Y axis, the red one is
+[06:38] the X axis, and the blue one is the C axis. So basically up and down. So yeah, how you move objects,
+[06:46] you can do that pressing G, and basically you move objects, and this is super unprecise. So if you want
+[06:52] to be more precise, you can press G and then X to move things along the X axis, and then G and Y to
+[07:01] move things along the Y axis, and then C to move things along the C axis. You can also exclude an
+[07:10] axis by pressing G and then shift, and then the axis you want to exclude in this case, C.
+[07:18] And now I excluded the C axis, and now I'm moving this cube along the sides and not up or down. You
+[07:26] can do that with other axis, but I think the most useful is this one, the G and then shift C.
+[07:34] You can also move in orthographic views, so you don't move this object along the C axis, for example,
+[07:41] because I'm seeing the top view, or for example, I can press three, and then I move this cube along
+[07:48] this axis, but I don't move it in the X axis, for example, and sometimes this is useful, and you
+[07:56] confirm movements with left click, so let's say you press G and then X, and then you move the
+[08:01] object right here, and then you press left click, and you confirm that way, but let's say you don't
+[08:07] want to confirm a movement, let's say I move this whatever, then I can press right click, and I will
+[08:14] cancel the movement. You can also use this map tool, and press control while moving, and by default
+[08:21] it will be moving in increments of 1 meter, and instead of pressing control, you can just activate
+[08:28] the snap tool right here, and you will always move in increments, but I just recommend you to press
+[08:34] control, and you can also change the type of snapping, and we are going to use this throughout the course,
+[08:42] but I think the most useful one might be the vertex one, but we will use it when we need it.
+[08:50] By now it's just useful to know that we have a snap tool, and it could be useful in the future,
+[08:56] and you can also press G and then shift while moving, and this will make the movements slower,
+[09:03] and this is useful when you want to be super precise, you can also scale objects and make them bigger
+[09:10] by pressing S, and you will...
