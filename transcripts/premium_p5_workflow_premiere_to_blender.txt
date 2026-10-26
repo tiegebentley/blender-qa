@@ -1,0 +1,26 @@
+[00:00] Okay, this is an extra class basically showing you the premiere to Blender workflow to basically edit over your voice over in Blender.
+[00:09] So let me show you how you can do that. I mean, premiere. Let me put my glasses on.
+[00:14] And yeah, basically let's say all this part right here is taking place in the same scene.
+[00:21] So it's going to be like in the same blender project. So I'm just going to make a cut here.
+[00:28] And then I'm going to select these icons right here to basically mark the start and the end of the audio export that I'm going to make.
+[00:40] If you don't want to use the icons, you can also use I and then all to start and finish the export you're going to make.
+[00:49] So basically now you have to press control M. And here you have to select a folder and give it a name.
+[00:56] Let's say scene one for example, you can give it whatever name you want.
+[01:02] Make sure here it says the second option. It will say something like from start to end and now change the format from this one age to 164 to basically MP3.
+[01:15] Now go here to audio and make sure this is on the highest quality right here. 320 GBPS.
+[01:24] And there you go, that's it. Now you press export and it will take just a couple seconds because it's just audio.
+[01:31] Now you close Premiere and now in Premiere you want to drag this up and go to the video sequencer.
+[01:38] You want to press Shift A and add sound and basically look for the sound that you exported and then you click add sound.
+[01:47] And then pressing control, you want to go to the end of your audio.
+[01:52] And now from here you can add another window like this and go to the timeline and basically see where you add you are in the frame 83.
+[02:01] So this animation should finish at 83.
+[02:04] Obviously make sure you are using the frame rate you want going here to output and changing this from 24 to whatever you want to use.
+[02:14] Let's say 30 you see how this changed so you have to go here and now the animation will end and the frame 104.
+[02:22] So I'm just going to set the end at 104.
+[02:26] And there you go now you can edit if you press play.
+[02:30] A young employee Erica is releasing to your audio and now you can basically edit based on your audio.
+[02:37] And if it's useful to you you can also add markers.
+[02:41] Let's say here you want a cut you want like another angle, another scene so you have to press M right here and you will make a marker.
+[02:50] And let's say here you want to change again obviously there's no audio here but let's say you want to change again add another marker.
+[02:57] And then in your timeline you have all your markers and now you can actually edit and make the cuts you need and all that stuff.
+[03:05] That's it it was pretty quick let's go to the scene building section and I'll see you there.
