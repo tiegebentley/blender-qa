@@ -1,0 +1,57 @@
+[00:00] If you think you need highly detailed characters to send out in your documentaries, you're probably wrong
+[00:05] because there's channels like Neo, Spectacles, Lemino and Nextpo
+[00:09] whorepooling the same or even more views than other channels who are using these super detailed characters.
+[00:14] So in this video I'll share with you five ways to make very simple characters so you can speed up
+[00:20] your creation process without risking any potential views. Let's get into it. So in order to make your
+[00:25] simple characters you want your character base. So to get your character base you can go here to
+[00:32] mix them all and download any character you want. There's a lot that are pretty useful. For
+[00:39] example you have this mannequin right here or maybe more realistic characters like this Leonardo
+[00:46] guy right here. And if you want to import these characters with an animation in Blender you can
+[00:52] do that. You can go here to animations. Select one and basically import these to Blender and then
+[00:59] give it a custom material to make your stylized character for your documentary. Then another way is
+[01:05] go into the Character Create or Website and then go here to Overview, Free Resource and Animatable
+[01:12] and Free Toon characters. And you have here five characters, five base characters already read that
+[01:19] you can use as a base to make your stylized characters for your documentaries. Then you have this
+[01:26] free add-on that make human add-on to make characters realistic characters. I've used this add-on
+[01:32] in the past and it has some limitations but you will get pretty good results. Then in Blender you want to
+[01:39] basically delete everything and import your character. In this case I'm importing these mannequin right
+[01:46] here. If you want to make an animation with this you want to select your rig and then delete the
+[01:51] keyframes here in the timeline and that will allow you to work more comfortably. And let's make the first
+[01:58] character you want to go to Material Preview. Select your character and then go to Materials and
+[02:04] basically delete all the materials that this character has. Then you can add anew and for example
+[02:11] I'm going to make this character blue and just go into tweak the base color and leave everything normal.
+[02:17] And then I'm going to press right click and shade flat and then go to the Modifiers Add Modifier and
+[02:24] add a decimate modifier and I'm going to put the radio here to 0.3 sorry 0.03 and you will have
+[02:35] this effect right here. And there you go. You have your first character. It's similar to the style of
+[02:41] spectacles, neon and even I have used this technique for a video that I did a while ago. Then to make
+[02:48] another character basically you want to make this white decrease here the saturation and you have
+[02:54] white and then you go here to the emission and increase the strength and there you go you have this style
+[03:01] that I think next poll used in one of his videos and you can even make this different color if you want.
+[03:09] Make sure you also make this color right here and you have infinite possibilities with this. Then for
+[03:17] the next variation you want a more complex character like this one and again you want to select this
+[03:25] and basically delete all the materials and add a new material and in this case I'm going to tweak
+[03:30] the base color and make it somewhat red like this and then I'm going to open here the shader editor.
+[03:40] I'm going to get close here and then I'm going to press Shift A and add a Fresnel node and then drop
+[03:48] down here the emission and I'm going to connect the factor to the color and then increase the strength
+[03:55] to something like two and then you want to press Shift A and add a color ramp basically to control the
+[04:02] contrast right here so let's make this closer and you have something like this so this gives your
+[04:10] character the effect of constantly having some sort of rim light and I saw this type of characters
+[04:19] being used a lot in some thumbnails not a lot in the actual documentaries but in thumbnails I
+[04:26] saw that a lot then you can delete this also decrease the strength to 0 and increase here the saturation
+[04:34] and then decrease the roughness and here you also have another type of character that for example
+[04:43] Imperial uses if you decrease the saturation here and make this kind of gray and then increase the
+[04:49] metallic to 1 and increase the roughness a little bit you have another type of character that it's
+[04:56] also similar to the Imperial style another broad tip you can actually go to the original material
+[05:04] this one and then select here the normal map control C and then control B on your new texture right
+[05:12] here and then block here the normal into the normal and you will have more details like this and then
+[05:20] other thing that you can do and this is used by Lemino for example is here reduce the metallic and just
+[05:30] leave the roughness like normal like 0.5 then let's make this kind of red and then select the
+[05:38] emission color select the eyedropper and select this color and increase here to 10 and you have
+[05:45] this type of character that Lemino uses and this is not fully red because of the color management
+[05:52] settings we have here a gx and with a gx if the color is brighter it loses saturation so it goes
+[06:01] to white like in real life but if you select something like standard more strength means more saturation so
+[06:09] you will have a very red character using this you can also use filmic and it will give you a slightly
+[06:17] different result and i mean it's not realistic but the purpose of this character is not for them to
+[06:23] actually be realistic and there you go with these characters you can simplify your character creation
+[06:28] process and make your documentary is faster without risking any potential views if you like this video
+[06:35] you will probably like this one consider subscribing and i will see you in the next video bye bye
