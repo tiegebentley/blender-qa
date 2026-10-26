@@ -1,0 +1,197 @@
+[00:00] In this video you are going to learn how to create minimally cities in Blender.
+[00:03] You will usually use this technique if your video has an overall minimalist style,
+[00:08] or you want to describe something that happened in a city,
+[00:11] but you don't want to overwhelm your viewers with a lot of detail.
+[00:15] This technique is used by graders like Lemino, Imperial or Neo,
+[00:19] but in this case I'm going to recreate this scene from Imperial.
+[00:23] So you can learn how to import real cities into Blender with a minimalist style,
+[00:29] and then texture them so you can achieve an aesthetic look.
+[00:32] Let's get into it.
+[00:34] Okay, so the first thing you want to do is actually download this add-on,
+[00:38] this blender add-on, that is called Blossom for Blender.
+[00:42] And with this add-on you can import minimally cities like this,
+[00:47] and then texture them, and you can also achieve a realistic style with this.
+[00:52] And as you can see they also have terrains.
+[00:54] So yeah, it's a pretty good add-on and the good thing is that it's free.
+[00:58] So you can just select zero here, and then in my case it says purchase again,
+[01:03] but in your case it will say something like I want this, and there you go.
+[01:08] If you want more premium features, you can install the premium version
+[01:13] that comes with a lot more things, it's pretty cheap.
+[01:17] And honestly I don't have this version, I don't feel like I need it yet.
+[01:22] But whenever I want some of these features, I will definitely purchase it.
+[01:27] So yeah, obviously you want to download the add-on, it will be a zip file,
+[01:32] and please don't unzip it.
+[01:34] And here in Blender as you can see I already have my original scene here,
+[01:39] as you can see it has a lot of stuff, but don't worry, we are going to cover all of that.
+[01:46] But as I was telling you, you want to obviously install the add-on.
+[01:50] So you want to go here to edit references, and then add-ons,
+[01:55] and then you have to click here, install from this, and you will find this one that is called
+[02:00] blossom. And you just have to click it, and then install from this.
+[02:04] Then you have to make sure this is enabled, and you can start importing cities.
+[02:09] So I'm going to open a completely new scene right now, here, new.
+[02:15] I'm going to move this right here, and also join this area to left.
+[02:20] And then you want to click here, and then you have to look for the blossom add-on.
+[02:26] As I already told you. And here you just have to press select, and it will redirect you to this
+[02:31] website where you can select a portion of a city, and then you can import that into Blender.
+[02:38] So here in the search bar, I'm going to look for Idaho Falls, and here in Idaho Falls, I think I selected
+[02:47] this area right here, but I'm just going to import like a small section of the same area,
+[02:55] just because I want to show you the techniques, and not actually the exact step-by-step you need
+[03:02] for doing the exact same render that I did, because that's not useful. I mean, it could be useful,
+[03:09] but the purpose of this lesson is showing you how you can import minimalities and then texture.
+[03:16] So once you selected an area like this, you just have to press here copy, and then go back to Blender,
+[03:23] and here you have to select paste. Then here you have to select some of these options right here,
+[03:29] and if you want to add minimalities, you have to select this the OpenStrick map. And then don't bother
+[03:35] about the rest of the settings. You just have to uncheck import forest, because we are not going to use
+[03:42] that, and also deselect import other vegetation. If you want that, that's fine, in my case I didn't
+[03:49] need that for this render, so I'm just going to import buildings, water objects, and roads and paths.
+[03:56] Then I'm just going to click import, and now it imported everything, you just have to select
+[04:01] like whatever object, and then press dots on your numpad, and at first you won't be able to see
+[04:08] anything. You just have to go here and select build, and then add another set of to the end, so you can
+[04:16] see everything. And now as you can see we have this selection right here, and this is in real world
+[04:24] scale, so this is actually big, like the real world. If I make Shift A, and then I mature and human,
+[04:34] for example, this is like the scale of a human, and that's the scale of everything, so we are going to
+[04:40] solve that later. If you really want to do like real world, that's fine, but in this case we are
+[04:47] trying to copy like a model of a city, like something that can fit in a desk, for example. So yeah,
+[04:54] this is fine. Now we have to tweak this a little bit and make any sort of adjustments you want, for
+[05:02] example, in my original scene, I have some extra stuff in the map, for example, I have this bridge
+[05:11] right here that I downloaded from Sketchfab, and you will have all the assets in the resources,
+[05:17] and I also imported this water tower, so if your city has like a super characteristic object,
+[05:26] you can just add it in your map and it will look so much better, and don't try to keep it realistic,
+[05:32] for example, this is like super giant compared to the real life. In real life it will be something like
+[05:39] this or even taller, but yeah, here is where you can add some extra stuff. For example, in my case,
+[05:47] I want to add the bridge that you saw earlier, so I'm going to do that, but first I'm going to lower
+[05:55] this water object, and it will be useful in the future. We want something like this,
+[06:03] we want to lower the water right here, and then I want to eliminate this zone right here,
+[06:11] so I just have to click here and then go to edit mode, and here you have the vertices, and you just
+[06:17] want to select the vertices that you don't want, and then delete vertices, and you will delete parts of
+[06:23] the map that you don't actually need, and make sure you are in edit mode because you may be
+[06:31] selecting something that is part of a bigger thing, and if you just delete this part, you may be
+[06:39] deleting other parts, so make sure you are in edit mode and just selecting the vertices and just
+[06:46] delete vertices. I'm going to the same right here with these parts right here, so delete and the
+[06:53] little vertices, and then I'm also going to delete this extra stuff right here, this extra things,
+[07:03] and then this structure right here, I'm going to delete it because I'm actually going to put
+[07:09] a bridge here, so in my assets I have this bridge, so I'm just going to import it, it's an OVJ file,
+[07:18] so I'm just going to drag and drop, and then import OVJ, I'm going to isolate this with 4 slash
+[07:24] key, and I have this, it's all like a single object, so I'm just going to press 7 on my numpad,
+[07:30] and then go to wireframe mode and edit mode with vertices selection, and I'm just going to delete
+[07:38] all this parts right here, and I'm just going to keep this, and then I'm going to press 3, and I also
+[07:46] want to delete this lower part right here, just to keep this bridge right here, this is the only
+[07:54] thing that I care about, I'm just going to click it, right click, and set origin to geometry, and now I'm going
+[08:03] to de-isolate this, and then press 7 on my numpad, and then R, and yeah, I'm just going to try to
+[08:13] position this as best as I can, pressing shift, and R to find on this, and something like this,
+[08:23] it's fine, and as you can see, I mean you want to make like an ultra zoom right here, so I think
+[08:30] this is already fine, I think I want to leave this up a little bit, just so it matches like the floor
+[08:40] right here, and I think that's it, we're going to talk about the materials later, but in this case,
+[08:46] I'm just going to delete the material that this already has, now a super interesting detail that you
+[08:53] can add is give some thickness to all of these parts right here, and that really looks super aesthetic in
+[09:03] the final render because it keeps like an extra depth to the overall scene, so in order to do that,
+[09:12] you have to select one of these parts and then go to edit mode, where to selection dot, just so you can
+[09:19] position yourself in a good view, and now go back to solid mode, and now you can go to the modifiers and
+[09:28] add a solidify modifier, now you want to increase the depth to something like this, like 0.5 of thickness,
+[09:37] and then it looks weird, but you just have to press right click and shade flat, and it would look so
+[09:45] much better, now if you want to apply the same to all the other objects, you just have to go here to
+[09:52] the old liner, and you have this icon for all the paths in your scene, so you just have to select all of
+[10:00] them, and then shift click on the one where you added the solidify and the shade flat, and then you
+[10:07] just have to press Ctrl C, and this is an addon that I talked in the first chapter of the course,
+[10:14] you just have to go to edit preferences, and in the addon section you have to type copy, and then
+[10:22] copy attributes menu, and check it, and it will give you, if you press Ctrl C, it will give you all
+[10:27] these options, and you want to select this one, which is copy selected modifiers, you want to select
+[10:34] solidify, and then okay, and then all of these objects will have the solidify modifier, now you just
+[10:40] have to press right click, and then shade flat, and now all these objects are going to be shaded flat,
+[10:47] okay now another thing you want to do with these paths, so you can work better with them, and then
+[10:54] be able to apply materials later down the line, is select all the paths here in the outliner,
+[11:03] and now you want to press right click and convert to mesh, and this is going to apply all the modifiers,
+[11:11] so every solidify modifier it will apply it, and now you just have to press Ctrl J to make them
+[11:17] like a single object, and now you just want to go to edit mode, and then select everything, and then
+[11:24] M, and merge by distance, and as you can see it removed 0 vertices, that's fine, but you want to do this
+[11:32] just in case, and the other thing that you want to do is obviously check normals, and I think,
+[11:40] yeah they are fine, like they look like this because I'm so far away, but when I zoom in it looks good,
+[11:48] so don't worry about that, let's uncheck this, and now we have this, that is just one object, and it
+[11:55] also has some thickness, so we are in a good track to make our scene, and now to give like more
+[12:04] organization to this project, I'm going to select the bridge, and then M, and add a new collection,
+[12:10] and name this bridge, just so I can have everything organized, and then all of these things I know they
+[12:19] are the map because here it says map, so everything fine, now what I want to do is press shift A,
+[12:26] mesh and plane, and I want to scale this up a lot, and then move this plane, so M,
+[12:33] new collection, and I'm going to call this base, and create, now I want to press 7, and essentially I want
+[12:41] to make like a base for for this city, like a like a floor, so I'm going to press S and Y twice,
+[12:52] and S and X twice, and I think with this we are fine, so this is fine for me, let's also check
+[13:02] that this is like under the path right here, so this is something like that, so this is the actual floor,
+[13:14] now what I'm going to do to work more comfortably is go to the object properties, and then go to
+[13:21] viewport display, and here where it says texture, I'm going to change it to wire, and now I'm going to press 7,
+[13:28] and essentially what you want to do in this part is eliminate everything that is outside this rectangle,
+[13:36] using edit mode, so you want to select this for example, and then go to edit mode, and go to wire frame mode,
+[13:45] and yeah basically you want to deselect all these sections right here, and now doing this,
+[13:53] I think this process will be more efficient, if you do this first and then apply the solidify and
+[14:00] join everything and all the stuff, but yeah I already did, so I'm not going to cry about it,
+[14:07] and now I'm just going to select everything that is outside this, and I'm just going to
+[14:18] delete it, essentially, so yeah I want to delete all these sections right here, and almost everything
+[14:27] right here, and everything right here, pressing shift obviously, and now just delete and delete vertices,
+[14:44] and there you go, now the bad thing is I think this part doesn't have a feel, and that's why in my original edit,
+[14:53] I first eliminated everything and then made these thickness and all the stuff, sorry for that I forgot
+[15:00] the correct order, but yeah now you know how the correct order is, and now with the water is actually
+[15:08] the same thing, I want to press 7, and basically delete all these vertices right here,
+[15:17] exact this one, so just delete vertices, and now you can select these vertices, and then G,
+[15:24] and move it roughly right here, and this vertex roughly right here to the edge of the map,
+[15:32] and now pressing 2, you can actually press in old, you can select these loops right here,
+[15:41] also these ones, and now we shift, I also want to select these ones, and these ones, and now you press
+[15:48] F, and there you go, and now here pressing 1, it's the same thing you want to select all of these
+[15:57] right here, and all of these, and all of these, and now delete vertices, and now that you have these,
+[16:04] you want to select these vertex, and then press E, and extrude right here, and before extruding this one,
+[16:11] you want to select here the snap base, set it to vertex, and then press E, and then CTRL,
+[16:20] to snap right here, and then press A, M, and merge by distance, so these vertex, it's now just
+[16:29] one vertex, like this, and now press 2, and select these edges right here, also these ones, and these
+[16:39] ones, and this one, and now press F, and there you go, you have these solved, and now everything fits
+[16:49] here inside this rectangle, and now you want to select this rectangle again, and change it from
+[16:55] this play to textured, and there you go, now you want to get close to here, and select the plane,
+[17:06] go to edit mode, select A, and three, to select the faces, and now E, tricks through this down,
+[17:15] something like this, and now what you want to do is select this plane, and also here it says
+[17:22] OSM water, you want to select this one, also pressing CTRL, and now you isolate both, and there you go,
+[17:29] and now that you have this asset selected, you want to press Shift B, to duplicate this, and then press
+[17:36] right click, to maintain that, like in the same place, and now you want to go to edit mode, and select
+[17:43] everything, and then press E, and extrude up, like a lot, something like this, now you want to select
+[17:50] this face, also, and you want to press G and Y, and go farther than the limits right here,
+[17:57] so now I'm going to select this vertex, and do something like this, and now three, select this face,
+[18:05] and G and Y, to go like above here, and also this one G and X, and go above, there you go, now you want
+[18:17] to select this, and change the mode from textured to wire, and now you want to select your base
+[18:27] right here, add a modifier, and add a Boolean modifier, here, Boolean modifier, and now I forgot
+[18:36] you want to move this duplicate to another collection, new collection, and then Boolean, there you go,
+[18:45] create, and now go here, and instead of object, select collection, and now collection Boolean,
+[18:53] and select fast, now it doesn't work, I'm going to find out why, okay I think it's because
+[19:01] this plane has the normal flipped, so I'm just going to go to edit mode, select everything, and then shift
+[19:10] N, to recalculate normal, and now I hope it works, and if it doesn't work, I will find out why, okay for
+[19:18] some reason, now it works, and I got it to work by just changing from opera, opera, opera,
+[19:30] operand type, I just changed it from opera and from collection to object, and now just selecting
+[19:39] this, it works, yeah blender always surprises me with things like this, I'm just going to make this
+[19:48] lower, like this, and I'm going to also lower this to somewhere right here, and now I'm going to
+[19:55] select the water, press A, and now E, and I want something like this, there you go, and now
+[20:06] select this phase, and as you can see we have a gap right here, so I'm just going to press to
+[20:13] and select G and X, and move this right here, and also I want to see if this is something like this
+[20:22] is happening somewhere right here, so dot my numpad, and now, okay so 2, and G and shift C, and I want
+[20:33] to position this roughly right here, G and shift C, roughly right here it's fine, now let's see here,
+[20:43] 2, select this line, and now G and Y, and now G and X, and something like this is fine, and now let's
+[20:52] see if it's happening here, yes so press 2, and G X, and G Y, and there you go, so
+[21:07] there you go, you have your water and the plain, like you have this effect that I really really liked,
+[21:16] I'm loving because of the boolean modifier, but yeah it's really aesthetic, I really like it,
+[21:22] so now we can bring back everything, and this is how we are going, and honestly looks great,
+[21:30] now it's time to make everything like to a normal scale, so I'm just going to press shift A, empty,
+[21:38] and then sphere, and then S, and scale it a lot, seven, and I want to put this roughly in the center,
+[21:46] I think this is fine, and now that you have this you want to select A, and you want to make sure
+[21:52] like this is in a lighter color, and now press Ctrl P, and object, keep transform, and now you want
+[22:00] to select the empty right here, and then go to item, and select everything and put three, and then dot
+[22:09] on your numpad to make assume, and now what you want to do is shift A, armature, and if you don't
+[22:17] have this, I think you want to, you have to go to preference add-ons, and then re-gify here, and check
+[22:26] it, so you can have like this human scale reference here in the armature, and then here human, and there
+[22:34] you go, this is like a basic human, and as you can see this is super big, and we want this to be like,
+[22:41] like a desk, you know, so I'm going to lift it up, and S, and GX, and now this is better, this is like
+[22:48] more realistic, maybe we can scale this a little bit more, there you go, and now I'm going to delete this,
+[22:56] and now I'm going to press A, and then right click, and then patent, and clear our patent, and keep transform,
+[23:05] there you go, now we can eliminate this empty without problem, and there you go, now the other thing
+[23:11] you want to do is press shift D here, and then seal, and then move this roughly right here, so if you press
+[23:20] three, you want to position this roughly right here, and also make it bigger, so press S, and make
+[23:29] something like this, and S, Y twice, and I think this is fine, Ctrl A, and apply scale, now you want
+[23:38] to go to edit more, also before doing that, so let's go back to solid more, you have to press shift A,
+[23:45] mesh, and plane, so we have like a ceiling, like a floor, sorry, and now you want to select this,
+[23:52] and go to edit more, select three here, and then GC, and have this roughly right here,
+[23:58] there you go, now Ctrl A, apply scale, although we don't need that, and we should increase this to
+[24:05] something like this, and then what you want to do is go to edit more right here, press two, and select
+[24:12] these lines right here, and then you want to press E, and shift to make something like this, and now select
