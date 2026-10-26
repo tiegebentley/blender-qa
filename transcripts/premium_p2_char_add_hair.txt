@@ -1,0 +1,56 @@
+[00:00] In this video you're going to learn how to adhere to your 3D mannequins in blender just like
+[00:05] firm, cipher or thinker though on their videos. So let's start. So the first thing is where to find
+[00:12] hair assets. For example, mixamo. You can download any character from this website and just
+[00:18] steal their hair. And this is a technique that a lot of people on their documentary is use and I know
+[00:24] thinker does this a lot. So this is one method. For example, we can steal the hair of this guy
+[00:31] just by going to the mixamo website, going to characters and then pressing here download and
+[00:37] download FVX. You can also steal the hair from this character. For example, yeah, you have a lot of
+[00:45] options here. It is low poly so it's not the best but it definitely works and it's a good way to
+[00:54] add hair to your mannequins without spending any money. Okay, the next thing that you can do and
+[01:00] it's going to cost a little bit of money is going to art station and just go to here shop marketplace
+[01:07] and look for male hair and here you have a lot of hair assets for a pretty good price. So this is
+[01:16] actually cheap. So here you have 20 male assets for just $10. So yeah, you have a lot of high quality
+[01:23] assets. Here you have these for $5. So yeah, you can download whatever you want. Another hair to your
+[01:30] mannequins with the method that I'm going to show you later in this video. Then you have even more
+[01:37] expensive options but also super high quality like going to the real illusion marketplace and looking for
+[01:44] hair. So if you have a character clear to four which is a software that I showed in a previous video,
+[01:50] you can actually purchase some of these hair assets and then put them into your mannequins and
+[01:56] I'm going to show you how to do that in just a second. So this is not actually dollars. For example,
+[02:02] this will cost something like $13 and this will cost something like $2.7 and yeah, it's not that expensive
+[02:12] but yeah, it's definitely more expensive considering that you also have to purchase a character
+[02:18] create of four which is an expensive software. It costs $200 but as you can see it's a really good
+[02:24] option and you will have super high quality assets here assets. And the final way to do hair is just
+[02:32] looking at tutorial. For example, this one is super good and this one is also super good and also
+[02:37] this one I'm honestly not good at doing hair like I know the workflow but then giving all these types
+[02:45] of hair styles is difficult for me. So yeah, I want to show you the easiest way you can do this
+[02:51] and it's stealing hair from other models or just purchasing the hair assets. So here in Blender,
+[02:57] you can import your mannequin model from Mixamo. I'm also going to import a CC4 character that I made
+[03:05] for a previous tutorial and going to select the hair and press Shift D and X to separate it and then
+[03:13] right click, parent and clear parent and keep transform. I'm also going to right click and set origin
+[03:21] origin to geometry and I'm going to go here to the vertices group and I'm going to eliminate all
+[03:27] of the vertex group and we are also going to go here to the modifiers and you will find this
+[03:33] armature modifier and you want to change from here I name it the Fern character to let me see which
+[03:43] number three. So this is the armature number three so you want to assign armature number three
+[03:50] right here and now you want to just place the hair wherever you want. So resty x g7 so right here s g y
+[04:03] and g7 maybe s and yeah something like this maybe s x a little bit there you go. So now control A
+[04:13] and apply the scale. Now what you want to do is select the armature and then Shift click on the
+[04:21] hair model and then go to weight paint. Now you want to select this right here the select box and
+[04:28] select here the head armature like the head bone sorry this bone right here and then you want to
+[04:36] select here this brush and then increase the weight to 100% and then you want to start painting
+[04:43] right here sorry the strength at 100 also so the strength to 1 and then you want everything to be
+[04:51] red right here. Let's go so after that you can go back to object mode and if you select here the hair
+[05:01] and go to the vertex group you will see here we have this vertex group the head and that basically means
+[05:08] that whenever the head this bone the head bone moves are cell the hair it's also going to move so now
+[05:17] this already works. As you can see the model just moves whenever we do this so you have to just
+[05:26] readjust this and it's pretty easy you just have to do that and then if you want also so for example now
+[05:33] we can't move everything together and that's because this is not partented to this so you just have to
+[05:40] click on the hair and then shift click on the armature and control P and parac object so now every time
+[05:47] we move this the head also moves and every time we pose this character it also moves as you can see
+[05:57] so let's erase this other model right here and now we can preview the material right here on the
+[06:05] material preview and as you can see this is working so maybe we need to move this a little bit more to
+[06:17] left and also increase the x scale and there you go this already looks good it's going to look
+[06:28] better on the render so don't worry. Control A, play the scale and you can do the exact same process
+[06:35] with mixamo here or another cc4 here or whatever so now that you know how to adhere to your
+[06:42] markings you might also want to know how to dress and animate them so watch this video next if you
+[06:47] want to learn that and consider subscribing to see more tutorials on documentary style editing just
+[06:53] like this one I'll see you on the next video bye bye
