@@ -1,0 +1,45 @@
+[00:00] Let's say you watch all the previous lessons and now you want to make a scene for a client or your own video.
+[00:07] But you open blender and you don't have any idea on what you can create.
+[00:12] Well, this lesson is all about solving that.
+[00:15] And by the way, the next steps I'm going to show you are assuming that you have a script or a voiceover.
+[00:20] But if you don't have a script and you just want to practice, well, I have three options for you.
+[00:26] One is that you can try to recreate edits from your favorite creators.
+[00:30] I learned about 90% of what I know by doing that, so I highly recommend it.
+[00:36] Option 2, go to my channel and start following all the tutorials.
+[00:40] This method is similar to the previous one, but you already got all the answers.
+[00:44] And the final option is just ask chat GPT for a script.
+[00:48] Then you can send that script to a level of love's free plan and now you can start practicing.
+[00:53] As a bonus tip before I tell you the best way to IDA the scene, I highly recommend that if you are going to do any of the options I mentioned before,
+[01:01] you should definitely upload the final results to Twitter, even if you are not 100% happy with the result.
+[01:07] This approach is great because you will start building some reputation, and you might even get your first client this way.
+[01:14] But in order to practice it, let's say you actually have a script and a voiceover.
+[01:18] How you bring that to life?
+[01:20] Well, first I'm going to tell you my number one method that I'm using all the time, and then some alternatives.
+[01:25] The first method I'm talking about is actually asking chat GPT for an image reference.
+[01:30] Basically my prompt consists in three parts.
+[01:34] One is some context, something like this is a script for my next YouTube documentary, help me visualize it.
+[01:41] Then a section of the script, please don't send a whole script, keep it seen by scene.
+[01:47] And finally a description of what you're imagining.
+[01:49] In my case, I always have at least something in my mind first.
+[01:54] And then I let the AI figure out the rest of the tiny little details.
+[01:58] But you can also just not send the final part of the prompt,
+[02:03] and just let the AI figure out everything before it generates you an image.
+[02:08] So once you have your reference, try to break it down into tiny little pieces.
+[02:13] I mean, don't try to look for the whole scene on Sketchfab.
+[02:17] Instead, search for specific elements like a bell, a lamp, an instant,
+[02:23] and gather those assets and then start building your scene.
+[02:26] But let's say you don't know the name of a specific object.
+[02:29] Well, in that case, just ask the AI.
+[02:32] It will give you some search terms that you can then use on different websites,
+[02:37] like the ones I showed you at the beginning of the scene building section.
+[02:41] And as I already told you, this is practically the only method I'm using to come up with scenes.
+[02:47] But what would I do if I didn't have a chat GPT subscription?
+[02:51] Well, I would still look for reference images, but this time on Pinterest or Google images,
+[02:56] then I would put all those images in a mood board using pure ref,
+[03:01] which is a software that allows you to have like an infinite canvas of images
+[03:05] and position a little window at the corner of the screen,
+[03:08] so you can follow those references while you are in Blender.
+[03:11] And that's it.
+[03:12] Now that you know how to ideate scenes, you need to put some characters to it.
+[03:17] And the next part of the course is all about solving that.
+[03:19] See you there.
