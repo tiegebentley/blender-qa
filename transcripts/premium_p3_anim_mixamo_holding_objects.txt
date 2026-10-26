@@ -1,0 +1,191 @@
+[00:00] In this video I'll show you how to use mix and animations with your characters,
+[00:04] how to combine those animations and how to attach objects to armatures.
+[00:08] My opinion is that if it's already in mix and you don't need to animate it.
+[00:13] Meaning, more than 50% of the time, you will be able to speed up your animation process for documentaries
+[00:19] just by using mix and animations.
+[00:21] Let me show you how.
+[00:22] Okay, so the first thing you want to do is go to the rockocot.com website
+[00:27] and you have to create your own account.
+[00:29] And don't worry, everything's free.
+[00:32] After you've done that, you have to go all the way down here
+[00:36] and then go to integrations and blender.
+[00:39] Just click here and then download the blender plugin right here.
+[00:43] It's going to be a zip file and please don't unzip it.
+[00:48] Then you just have to go to mixamo and you just have to upload a character.
+[00:53] In this case, I'm going to upload a character that went through Metatailor.
+[00:59] Just because it's the most realistic scenario, you will probably find.
+[01:03] Obviously, if you are using like a normal character like I don't know Megan,
+[01:09] you don't need to upload any character.
+[01:11] But if you have like a custom complex character, you'll have to do this.
+[01:15] Just upload your character and then select character file.
+[01:19] And in my case, I'm going to select this one.
+[01:22] And this character is already rigged.
+[01:24] So if you have any kind of custom character,
+[01:28] you will probably already have rigged like I showed you in the previous lessons.
+[01:33] So you just have to see if everything is fine here and then you just click next.
+[01:39] And don't worry about the materials.
+[01:41] They don't matter in this stage.
+[01:44] And if you are just going to use one animation, just select one animation and that's it.
+[01:49] But in this case, we are going to be combining animations.
+[01:52] So just download as much animations as you need.
+[01:56] In my case, I'm just going to download two.
+[01:58] So go here and then I'm going to type pistol and then enter.
+[02:03] And here I want this pistol run.
+[02:06] So I'm just going to select it.
+[02:07] And I don't care about the settings.
+[02:09] You just have to press here download download FBX and then select here the amount of keyframes
+[02:15] that you're working with.
+[02:17] In my case 24 and here select with skin and now download.
+[02:22] And now I'm going to select my second animation.
+[02:25] I'm going to type here shooting and then enter and I want this animation right here.
+[02:32] So now I'm just going to select here download.
+[02:35] And in this case, I'm going to download it without skin because we just need the animation.
+[02:41] So press download.
+[02:43] And now in blender, I'm going to show you how to do this scene right here,
+[02:47] which is pretty much a character running and then shooting.
+[02:50] I'm also going to show you how to attach objects to a character.
+[02:55] And as you can see, it's not perfect in this part right here with the feet.
+[03:00] So obviously if you are working for Pixar, you won't have like this is not acceptable.
+[03:07] But in the documentary space, this is like 90% of the way there.
+[03:12] So don't worry about that especially because this is a great result for how easy this is.
+[03:18] So yeah, let's open here a completely new scene and we are going to do this from scratch.
+[03:24] So the first thing you want to do is to import the pistol run animation and import FBX.
+[03:31] And the bad thing about Mixamo is that every time you import a new character with an animation,
+[03:39] it's going to lose the materials.
+[03:41] But this actually, it's pretty easy to solve.
+[03:44] What you have to do is select a mesh.
+[03:47] I don't know if you actually need this, but just select it in case you need it.
+[03:51] And then you just go to file and external data and find missing files.
+[03:57] Then you want to look for the textures of your original model right here.
+[04:03] And then just click here, find missing files.
+[04:06] And everything is going to be textured again.
+[04:09] So now we are going to ignore the part where we delete the geometry under the clouds.
+[04:16] And also all the material tweaking we have to do to get this looking great.
+[04:23] We are just going to focus on the animation.
+[04:26] So now my problem with this animation is that it's pretty short.
+[04:30] So we go from here and then it stops.
+[04:33] So I want this animation to last twice as long.
+[04:37] So what I'm going to do is select these keyframes right here.
+[04:40] So first, select your amateur and then select your keyframes and then controversy and control B.
+[04:46] And now go to the previous keyframe and get closer to here.
+[04:50] And then G and move your keyframes all the way here.
+[04:55] So just right next to the last keyframe.
+[05:00] And now this animation lasts twice as long.
+[05:03] But the problem is that we reset the position every time the animation like goes back.
+[05:09] So what you have to do is go to the graph editor and uncheck normalize.
+[05:16] So in the hip bone right here, you have to select the seed location which is this blue one.
+[05:24] Ampress Shift H to isolate this.
+[05:28] And now if you want, you can press normalize just to see everything better.
+[05:34] Something like this.
+[05:35] And now as you can see, this is a problem because we have this linear motion all the way here.
+[05:41] And then we go back to baseline.
+[05:43] And that's what we don't want.
+[05:45] So essentially we are just going to select all these keyframes right here.
+[05:50] And now press G and Y and reposition this to continue the motion.
+[05:56] You know, so G Y and something like this should be fine.
+[06:02] Now press old age to unhide everything and check normalize if you want.
+[06:07] And then go back to the timeline.
+[06:09] And now we will have twice as long animation, but it will never stop running.
+[06:14] You know, like this.
+[06:17] So now that we have this, I want to import the second animation which is the shooting animation.
+[06:24] And I'm going to position this roughly right here.
+[06:28] Now I'm going to press one in my numpad.
+[06:31] And now I want to select this armature right here and then go to the dope sheet and change from the normal dope sheet to the action editor.
+[06:42] And now you want to rename this animation right here.
+[06:46] And we are going to name it running.
+[06:50] There you go.
+[06:51] And now we are going to select this armature right here.
+[06:54] And we are going to rename it shooting.
+[06:57] There you go.
+[06:58] Now you want to select the armature and press push down and also select this armature and press push down.
+[07:04] Now you can delete this armature.
+[07:06] It doesn't matter.
+[07:07] Select this armature again and then go to the non-linear animation.
+[07:12] And here we have the running animation.
+[07:14] So now you have to press right click here and then add a track.
+[07:19] And now in this new track, you want to select this add bottom and then action.
+[07:25] And then select the shooting action.
+[07:28] And we will have this shooting action right here.
+[07:31] And now that you have this, you want to press G and move this roughly right here.
+[07:36] So not all the way to the end.
+[07:38] And as you can see, nothing is happening.
+[07:41] So what you have to do is press here.
+[07:44] And then instead of here in the extrapolation, instead of hold, you want to select nothing.
+[07:50] And now we will have this animation.
+[07:51] And once we reach this other animation, we will have this transition right here.
+[07:56] Another thing I want to do is select this and then go all the way down.
+[08:00] And then click here on action clip.
+[08:02] And then here where it says repeat.
+[08:05] I want to repeat three times.
+[08:06] So my character shoots three times.
+[08:09] And the final thing I want to do in this orthographic view is modify the blending right here.
+[08:18] So as you can see, we will have a transition right here between the two animations.
+[08:24] And right now this is too fast.
+[08:27] So we can move this a little bit more and increase the blending
+[08:32] and see how this is looking.
+[08:36] And the transition is looking like fine for me.
+[08:40] But we have a problem and it's that if we go out of the orthographic view,
+[08:47] we will see that we have the same problem as before.
+[08:49] So our character runs and then just goes back to the previous position.
+[08:54] Now that we know roughly how much blending we want and the position we need,
+[09:00] we are going to completely eliminate the blending and then go one frame back,
+[09:06] just where the transition happens.
+[09:09] While the armature is selected, you want to press control tab to go to post mode.
+[09:13] And if you want to see your bones in front of your character,
+[09:17] you want to activate the fade geometry.
+[09:20] So now you have to go here to this hip bone, which basically controls like the movement of your character.
+[09:29] I mean the location of it.
+[09:31] While this is selected, you want to select here your animation and then press tab
+[09:36] and you will have something like this.
+[09:38] And now press I to insert a keyframe here.
+[09:42] And before you do anything, you want to press shift S and cursor to selected.
+[09:48] And we will have something like this.
+[09:50] Now we will move one frame forward and now we will press shift S again
+[09:56] and now selection to cursor.
+[09:59] And then I again and we will make another keyframe right here.
+[10:04] And now you want to do the same as we did before.
+[10:06] So don't touch anything here and then go to the graph editor
+[10:13] and we will have here in the location parameters of the hip.
+[10:18] We will have the same problem as before.
+[10:20] So we are going to press shift H and then normalize.
+[10:24] And we are going to see these kinds of sudden movements.
+[10:28] And you want to normalize this.
+[10:31] I don't know if that's the right word.
+[10:33] You just want to select all these keyframes and then GY and try to align these keyframes
+[10:39] so they have like a smooth motion, something like this.
+[10:44] And you want to do the same with the other keyframes.
+[10:47] So here we have the Y location.
+[10:49] You want to select all these keyframes right here and then press GY.
+[10:53] I move yourself right there and then GY again.
+[10:58] Now get close to here and GY and yeah you want to make this kind of tweaking.
+[11:04] And there you go and now do the same with the Y location right here.
+[11:09] Just select this and then GY and GY and there you go.
+[11:17] GY somewhere right here.
+[11:20] There you go.
+[11:21] Now you also want to check their rotations actually because they have like a similar problem
+[11:28] as you can see.
+[11:29] So just select this and GY and I'm going to speed up this part
+[11:34] because it's pretty much the same all the time.
+[11:38] And now that we did this, let's go back to the non-linear animation and select everything.
+[12:02] And now we will increase the blending right here and let's see how this looks.
+[12:09] Yeah, so it looks better.
+[12:12] Now the thing is that if we go to this orthographic view,
+[12:16] we will see that the character just rotates badly.
+[12:20] I don't know if so if it's something that I did honestly.
+[12:26] But yeah, what you have to do right here is go to this last frame
+[12:31] where the blending is already done.
+[12:36] And then select this thing right here that says no action and then new.
+[12:42] And then sorry, don't do anything.
+[12:44] You have to go here actually to the last frame before the blending starts.
+[12:49] Press I.
+[12:51] I will make a keyframe here and then go to this last frame where the blending stops.
+[12:58] And now just press R and GZ and try to align your character as much as you can
+[13:05] to the floor and then press I again.
+[13:08] And we will have these keyframes right here and now we will have this smooth transition right here.
+[13:15] So as you can see before we also tweaked the rotation of this bone.
+[13:21] Maybe if we don't do that, this doesn't happen.
+[13:24] I didn't try honestly.
+[13:25] And now we have this problem that the character doesn't move.
+[13:29] We can solve this by just pressing hold forward.
+[13:32] So we will have something like this.
+[13:34] And now it's in.
