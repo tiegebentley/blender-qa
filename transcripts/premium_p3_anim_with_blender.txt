@@ -1,0 +1,129 @@
+[00:00] In this video you are going to learn how to fully control your character's movement inside of blender.
+[00:04] You will usually use this when you need something very specific with a lot of movement
+[00:09] that you couldn't get from a mix of animation or AI mock up. Honestly, I would use this method
+[00:16] as a less resort especially if you are a beginner because this is the one that costs the most time
+[00:21] and most effort to make and if you want to make a fully animated documentary, it will be tough,
+[00:27] especially if you are alone. So without further ado, let's go to blender and let me show you how to do it.
+[00:33] Okay, so the first thing you want to do is look for X, P, KIT blender and you just have to click
+[00:39] on the first link and here you have to select tags and now you have to select the latest version.
+[00:47] I'm going to select this one and right here you have to scroll down and then just click here and
+[00:52] it will automatically download the zip file and please don't unzip it. And here in blender what
+[00:59] you have to do is go to the edit and then preferences and now in add-ons you have to click here and install
+[01:06] from this and you have to select the X, P, KIT one and install from this one. Once you did that, let me
+[01:12] show you what that does, let me delete everything and now I'm going to import a character. You can use
+[01:19] this method with whatever character and whatever character creation method. In the entire course,
+[01:25] I made everything with mixamorex. So this workflow will help you with that. We are going to convert
+[01:33] a mixamorex to a really fine rig and if you don't know what that is, I'm going to show you. But that
+[01:39] will allow us to animate our character more comfortably. So I have this character right here and
+[01:45] obviously you have to make the normal adjustments to the materials and all that stuff. In my case,
+[01:52] the only thing I'm going to do is delete the geometry behind the clothes. So let me go to edit mode and
+[01:59] then to wireframe mode. Make sure you are in birthday selection mode and then just select everything
+[02:07] under the clothes. Just like this. Press in shift. There you go. Now delete vertices and now go back
+[02:17] to solid mode and I'm going to delete this part right here and there you go. Another I have my
+[02:27] character here. The first thing that I'm going to do is press A and then control A and apply all
+[02:32] transformations because if you are exporting a character from maybe Metatailor or Mixamore,
+[02:39] the transformations will not be applied. They will not be uniform and that will generate problems
+[02:45] in the future. So now you have to select your rig and then press control tab to go to post mode and
+[02:52] then press A to select everything and if you want you can select here fade geometry. Now you have to
+[02:59] press right click and you will have these new options right here from the XPKit add-on. You have
+[03:04] to select the conversion and now select the extract metary. And here you have some options. You have
+[03:11] to select here you will have nothing and you have to select Mixamore. And as you can see it already
+[03:16] generated a rigify rig with these extra modes right here and this one. And the only thing you want to
+[03:23] do is move the rig works properly. It's moved the joints a little bit so the offset of the knee you
+[03:30] want to offset a little bit just like this 0.03 and then the elbow so 7 you also want to offset the elbow
+[03:43] a little bit pressing shift maybe 0.02 and now the fingers also the seed value of the fingers
+[03:53] you want to offset it like 0.03 minus 0.03 and there you go. Now you can go to edit mode and activate
+[04:04] wireframe and now you can eliminate these extra bones that we don't need like these ones. We are just
+[04:13] going to delete them and now go to object mode again and solid mode and now with the rig selected you
+[04:19] just have to go here to the data properties and now regenerate rig and as you can see we have
+[04:27] our rigify rig right now we can just delete this one and it works like a normal rig but we have a
+[04:34] couple extra controllers if we go to post mode and we move the stuff around we will see that we are
+[04:42] using inverse kinematics I don't know exactly what that means but we control the entire arm
+[04:48] from the hand movement as you can see and we control all of these like this so it's a it's pretty
+[04:57] different but it's great. Now in my opinion I really don't like to control the arms with inverse
+[05:04] kinematics so what I'm going to do is go to the item menu I'm just going to select the hand and
+[05:11] here we have an iK and fK switch meaning inverse kinematics and forward kinematics I'm going to move
+[05:19] this to one so now this thing that we have selected is not controlling the arm but this right here is
+[05:28] so now we have forward kinematics meaning we move everything from here to here instead of from here to
+[05:36] here and now that we don't need these inverse kinematics controllers we can just turn them off or just
+[05:45] don't see them with this button right here as you can see we eliminate this and now we just have
+[05:51] the forward kinematics controller and we are going to do the same here I'm going to switch to fk
+[05:58] and then I don't want to see the iK controllers and now for the legs I really like to control the legs
+[06:07] with inverse kinematics so in this case I'm just going to delete the forward kinematics controllers
+[06:14] for the legs so here it says leg left fk I'm going to unselect that I'm also here and all of this that
+[06:23] I did honestly is personal preference and now this is ready to be animated so what I'm going to do
+[06:31] just as a demonstration is make like a jump so I'm going to press shift A, mesh, cube and receive
+[06:39] control and then alt D and J and something like this should be fine now we are going to move this
+[06:47] character to the edge of this cube and now we are going to go to post mode and we are going to start
+[06:57] posting this character so I'm going to press one and the first thing that I want to do is position this
+[07:03] character like this and then three and move this character like this and bend this a little bit
+[07:11] like this and I want to do the same right here pressing control 3 I want to bend this and it doesn't have
+[07:23] to be perfect and another thing you want to do is pressing this for everything that rotates
+[07:29] and it's going to be a bit easier to control this way we're going to do something like this and we can
+[07:38] change this from global to local so we can see how to rotate this in a better way and there you go
+[07:47] and basically what I want to do right here is make the first post so I'm just going to bend the
+[07:57] knee a little bit and also going to straight this character like this and this is going to be my first
+[08:04] post so now I'm just going to go to the timeline right here and I want to press A to select all the
+[08:11] bones and I think this is not actually a good practice but just for convenience I'm going to press A
+[08:18] and then I to make a keyframe and now I'm just going to jump 10 frames and make another post
+[08:25] and this post is going to be like this so the guy is charging up to make the jump let me change this to
+[08:34] global and let me move the arms to the other side like this and now you can make a couple adjustments
+[08:48] here so it's not like super uniform like this and now we press A and then I to make another keyframe
+[08:58] and now let's go to the frame 20 and now I'm just going to make like another post but deeper
+[09:07] like this so he's really charging up for that jump you know that's what I want to you know
+[09:15] convey with this thing right here I'm going to change this to local and make something like this
+[09:24] there you go and now press A and then I to make another keyframe and let's move forward so this
+[09:32] process is called blocking out and basically you want to make the keyposes for your animation
+[09:40] and then we are going to make some tweaking you know but I want to see something right here so in the
+[09:46] frame 10 if we see from the from view the knees are giving in and that's not realistic so I'm just
+[09:55] going to press one and then G to spread the legs apart like this so now that I did this change I'm
+[10:08] going to press A and then I again to rewrite these keyframes and now I'm just going to go here
+[10:19] to the summary and basically select this knees right here and I'm going to select the X location
+[10:28] from the knee I'm going to press Ctrl C and then here Ctrl B and the same with the other knee the
+[10:36] X location I'm going to press Ctrl C and then here Ctrl B and there you go now let's make the other
+[10:48] pose let's go to the frame 30 and let's move this roughly right here and also these controllers right
+[10:59] here let's move them like this and let's rotate this a little bit this also move this and this so
+[11:18] ideally you want a reference obviously of the of a person doing this so you can see every minor detail
+[11:29] of how where the legs and where the where everything should be essentially let's make this so take this
+[11:38] and press A and then I there you go and let's go to the next in my case I'm just doing this by I
+[11:46] which is not okay but for a documentary channel that I think it's reasonable you know so I'm just
+[11:52] going to stretch this like this and then select this right here and press Ctrl 3 and G and make something
+[12:04] like this now I'm going to move this this way and then rotate this like this it does have to be perfect
+[12:17] and then let me select these frames right here and Ctrl 3 it's really important that you do this in
+[12:29] orthographic view if you don't want like weird things happening I think I want like the entire
+[12:35] character more up you know and now this guy should be like extending you know and from here maybe
+[12:47] opening the arms a little bit extending the whole torso to reach to the other side and now
+[12:57] GX and move this roughly right here so like a normal position and this should be our next pose so A
+[13:10] and then I and now move move to the next frame and GY something like this and GC the little bit
+[13:20] now we are going to make the character like reaching out to here and preparing himself for the landing
+[13:35] so I'm just going to move everything like this and maybe and maybe this
+[13:50] like this and and this sorry something like this Ctrl 3 something like this and then A and I
+[14:45] to make another keyframe and I will speed up this because I guess you got the point right now
+[15:44] okay now I have all the poses so it looks like this it looks really weird but that is because you have to
+[15:55] tweak the timing right now so you have to imagine like the timing of everything so maybe this looks normal
+[16:04] but then here we should speed up everything something like this and let's see how that looks
+[16:11] okay that looks pretty natural and now we should move this and maybe all this part right here and let's
+[16:20] see how that looks so we have this weird movement right here we want this to be even faster and let's see
+[16:33] okay maybe this should be closer all these parts right here and it look and yeah you have to see if
+[16:56] everything looks like weird and just adjust the timing a little bit let's see I want this to be
+[17:14] faster but not a lot and this also should be faster okay now it looks better so I think for a
+[17:52] documentary you can already leave it like this and it will look fine but maybe you want to
+[18:00] play a little bit with the jump right here especially so maybe I want to select this this part of the
+[18:08] jump maybe you want to go to the graph editor and press normalize and just we want to see the
+[18:17] seed value for example so shift H sorry and let's try to see this we have something like this I think
+[18:26] this should be like super fast and maybe we could delete this and this also should be super fast
+[18:36] and let me see how that looks okay looks better now let's see the the wire location so let me see this
+[18:51] I think everything here should be like should be linear so I'm just going to make this the x
+[19:05] and let's see let's see how that looks okay now it looks way better let me cut the end frame so we can
+[19:16] see this in a loop and now if it looks right it looks right maybe in this end pose we should have
+[19:24] this closer together so let's go to the post mode and see the keyframes right here the end keyframe and gx
+[19:33] and i and then gx and i there you go okay so here we have like this problem so now let's go to the
+[19:48] post mode and see okay in this post we should already improve the needs right here i okay so yes
+[20:05] there's not a lot that I want to cover here I really like the animation maybe here the legs you
+[20:14] know the are stretching a lot so maybe I could select this and then g and make this something like this
+[20:31] and now i to add a keyframe there and now we have something like this okay so maybe here before
+[20:43] the landing I want this to be like this and maybe move this a little bit and let me see i
+[21:06] okay so great I could be here forever honestly but I hope this helped this is essentially the workflow you
+[21:26] have to create your custom character and then convert the rig to reify make the keyposes and then adjust
+[21:34] as you need and you have a pretty good result for a documentary obviously if you want a job in
+[21:40] Pixar it will be tough but yeah i'll see you in the next course lesson bye
