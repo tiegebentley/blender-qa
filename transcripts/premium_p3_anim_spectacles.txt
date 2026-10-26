@@ -1,0 +1,129 @@
+[00:00] In this video I'll show you how to animate characters in the spectacle style.
+[00:03] You will usually use this in a minimally setting, but you will also try with a realistic one.
+[00:08] I really like this because it adds a bit more dynamism to the normal static animations
+[00:13] and it's also pretty easy to do. So let me show you how. Okay, so here in Blender let me import
+[00:18] a mannequin without animation, so something like this. And I'm going to show you how to animate
+[00:25] like simple characters like this one. Let's say this is a character with a decimated style.
+[00:31] The first thing you want to do is select the armature and then select hierarchy and then shift D
+[00:37] and right click to maintain this in the same position. So now I'm going to press M and I'm going to
+[00:45] create a new collection and I'm going to name this second pose and create. So the first mannequin
+[00:53] I'm going to select it and I also select hierarchy and then M and I'm going to name it first
+[01:00] pose and create. Now I'm just going to hide the second pose and I'm left with this. So then I'm just
+[01:09] going to select the armature and then press Ctrl to go to Post Mode and I'm going to enable fade geometry.
+[01:16] So now I just want to post this character however you want. In my case I'm doing something like this.
+[01:24] Like I won't spend a lot of time on this but you will have to in order to get like a good result.
+[01:32] So once I post my character I'm going to bring back the second pose just because I want this to be
+[01:39] like the seating position so I'm going to position this roughly right here and now we have something
+[01:45] like this. So we have the first position and the second position and essentially you want to go to
+[01:53] the material preview to be able to preview the fading animation because you won't be able to if you
+[02:01] are just in solid mode. So now you have to select your first mesh or your first mannequin and now just
+[02:08] open this and then open a new window right here just like this and now let's go to the frame 10
+[02:15] for example and let's change this to the shader editor. So now we don't care about all this obviously
+[02:23] we can make improvements and all of that but that is a thing from the previews lessons. I just want you
+[02:29] to focus on the alpha in this case. We don't have anything blocked in the alpha but in the case you do
+[02:36] I will show you how to work around that in just a minute but for now let's just say there's
+[02:42] nothing on the alpha so now we are going to select I will principal bstf and then press i on the alpha
+[02:51] value. As you can see we have a keyframe here if we don't select the principal bstf we are not going
+[02:56] to see the keyframe as you can see I'm selecting this but the keyframe is not there so if I just select
+[03:02] the principal bstf now the keyframe shows here so I'm just going to go to the frame 25 and then go
+[03:10] back here and reduce the alpha to 0. Oh sorry I forgot to so this material is a link what you want to
+[03:18] do is press this bottom right here to make this like a separate material and now reduce the alpha
+[03:25] and press i again and you will have two keyframes right here and they will be set in bstf by default so
+[03:32] if we go to the graph editor and then normalize they will have like this is seen and is out effect
+[03:40] and if you want that that's fine but let's say you want this to be linear for example well then you
+[03:48] will press t and then linear and now the animation will have like linear keyframes is going to be
+[03:55] the same velocity from the point a to the point b but do whatever you want and whatever you feel is the
+[04:00] best in my case I'm just going to leave it as best here and I don't care now let's select the other
+[04:07] material and let's select the principal bstf and delete this keyframe because we don't need it and now
+[04:14] let's reduce the alpha and press i and then go to the frame 25 and then increase the alpha to 1
+[04:22] and press i so now we will have an animation like this so this is how it would look
+[04:33] so they look like this like super noisy because when we are in the material preview and too we are in
+[04:42] eb if we make a couple adjustments here we can make this work in eb but I think the best results
+[04:51] will be found in the cycles render engine but yeah here for example if you are in eb you can just select
+[04:58] this and then go to the material and then here where it says Dirt you change it to blended and as you
+[05:06] can see it's a little bit more soft so you have an animation like this and as you can see
+[05:14] towards the end of the animation we have this weird I don't know how it's called you just have to check
+[05:22] here the transparency overlap and now it will be a lot more smoother as you can see but yeah make
+[05:29] sure to play with this I'm also going to make like this right here blended and then the activity transparency
+[05:38] and now we will have something like this if we hide the armatures it's going to be a lot more
+[05:44] closer to what you will see in the final render and as you can see here we have this problem right here
+[05:54] so ideally you will kind of move this a little bit and now yes you will have something like this
+[06:05] and that's essentially what you want another problem is that if you want to work in the solid mode
+[06:13] so let's activate the armatures again you will see both of them all the time essentially and if you
+[06:18] want to tweak some things from your scene it will be kind of annoying because you have to
+[06:25] right here and if you have more poses it will be super stressing so essentially what you want to do is
+[06:32] animate the viewport visibility and let me show you how you can do that so this first pose will
+[06:38] essentially stop existing after the 25th frame so what you have to do is go one frame back
+[06:48] and then go to your first pose and here in this icon then activate this TV icon and this TV icon is
+[06:57] the disabled in the viewport button so what you have to do is go to the first pose and then here it says
+[07:04] armature you want to press I on the TV icon and then I on the camera icon which is the visibility
+[07:11] in renders and this is visibility in viewport and you want to do the same with the mesh so not just with
+[07:16] the armature with the mesh so press I here and then I here and then go to the 25th frame and now you
+[07:24] click here and as you can see everything disappeared and you have to press I on all the icons so now
+[07:31] essentially what will happen is it will just disappear after this point and now you can work more
+[07:37] comfortably and you can do the same with the first the second pose sorry so essentially it will start
+[07:46] existing in the frame 10 so you just have to go to the frame 9 and then go to the second pose and open
+[07:54] this and then disable the visibility in the viewport and in the render and then press I on the icons
+[08:02] and then go one frame forward so to the frame 10 and then enable the visibility in the viewport
+[08:09] and in the render and press I on the icons and now you will have something like this and obviously
+[08:16] in the material preview you will have like the actual animation and yeah this is the first method so if
+[08:22] you have a simple character this is the easiest way to do this and then you can just pose your character
+[08:28] so duplicate this pose your character and make more transitions just like spectacles but what if
+[08:35] you have like an entire character with clothes let's say it's also a minimalist character but maybe it
+[08:42] has like a hat or a simple t-shirt whatever so let me just delete everything here and let's do this
+[08:50] again I'm going to import a character this character that it's this police I have the mannequin mesh
+[08:56] I also have the clothes obviously I will skip all the you know deleting the geometry and all the stuff
+[09:02] and improving the materials because I just want to get to the point so essentially what you have to do
+[09:09] is select the armature and then select hierarchy and then shift D so the same as before and right click
+[09:17] and now M and name this second pose so it's actually the same process as before I'm just going to hide
+[09:25] this and then select the armature select hierarchy and M and new collection and first pose and then
+[09:34] actually going to position the first pose above the second pose let's select the armature and press
+[09:41] control tab and let's do the exact same as we did before we're just going to position this in a
+[09:47] sitting position something like this and now I'm going to unhide the second pose and do something
+[09:53] like this now what you have to do is obviously make all these materials like unique materials so you
+[10:01] have to duplicate every material right here like this and now that we did that let's go to the frame 10
+[10:09] and then let's just select this mesh right here and we don't care about all of this obviously we can
+[10:16] improve it but if you're going to keep frame multiple objects at once you don't want to
+[10:23] actually use the alpha what you want to do is add a mix shader and then add a transparent VSTF
+[10:32] and basically combine these two so now you have the factor and 0 is fully visible and 1 is you know
+[10:42] fully transparent so what you want to do is well first let's set this to 0 and then select both of
+[10:50] this and now press control G and you will have something like this now pressing tab you go back
+[10:58] to where you were and now give a name to this node so I'm going to name this fade one essentially
+[11:06] now I'm just going to select this and control C and I'm going to copy this fade one and position it
+[11:13] right here on basically all the objects so now that this is in all the objects so let me do this
+[11:21] now this controller works for essentially all the objects so if you enter here and then
+[11:32] control the factor you will essentially control the opacity of all these objects at once so now you
+[11:39] just have to go to the frame 10 and select this mix shader and now you just press I and you will
+[11:47] see the keyframe here and now let's go to the frame 25 and move this all the way to 1 and then press I
+[11:54] again and you will have something like this so obviously you have to select each one of these objects
+[12:01] and then change the render method and all this stuff so it looks better and now we will have something
+[12:08] like this there you go and now we can do the same with these other objects so you have to make space
+[12:15] here and then press shift A and fade one which is the group that we added before and now we want to
+[12:23] press this icon right here and then change the name so we essentially made a copy so now we want to
+[12:29] change the name and this is fade two so now if you enter you will obviously see that this has keyframes
+[12:36] and now basically you want to delete them and now before doing anything just press star and
+[12:43] select this fade two and control C and then apply it to the rest of the materials of the second
+[12:50] pose and now that we have this let's enter the fade two and we will start in one so press I and then we
+[13:04] will finish at 25 with 0 right here and then press I again so now we will have to change the
+[13:14] blend method to blended and now we will have this animation and this is essentially what you want
+[13:27] this is the effect but now we will have the same problem so we will see both of these in solid mode
+[13:34] so let's say you have multiple meshes you will essentially have to press I on all of these icons
+[13:42] and then enable them and disable them and it will be a nightmare and you will lose a lot of time
+[13:49] so essentially what you want to do is a collection instance so press shift A and collection instance
+[13:57] and first pose and we will essentially have like a copy of our first pose collection and if we
+[14:05] select this empty we will essentially select everything so now what you want to do is hide the first pose
+[14:13] right here and now we will have this collection instance and what you want to do is the same as before
+[14:21] so go to the frame 24 and press I right here and if you're wondering if you can just do the same
+[14:29] but in the collection you can't so if you want to press I here it won't let you so that's why we
+[14:34] are doing this so just go to the frame 25 and then disable this in render and in the viewport display
+[14:41] and we will have to do the same with the second pose so collection instance second pose and we will hide
+[14:49] the second pose the original and now let's go to the frame 9 and disable this and press I and then
+[14:58] go to the frame 10 and I again so I again and enable this okay so now you will essentially have the same
+[15:05] animation but now you will be able to keyframe the viewport display of every object at once with just one
+[15:13] keyframe as you can see and if you go to the material preview you will essentially see like the same
+[15:20] animation you won't change anything but you will be able to work more comfortably in the solid view
+[15:27] obviously you want to make sure that all your animation and all whatever it's already made before you do
+[15:33] the collection instances once you have everything set you can do this workflow and now you will be able to
+[15:41] make adjustments let's say in the scene more closely so that's pretty much it it wasn't as easy but
+[15:49] it was easy after all and in the next lesson I'm going to show you like a better way of animating your
+[15:57] characters but it will be even easier than this one so I'll see you in the next course lesson bye
