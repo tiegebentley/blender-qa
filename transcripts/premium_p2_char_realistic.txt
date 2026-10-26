@@ -1,0 +1,177 @@
+[00:00] Four months ago I did a video on how to create realistic characters for you
+[00:04] documentaries like the ones you see on the channels of Furn or Cypher. The only bad thing about that method is that it cost
+[00:10] $300 just to get started and if you want more clothing items to customize your
+[00:16] character most of them cost around $20. This raises the value of entry for all the people that
+[00:22] really want to use these kinds of characters for the documentaries. But in this video I found an
+[00:27] alternative where you can create entire characters for free or at a very low cost without any
+[00:32] advanced 3D skill like modeling or reading. So if you're interested here's the method.
+[00:37] So the first thing you want to do is install this addon that it's called Make Human. So just follow
+[00:44] this tutorial it's pretty simple and this addon essentially lets you create humans, custom humans for
+[00:52] free and you can customize the body proportions, the facial expressions, the eye color and all the
+[01:00] stuff. The only bad thing about Make Human is that they have a couple clothing items but they are
+[01:06] pretty limited and also bad quality. They also have an online library where people upload their clothes
+[01:14] that you can either purchase or just download to then use with the addon but as I already told you
+[01:21] it's pretty limited and not that high quality. So instead what I'm going to use to dress my 3D
+[01:28] characters is always meta tailor. Metatailor is just an easy way to dress your characters and I tried
+[01:38] dressing characters in blender in the past and that's honestly a pain in the ass. I now have the
+[01:44] pro version but if you want to try it out you can just try it for free and it lets you export
+[01:51] 3 characters a month, so 3 exports a month. So yeah it's pretty good and the subscription is not that
+[01:57] expensive. So yeah, now we have how to make characters for free, how to dress them almost for free and now
+[02:04] the question is where you can find clothes or hair or beards for free or at a very low cost. I have
+[02:12] three websites for you and one is Sketchfab. If you look for clothing and then click here on downloadable
+[02:19] you have a lot of free and also pretty high quality assets that you can use to dress your characters
+[02:27] and you can also search for hair or beard here and it will be pretty much the same but what if you
+[02:33] need a very specific piece of clothing that it's unfortunately not for free in Sketchfab or at least not
+[02:41] in the quality that you want then you should go to the next website which is art station if you go
+[02:47] here to shop and then marketplace you can select these filters right here like 3D models and cloth
+[02:55] and accessories and you will have a lot of really high quality assets to dress your characters and
+[03:01] they are also super cheap like less than ten dollars. So yeah great website but what if you still
+[03:08] can't find what you want and you need even more quality and a little bit more higher prices then you
+[03:15] go to CG trader as you can see here I typed clothing and here you will have super high quality assets
+[03:22] and also super cheap sometimes you will find things for less than ten dollars another times a little
+[03:29] bit higher but most things are really not that expensive and you can also search for hair or beard and
+[03:37] you will have pretty high quality things for a pretty low price but before you purchase or download
+[03:43] anything there's a couple considerations. First if you download an entire outfit like this you can't
+[03:49] just import this into metatailer and if you do you will have a pretty bad results you first need to go
+[03:55] to blender and separate each asset so in this case I will separate like top part and then the lower part
+[04:04] and then the shoes and the bracelets then export them separately and then import them into metatailer
+[04:10] and that will give you the best results. Then if you like any piece of clothing right here let's say
+[04:16] I really want this one you need to make sure that you can get like the A-Pose version and not this
+[04:24] post version because it will make everything harder so just go and look at the pictures and see if there's
+[04:31] like a A-Pose or T-Pose asset like this and also then you have to make sure that you will have an
+[04:39] OVJ or FVX format or maybe a dot blend format because if this isn't in the A-Pose and then it's just
+[04:48] like the Marvel's designer file you can't use this asset no matter how cheap or how good it is
+[04:56] unless you have Marvel's 3D I don't have it so yeah so let's say you downloaded this asset right here
+[05:04] and fortunately it is separated in parts but sometimes you will have assets that are just one thing
+[05:13] and you have something like this then you just need to go to edit mode and then press L sorry L
+[05:20] to select linked and then you just press L and in this case I'm going to select WIFR mode
+[05:29] and also select all this area right here and now let's say you separated an entire part right here
+[05:35] you just press P and separate by selection and now you have this separated asset right here so now that
+[05:42] you have it separated you just have to select it and then go to file export and export as whatever let's
+[05:50] say FVX and you have to select selected objects and also armature and with shift mesh and then you export
+[05:58] FVX and now you import that into Metatailer and now that you know all of that let's create our
+[06:04] realistic character the one that you saw in the intro of the video and probably in the thumbnail so
+[06:10] what you need to do now that you are in your scene and you already installed they make human addon and
+[06:16] also the assets you just have to go here and then to this MPFV I know that stuff and now go here to
+[06:25] new human and from scratch then you select here whatever you want in my case I will select a male
+[06:32] a young male with an average of muscles and raise I will select a caution is that how you pronounce it
+[06:41] coco I don't know then the breast size I will decrease it to smaller and then here what it says
+[06:47] proportion instead of average I will select ideal and now I will just create human and now I will have
+[06:54] this human assets right here now if you want to personalize this you just have to go here to model and
+[07:02] then you will have all the body parts right here that you can modify in my case let's say I want to
+[07:09] select here the chicks maybe I want this guy to make a lot of mewing so let's do something like this
+[07:17] and now this guy knows how to do mewing or mewing I don't know how to pronounce it I don't know if
+[07:22] you can actually see let me move myself then we can see he's not doing mewing perfectly so let's look at
+[07:30] I think it was the neck yeah so now he does a lot of mewing now let's say he also
+[07:39] trains neck so we can just increase the neck size right here and now he is really like the perfect male
+[07:47] maybe we can make him like a positive can tile tilted or whatever that is something like this
+[07:56] there you go now this guy really knows how to look max so yeah let's stop joking and let's go to
+[08:05] and this is an important part you want to add rig right here and here where this is add the
+[08:10] standard rig you want to select for example mix them all in my case mix them all because I'm more
+[08:15] familiarized with that and then you just add the standard rig and you have something like this now
+[08:21] with that selected you have to go here to apply assets and here you can actually personalize a bit more
+[08:30] your character like for example the skin's library you can select whatever skin you want in my case
+[08:36] I want like a John sorry a John con concussion oh my English is pretty bad um male please here it is
+[08:49] okay and not only that we also want to add some eyes so let's go to the eye library and add
+[08:57] high poly eye let's select the armature again now let's add a little bit of hair right here I think
+[09:03] I use this one for the thumbnail obviously you can use hair from CG trader or art station and I did
+[09:12] a video on how you can add hair to models I will probably link that in the description so yeah but in
+[09:18] this case I'm just going to add this hair asset right here let's select the armature again now I want
+[09:26] to add like a basic eyelashes and then eyebrows I like thick eyebrows like it's a personal
+[09:35] taste of mine not in 3D like I mean in real life I like thick eyebrows you can also add a thief
+[09:42] and tongue and all that stuff I won't open the mouth of this guy so I don't care and then you can
+[09:48] also add clothes and these clothes are yeah I mean in some cases it might work but in this case I
+[09:54] want to put any clothes into this guy because I'm going to dress him with metatailor so I'm just
+[10:01] going to close this and yeah that's my human obviously you can personalize this a lot more let's say
+[10:08] you want to copy like an historical figure you can maybe have a reference of the face of that
+[10:14] historical figure and then play with the parameters until you have something very similar but yeah
+[10:21] also if you don't know how this looks textured it's just select the material preview and as you can
+[10:26] see we have something like this but now let's export it to metatailor so press A to select everything
+[10:35] with the rig and all that stuff and then you just press here file export and export FBX and I'm
+[10:44] just going to name this test and I'm going to click here on selected objects and armature and mesh
+[10:51] and then export the FBX. Now before doing anything you want to make sure that this actually works so you
+[10:58] want to import your character right here and if it looks fine then yeah you can just go to metatailor
+[11:07] and start dressing your character and here in metatailor as you can see I'm in the pro version finally I
+[11:13] have here some characters that I used for other videos and also for the course that I'm building
+[11:20] and you will know more about that later not later in this video like later in the future but what you
+[11:25] have to do is open a new project and give it a name in my case soupscribe it's my favorite name
+[11:33] and now you will have something like this if you want to import your character you just have to
+[11:37] go here to import and then import avatar and I will import the test that I exported just minutes ago
+[11:45] and I will have something like this done bother about all these things right here because we are going
+[11:51] to texture this character later in blender so just go to next step and now here is the rigging
+[11:57] and it will usually be fine the only problem, the magic thing right here maybe the no-step
+[12:03] you have to tweak this and also the school base you want to tweak this right here and the school
+[12:09] ground I think it's fine so then you just go to next step and it will redirect you to this part right
+[12:15] here it won't change the character automatically you just have to go here to this icon and then select
+[12:22] your test and as you can see I imported this guy like a bunch of times just because I was experimenting
+[12:28] oh I guess you didn't saw sorry the icon I was pressing to change the characters it was here
+[12:34] this icon so then you go here and you select your avatar and then we just have to address the
+[12:41] characters so go into clothing right here I'm just going to scroll down and I will select my content
+[12:47] right here and I have all these assets that I used in previous tutorials or in course lessons or
+[12:54] whatever I'm just going to select this jumpsuit that I used for another tutorial that I downloaded
+[12:59] from Nixamo so it's free so this character is completely for free so I'm just going to apply the jumpsuit
+[13:07] and there you go that's it it's pretty magic it just works you can increase the shrink wrap to maybe
+[13:14] something like 20 to make this like more closer to the actual body and what if you don't have like an
+[13:21] asset already you want to import one that you downloaded from sketch file or CG trader or whatever
+[13:29] you just have to go here to import and import clothes or accessory and I'm just going to import
+[13:35] an asset from a previous tutorial in this case this police suite and you will have something like this
+[13:42] if you want to texture this and I recommend you do you just go here to color and then go to the
+[13:48] textures that came with the model that you downloaded from whatever sketch file or whatever website in
+[13:54] this case is this image right here and you can also apply the normal and that's it now you just
+[14:02] select next and now you select a preset from here in my case I want shirt and now next step and now
+[14:09] I have to position this as good as I can in my actual character so in this case I think I want to
+[14:16] scale this up a little bit and also lower this and then move this right here it doesn't have to be
+[14:27] perfect but it has to be like close to perfect so let's increase the size right here and let's move
+[14:34] this a little bit and something like this there you go now confirm and now you start post-match and this
+[14:42] is where you start moving things around to make this as close as possible to the original something like
+[14:54] this maybe I want to move the pad a little bit and that should be it it doesn't have to be perfect
+[15:01] then you just press confirm and then next step and metadata will do its magic and as you can see
+[15:08] it fits the clothes almost perfectly if I were to invest more time I would probably fix this but
+[15:16] don't worry it's fine actually I have this exact model so let's delete this and I have this exact model
+[15:25] like a bunch of times because I always use this as an example so let's import this one and in this case
+[15:32] it doesn't have any problems because in that in this case I dedicated more time and this is the good
+[15:40] thing about metadata layer every asset you import you will save it right here and then you can apply it
+[15:46] to whatever character you want so as I was telling you I'm going to apply this jam suite right here
+[15:53] metadata layer does its magic and I'm also going to increase the shrink wrap to 20 to make this closer to
+[16:02] to the body and now I just want to export this character so I'm just going here to export I will give it
+[16:10] whatever name choose an export path in my case just the download section and then click here on export
+[16:17] and now here in blender I'm just going to import this character and gx and yeah as you can see
+[16:26] this character so let's isolate this has this really weird I don't know if I can call this
+[16:35] shading or whatever because this is solid mold but you can't apply any materials if the character is
+[16:42] like this so what you should do import your character and delete animation I mean this is optional
+[16:50] obviously if you have an animation don't delete it but in my case I will delete it and then here
+[16:55] custom normals I will delete that also and import the vx and now that I deleted the custom normals
+[17:04] this works fine as you can see this just works fine so yeah there's a couple problems with this
+[17:10] character and we are going to solve those one by one so let's just select the armature right here
+[17:17] and then go to that properties of the armature and then in viewport display you want to select here
+[17:23] in front and as you can see this is a problem from a tailor the bones are super tiny so what you have
+[17:31] to do to solve this with the armature selected go to edit mold select everything pressing A and then S
+[17:39] and scale your armature something like this and then press control 3 and as you can see this is
+[17:46] not properly aligned so you want something like this and then here you want to make sure this is
+[17:53] somewhat aligned like this so gx maybe S maybe we need to scale this more gx s gx and yeah this you
+[18:03] want to tweak this a little bit until it aligns perfectly and now you can go to post mold and now you
+[18:10] can post this character however you want to polish it now the other thing you want to do is select the
+[18:18] mesh right here and then go to wireframe mold and edit mold and then select the vertices and then
+[18:25] just delete everything that it's under the clothes and this will prevent any clipping that good
+[18:31] potentially happen so yes something like this and then go back and select this part right here
+[18:37] and then delete the lead partitions now the other thing is that this is not texture so if we go to
+[18:43] material preview this will not be textured except for the clothes so what you want to do here it's just
+[18:51] copy the textures from your original character so let's go to materials and let's see what is the name
+[18:59] of the material human dot body so you just want to go here delete this material and then select
+[19:05] human dot body right here and you have the correct shader and now you want to do the same for the rest
+[19:13] of the assets you just want to select the proper name human eyebrow so select this human eyebrow then
+[19:21] human eyeball you just select this one it looks bad here but in the render view it looks fine so don't
+[19:28] worry and then here the hair you just want to select a normal hair and there you go now
+[19:34] your character is stressed if you want to improve here the material from the clothes just have to
+[19:42] here to shader editor and tweak a couple things for example we are not going to use the alpha let's close
+[19:49] this we are going to decrease the metallic we are going to block this into the roughness press backspace
+[19:55] here to make this normal and then let's also increase these to something like three and there you go now
+[20:01] our clothes are better and if you want to make them orange like in the thumbnail you just have to
+[20:07] press shift A here and saturation a value and block that right here and then decrease the hue a little
+[20:14] bit to something like this and then increase the saturation to something like this and maybe the value
+[20:20] to something like this and there you go now it's orange and there you go here you have your
+[20:25] character that you can use for your documentaries and you can also create women elder repersoons
+[20:31] childs even babies dress them in metatailor and then use them in your documentaries I know I just
+[20:37] taught you how to make realistic characters but do you really need them after all there are creators
+[20:44] like scams or bbpr there are putting crazy views with super simple characters that's why I made
+[20:50] this video on how to make them consider subscribing and I'll see you in the next one bye
