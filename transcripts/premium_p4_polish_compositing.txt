@@ -1,0 +1,237 @@
+[00:00] In this video I'll share some effects you can achieve in the compositor that lots of
+[00:03] creators use.
+[00:04] And definitely not an expert in compositing.
+[00:06] I'm just a guy pressing buttons and seeing what they do.
+[00:09] But if you want actual experts teaching you how to composite, I'll leave some links in
+[00:14] the resources.
+[00:15] Just know that you don't have to use the compositor.
+[00:18] Some channels just skip it entirely.
+[00:20] But it can definitely make things look a bit nicer.
+[00:24] Now let's start.
+[00:25] So here in Blender I have a scene that I used for a tutorial a while ago.
+[00:30] And now to use the compositor you have to go to the render view.
+[00:35] And once you're in render view you have to press this arrow right here.
+[00:39] And then here it says compositor.
+[00:42] Check either camera or always.
+[00:44] Now in this window right here that I typically use for building my scene.
+[00:50] I'm going to change here from the 3D viewport to my compositor.
+[00:55] I'm going to move this right here.
+[00:57] And I already used the compositor in this project.
+[01:02] So that's why you can see these nodes.
+[01:04] But actually you won't see them the first time.
+[01:07] So what you have to do is check this button right here that says use nodes.
+[01:13] And these 3 nodes will appear.
+[01:15] This is the viewer node and it's the one that Blender uses to show you the effects you're
+[01:22] doing in the compositor in real time.
+[01:25] And then you have the composite node which is the final result.
+[01:29] So maybe some things are not blocked in the viewer so you don't see them but they are
+[01:34] blocked in the composite so you end up seeing them in the final result.
+[01:39] Then you have this button right here which is backdrop in order to use the backdrop you have
+[01:43] to make a image render first meaning you have to press F12 and then you will see your render
+[01:50] behind the nodes.
+[01:52] But that's a little bit uncomfortable.
+[01:54] That's why I don't use it.
+[01:57] And I prefer just compositing real time with my render view here and my compositor here.
+[02:04] I find it more comfortable.
+[02:06] So now I'm going to show you a little bit of color grading.
+[02:10] Again, I'm not an expert.
+[02:12] If an actual color grader sees this, he's going to freak out.
+[02:16] But yeah, I still managed to get a pretty good result.
+[02:20] So to add the nodes is similar to other workspaces, you just have to press shift A and then add
+[02:26] nodes.
+[02:27] In this case, I'm going to add a brightness and contrast node like this.
+[02:31] And now I will decrease the brightness a little bit and then increase the contrast a little
+[02:37] bit.
+[02:38] And now if you want to see the before and after, you can press M to hide the effects of one
+[02:45] node or multiple nodes.
+[02:47] You can see it is like this.
+[02:49] Now I want to press shift A and add a hue saturation and value node.
+[02:54] And I want to increase the saturation a little bit, just like 1.2.
+[03:00] I think it's fine.
+[03:01] Now I also want to add a color balance node right here.
+[03:05] And now with this slider right here, you intensify the shadows, the darker parts.
+[03:11] And with this other slider right here, you intensify the highlights.
+[03:15] And with this slider in the middle, you can give some effects.
+[03:20] For example, you can move the midtones to the green or you can move the midtones to the
+[03:25] blue.
+[03:26] You want this effect to be pretty subtle, so maybe something like this and then just reduce
+[03:32] the saturation a lot.
+[03:34] 0.08 maybe.
+[03:37] And you can see the effect right here.
+[03:40] Because you can see, at least for me, it's looking a lot more cinematic.
+[03:47] And that's it for the color grading part, at least.
+[03:50] Now I also want to show you that you can add, for example, a clear node, typing layer, and
+[03:56] you add it here.
+[03:57] It's pretty important that you add things before this dot, because that way the effects
+[04:02] are going to be applied in the viewer and in the composite.
+[04:06] Now the clear node does this right here, as you can see, it adds some effects in the
+[04:12] brighter parts.
+[04:13] Right now it's set to strict, so I'm just going to change it to fog of glow, which is a little
+[04:19] bit more realistic.
+[04:20] And then here you have the quality.
+[04:22] Now it's set to medium, and I'm going to set it to high.
+[04:26] And the size, I always like to increase the size.
+[04:29] And if you look closer to here, you will see what the effect is doing.
+[04:34] If you go to highlights and then reduce the threshold, as you can see, it will intensify
+[04:40] the effect a lot.
+[04:42] This is set of threshold.
+[04:43] I always like to set this to 0.4 or maybe 0.6, but I think in this case, 0.5 is good.
+[04:55] You can also increase the smoothness.
+[04:57] And now 0.4, and as you can see, it's the before and after.
+[05:02] So you can see it's adding an effect here.
+[05:05] Now another effect you can add in the compositor is the lens distortion.
+[05:09] So shift A and lens distortion, and you add it here.
+[05:14] Also, it's pretty important the order.
+[05:16] So right now, for example, the clear node is affecting all the things behind.
+[05:21] And the lens distortion is affecting all the things behind.
+[05:24] So that's pretty important to understand.
+[05:26] Sometimes if you are not getting the effect you want, maybe you have to change the order.
+[05:32] And you can do that by pressing Alt, for example, and then doing this.
+[05:36] So if you press click and then Alt, sorry, if you press Alt and then click, you will remove
+[05:43] an Alt from the line and it will still be connected.
+[05:48] Now the lens distortion is this effect right here.
+[05:52] The top one is like this effect on the lens.
+[05:56] And the bottom one is this chromatic aberration effect.
+[06:00] So you want this to be pretty subtle.
+[06:02] In my case, I set both to 0.01 and then I check fit so I don't have any weird borders.
+[06:11] Another thing you can add here is a vignette.
+[06:15] I don't think these render needs vignette but I just want to show you how you can do that.
+[06:20] First, let's add an ellipse mask.
+[06:23] So shift A and ellipse mask right here and let's not connect it to anywhere.
+[06:30] And now let's click this and connect this directly to the viewer.
+[06:36] Just to see the ellipse right here.
+[06:39] And now with the size, you want to make sure it covers the entire thing like this.
+[06:47] Now you want to add a blur.
+[06:51] And then the blur node right here and you want to increase the size maybe to 350 or maybe 200.
+[06:58] Something like that.
+[06:59] I think 350 is fine.
+[07:03] Now you want to add shift A and alpha over node like this and connect this to the bottom one.
+[07:11] And then the blur node to the factor and then the image here.
+[07:16] This color make it black.
+[07:19] Now let's connect this right here.
+[07:21] So this is the effect.
+[07:22] As you can see it's adding a vignette.
+[07:25] And you can change the effect by increasing the blur, for example, to 400 or maybe decreasing
+[07:32] it to 100.
+[07:35] And now this part is clearer.
+[07:37] You can also increase the value of this.
+[07:40] So it's not that dark as you can see.
+[07:43] And these are all the effects.
+[07:46] Basically, if I press M, I will see the before and after.
+[07:52] Right now, I think it's too much.
+[07:55] Maybe I want to reduce the or increase or the threshold to 0.8.
+[08:02] And maybe here I want to decrease the gain to 1 and maybe decrease the contrast a little
+[08:10] bit.
+[08:11] And now let's see again.
+[08:15] OK, so I think I like it.
+[08:17] Now to apply the effects of the compositor to your final animation, you don't have to do anything
+[08:23] extra.
+[08:24] You can just press render animation after obviously going through all your render settings and
+[08:31] your file output.
+[08:33] But once you press render animation, all your friends are going to be exported with the composite
+[08:39] work you did.
+[08:40] So yeah, let's go to the next compositor technique.
+[08:44] OK, now I have this render right here from another tutorial.
+[08:47] And what I wanted to show you is how you can add a background to this transparent render
+[08:53] that we have right here.
+[08:55] You can basically do that with an alpha over node.
+[08:59] So alpha over.
+[09:01] And then select here and connect it to the bottom socket.
+[09:07] And then you can personalize your background like this with this color right here basically.
+[09:18] And that's how you add a background to transparent images.
+[09:23] Now again, you just have to connect this to here and you will have your image right here.
+[09:29] So now I want to show you how you can add similar effects in After Effects which brings the
+[09:36] quality a bit down but it's not noticeable.
+[09:40] Like I render things in the past and then apply the effects here in After Effects.
+[09:46] And the changes are not noticeable at all.
+[09:50] So if you just feel like you can get better results in After Effects or some people like to
+[09:57] use the Vinci, just use that.
+[09:59] So in my case, I'm just going to import an animation and add it here in the timeline.
+[10:05] And I have something like this and this is from another tutorial.
+[10:08] You probably recognize if you are familiar with the channel.
+[10:11] And I'm just going to add a bunch of adjustment layers.
+[10:16] Let's see what looks better.
+[10:18] I think I'm going to use the Vignette Chromatic Variation.
+[10:29] Some color right here, some color correction maybe.
+[10:32] And I think that's already fine.
+[10:36] And the order right here, it's also fine.
+[10:39] So I'm just going to add a CC Vignette effect.
+[10:45] And I'm going to set this up to 40 and the amount to 200.
+[10:49] And we will have this Vignette right here.
+[10:53] Them some Chromatic Variation.
+[10:55] And it's called BR Chromatic Variations here.
+[10:58] And I like to select Stereoscopic and then decrease the aberration red to 2, to minus 2.
+[11:07] And then the aberration blue to 2.
+[11:09] I will have a super subtle effect that I think you won't be able to see, but I can't see
+[11:15] it.
+[11:16] And then color, we just want to add a Lumetri color effect.
+[11:21] And this is way easier to manipulate.
+[11:25] Let's say I want a bit less temperature and I want a bit more exposure like 0.2.
+[11:34] I want to increase the contrast to 10, decrease the shadows to minus 10.
+[11:42] You can just experiment with this.
+[11:46] And again, make sure you don't overdo some stuff.
+[11:52] Because it's going to look like super unrealistic.
+[11:56] But this is fine.
+[11:57] And yeah, I have my effects here.
+[11:59] This is before, this is after.
+[12:02] And it was super fast actually.
+[12:04] So I just important another animation here to show you some different effects.
+[12:09] So I'm just going to do the same.
+[12:10] And we will add a layer and duplicate it a bunch of times.
+[12:14] And let's say this time I want a bit more.
+[12:21] I also want some grain.
+[12:24] I also want some blur right here.
+[12:29] And you will see what I mean with that.
+[12:31] I also want here color.
+[12:33] And yeah, I think I'm fine with this.
+[12:36] I'm just going to delete the grain because I'm not actually going to use an adjustment layer
+[12:40] for that.
+[12:41] I'm going to use a solid layer with 8880.
+[12:46] And this is going to be a grain effect.
+[12:49] I'm just going to pre-compose this and check mobile attributes to a new composition.
+[12:55] And now I'm going to add an other grain effect.
+[13:00] And now in preview, I'm going to select Final Output.
+[13:03] And then in preset, CodagVision to 100T intensity and size.
+[13:08] Yeah, I'll leave those to one.
+[13:10] Then color, I'm going to select Monochromatic.
+[13:13] And here, Aburration and other animation speed.
+[13:16] Sorry, I'm just going to set it to zero.
+[13:19] And then I'm just going to set the blending mode right here to overlay like this.
+[13:27] And now I have a grain effect that you can't see a lot, but it is there.
+[13:33] Maybe find increasing intensity to 1.1, maybe.
+[13:37] And now I'm going to add a Vignette.
+[13:40] A Vignette effect and 240.
+[13:46] And then a blur.
+[13:47] I'm going to add a Direction of Blur.
+[13:50] Increase the string to 30.
+[13:52] And maybe increase the size to 105.
+[13:56] And now I'm going to select the Lips tool and double click here to make this mask.
+[14:01] Now I'm going to invert this mask.
+[14:04] And I'm going to increase the feather right here to 300.
+[14:09] And I will get this effect right here.
+[14:12] And now in the color, I will make the same as before.
+[14:17] I will add a lumetri color effect.
+[14:20] Decrease the temperature to minus 10.
+[14:23] And decrease the exposure to minus 0.1.
+[14:28] Sorry.
+[14:28] And increase the contrast a little bit to 20.
+[14:33] Shadows to minus 15.
+[14:38] And yeah, just playing around with this.
+[14:40] I think I already like this.
+[14:43] And yeah, these are all the effects.
+[14:45] Together, as you can see, it looks way better.
+[14:49] And yeah, that's pretty much everything I know about adding some school stuff
+[14:54] and some cinematic look to your renders after you've done it.
+[14:59] Obviously, if you are in blender, you want to make a test render just pressing F12.
+[15:05] And then apply all your compositing before rendering the entire animation.
+[15:11] And in After Effects, you can actually render the entire animation
+[15:15] and import it here in After Effects to give those effects at the end.
+[15:21] So yeah, whatever of those works, sometimes I really like the CCVNet effect
+[15:27] more than the vignette that you can get in the compositor.
+[15:30] So sometimes I will just composite my image in blender.
+[15:35] And then when I finish rendering, I send it to After Effects
+[15:40] and add a CCVNet effect and that's it.
+[15:42] Hope you found this helpful.
+[15:43] I'll see you in the next course lesson.
+[15:46] And we are going to talk all about rendering.
+[15:49] So I'll see you there.
