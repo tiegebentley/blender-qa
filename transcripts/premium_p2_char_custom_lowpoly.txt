@@ -1,0 +1,69 @@
+[00:00] In this video I'll teach you how to create custom low-body characters.
+[00:04] Basically once you have your realistic character this process makes them low-body
+[00:09] so you achieve more of a stylized look without losing the customization from the previous model.
+[00:17] They are commonly used by creators like Fern or Cypher.
+[00:21] I usually they use this when they are trying to cover some news or
+[00:25] good topics like the Trump shooting for example or the US president elections.
+[00:31] Nonetheless they look super static and here's how to make them.
+[00:35] In this case I'm going to use this character from Mixamo just for illustration purposes.
+[00:41] Obviously you can use the methods from the previous course lessons like CC4,
+[00:46] Make Human or Human Gen. You can apply this effect to whatever of those.
+[00:51] So I'm just going to download here the VX and download and now I'll just import this
+[00:56] without animation and import the VX and I'm going to go to the Material Preview
+[01:02] and I'm not going to bother with the textures here, of the clothes and all that stuff
+[01:06] because we already know how to solve that from the previous lessons.
+[01:10] I'm just going to focus on the actual skin and also here the hair.
+[01:16] And before doing anything I want to delete the eyelashes
+[01:19] because they are going to cause problems in the future.
+[01:21] I know that I did this and I'm going to select both of these and press Shift-click
+[01:26] on one of the objects and then press Ctrl-J to join them.
+[01:30] And now this is a separate object from the clothes and all that stuff.
+[01:35] I'm going to go to the Material and eliminate all the materials.
+[01:39] So we have this ultra basic material and then I'm going to go here to the
+[01:45] Modifiers and add a Desimade modifier.
+[01:48] I know that we have this, I'm going to select this, right click and shade flat.
+[01:52] And sometimes Fern just leaves this just like this.
+[01:56] And I will consider this low poly although it's not low poly but the fact that you can see the geometry.
+[02:03] It's already like a stylized effect.
+[02:06] An interesting one but let's say you want to exaggerate this.
+[02:10] You just click here and go to the Modifiers, add the Modifier
+[02:14] and add a Desimade modifier and just decrease the ratio here to something pretty subtle.
+[02:20] Something like this let's say 0.35 and this already looks good.
+[02:25] Now you can add whatever material you want.
+[02:28] I know this Fern just leaves this white and there you go.
+[02:32] You have here your first variation of a low poly character but another thing
+[02:39] you can do here.
+[02:40] It's actually, let's import this again, and gx.
+[02:44] And dot and now I'm going to delete the eyelashes again.
+[02:49] And now instead of just making the skin low poly, I'm going to make the entire thing low poly.
+[02:56] And this is another effect that it's used by Cypher and Fern.
+[03:00] And now I'm going to select everything and also the clothes,
+[03:05] the pants and the shoes.
+[03:07] I'm going to shift click here and then Ctrl J to join everything.
+[03:12] And now I'm just going to delete all the materials.
+[03:15] I forgot to join this so click here and shift click here, Ctrl J.
+[03:21] And now I have to delete everything again and there you go.
+[03:23] Now that we have this, let's apply a simple material.
+[03:28] Something like this, let's select this and shade flat.
+[03:33] There you go.
+[03:34] And now go to the modifiers and decimate modifier.
+[03:39] And this time I'm going to decimate this even more than the previous version.
+[03:44] Something really exaggerated like this point.
+[03:48] Let's round it up to point one.
+[03:50] And there you go.
+[03:51] So this is a lot more exaggerated but now the effect is applied
+[03:57] to the entire thing.
+[03:58] These are the two variations you can select when you're trying to make custom low poly characters.
+[04:05] You have only the skin with a little bit of decimator and then the entire thing
+[04:10] with lots of decimates effect.
+[04:13] And you can still post this however you want like this.
+[04:19] I want to recommend animating your characters with the decimate modifier
+[04:24] because you are going to get some bad stuff going on.
+[04:27] And yeah, if you look closely most of the videos where Furn or Cypher use these kind of characters,
+[04:34] they are actually not animated and they are just in a static pose.
+[04:38] And that's because if you try to animate this it's going to look a little bit crazy.
+[04:41] So yeah, hope you find this helpful.
+[04:43] This is the last class of the Character Grisha section.
+[04:46] Now we're going to get into Character Animation in the next lesson.
+[04:50] Super excited for that.
+[04:51] So I'll see you there.
