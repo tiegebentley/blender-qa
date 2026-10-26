@@ -1,0 +1,112 @@
+[00:00] In this video you are going to learn how to dress mannequins like ferns, cipher or thinker.
+[00:04] These characters are the best way to combine speed with a decent amount of customization for your documentaries.
+[00:12] So let's start.
+[00:13] So if you want to download your mannequin you just have to go to mixamod.com in the character section
+[00:18] and then you just want to scroll down and in the first page you're going to find this mannequin
+[00:23] character and this will be a nice base for our documentaries. You just have to click the download
+[00:28] bottom and then select here the tipos and if we expand it and download.
+[00:34] And to dress our characters we are going to use this software that is called Metatailor.
+[00:40] I honestly tried to dress characters on blender and it was honestly a pain in the ass.
+[00:46] It took a lot of time and I didn't get good enough results. So then I just stumbled upon this
+[00:52] software and it changed the way I dress characters because it's so easy and fast and it saves you a lot
+[01:01] of time. So I highly recommend it. I use it in almost every video of my channel and you can try it for
+[01:09] free and it's not like a trial period of a couple days. You can actually stay free indefinitely but
+[01:16] you will only be able to export three characters a month which is fine for me taking into account
+[01:22] that this is free but if you want to use this more frequently you can purchase the monthly subscription
+[01:28] for just $35 a month and honestly it's super cheap compared to the amount of time you will save trying
+[01:35] to dress your mannequins or whatever other character. Now I'm going to show you a couple websites where
+[01:41] you can find clothing assets to dress your mannequins. And the first website is sketchfab.com as you can
+[01:48] see I typed here clothing and we have some pretty interesting stuff for free that we can use for our
+[01:56] documentaries. We have full body things right here or we have just one piece of clothing. The only thing
+[02:02] you want to take into account is that your outfit must be in the A pose so this pose right here or in
+[02:09] the deep pose which is this pose right here and that will give you the best results. Sketchfab is
+[02:15] pretty limited if you look for specific clothing sometimes you just can't find a good enough
+[02:22] asset that is also in the A pose and that it's also free. So in that case you should go to the next
+[02:28] website. And the next website is rstation.com you just want to go here to shop and then marketplace
+[02:36] and here you have these filters and you just have to click here on 3d models and then clothes and
+[02:43] accessories. And once you are in clothes and accessories you can find any specific clothing you want.
+[02:48] As you can see here I already looked for white shirt, black pants and polis costumes and all
+[02:55] those stuff but here you won't find a lot of free assets but you will find a lot of super cheap assets
+[03:03] that are also ultra high quality. So again you just have to be sure that your outfit is in the A pose
+[03:10] for example we have these main suites right here for just five dollars which is amazing like getting
+[03:16] an entire outfit for just five dollars and as you can see in the poses right here it's not obviously
+[03:23] in the A pose but what you want to see if in the other pictures we have the asset here in the A pose
+[03:30] we are fine. The other thing you want to be sure is that you have file formats and OVJ FVX
+[03:37] or maybe a blend file because for example I don't use marbles designer or cloth 3D but yeah if you
+[03:43] enter an asset it is in the A pose and you see that you have an OVJ FVX or blend file then you can
+[03:50] definitely purchase this asset. My third favorite website for clothing it's definitely CG trader. Here you
+[03:58] have super high quality clothes and super low prices not prices as low as art station but it's a
+[04:06] pretty good mix because here you will find sometimes better cloth assets for just maybe five dollars more
+[04:14] and it's the same thing as always you have to make sure that the clothes are in the A pose and you have
+[04:22] an FVX and OVJ file or a blend file and that's pretty much it. You can even filter here the price so you
+[04:30] can start from two dollars all the way to at a maximum of 35 dollars and you just apply this and there
+[04:39] you go now you have a lot of assets that are in this price range. So let's say we want to purchase an
+[04:46] entire outfit like this one right here as you can see it's a pretty good quality and all the
+[04:53] stuff so I'm just going to download this and I'm going to download the OVJ you can't just import the
+[05:00] entire clothes assets to meta tailor because that will give you bad results so what you have to do first
+[05:07] it's import your entire outfit here in blender and here we have our outfit and if it's already
+[05:15] separated in parts like this asset that's honestly great sometimes you will have something like this
+[05:22] and in that case what you want to do is go to edit more and select for example here L and then L
+[05:30] and L and all these parts that are this thing right here I don't remember how to how to name this once
+[05:37] we selected everything we want to press P and separate by selection and now this is a separate thing
+[05:44] and now that we separated everything we want to press file and export and export FVX or
+[05:52] OVJ whatever you want meta tailor works with FVX, OVJ or GLB so whatever of those so here for example
+[06:02] I'm going to select FVX and now here I want to leave me to selected objects so I'm only going to export
+[06:10] the asset that I separated now I give it a name and then export it I want to do that with every part
+[06:17] of the entire outfit and that will give you better results in meta tailor obviously I forgot to mention
+[06:22] you should texture your asset before exporting it just go to the textures that came with the model
+[06:30] apply them like all the tutorials you saw before this one and then export it and once you did all
+[06:36] of that let's go to meta tailor so once you installed meta tailor and you made your account and all
+[06:43] that stuff you will see something like this obviously this will be empty so you just want to go here and
+[06:49] select new project and give it whatever name and confirm and then you have here this normal default
+[06:59] character from meta tailor and you just want to go here to import and you can import avatar so in my case
+[07:08] I'm going to import a mannequin once I imported the mannequin it will look something like this so we
+[07:15] don't have to tweak anything here we just want to go to the next step and here meta tailor already
+[07:22] auto rigs your character maybe you want to position this better like this and this is already good
+[07:29] so if it's a character from meta tailor you won't have any problems here if it's like another character
+[07:36] that has a rig maybe you also won't have any problems but you always want to double check before
+[07:42] going to the next step okay so once you imported the character it won't change automatically you want
+[07:48] to go here to this icon all the way to the left and change your character here change avatar and now we
+[07:56] can work with this mannequin and now in order to import clothes I'm going to import whatever clothes
+[08:04] I'm going to show you the entire process and then you just have to repeat that for every asset that you
+[08:10] want to apply into this mannequin so for example I want to apply this police suite top and in this case it's
+[08:16] not textured as you can see so what you want to do is go here all the way down and color and you want to
+[08:23] select the textures that came with the model obviously so in my case is this one as you can see and now
+[08:32] you can also look for the normal here it is and you can also add other materials in my case I don't
+[08:38] need that so next step and now you just want to select whatever preset in my case let's say shirts and
+[08:44] next step now you want to position this as close as you can and in my case I think this is already fine
+[08:51] so once you are roughly there you want to select confirm and start post-match and here what you want to
+[08:57] do is trying to align the character as much as you can to the actual clothes so something like this
+[09:06] and something like this there you go and that should be already fine so don't worry if you have
+[09:11] something like this because metatailer is going to do its magic so then you just have to go to next
+[09:17] step and as you can see it solved all the problems and there you go now you have your clothes it's amazing
+[09:25] so the good thing about metatailer is that it will save all of your clothing assets so if you want to
+[09:32] use them in the future in the same character or even in another character you just want to go to my
+[09:38] content and then clothing and as you can see I already have all these other assets that I used
+[09:44] in the past let's say I want to apply this pants right here it does that automatically let's say I want
+[09:52] to apply this bucket hat I can do that also so yeah it's amazing and now if you want to export this
+[10:01] you just want to go to export and then give it a name choose export path and then export and now you
+[10:08] will have something like this in my case I have this policeman fx that I used for another tutorial
+[10:13] and you just want to drag and drop it right here and you will have here your character and it's
+[10:19] already rigged so you can pause it and now you just want to make a couple adjustments so if you go to
+[10:25] material preview let's first focus on the actual character you just want to go here and if you want to
+[10:32] do like a thinker style you just want to leave it like this but maybe you want to make like a cipher style
+[10:41] you can do this and increase the decrease the roughness to something like this and also decrease
+[10:49] here the value and this is something like cipher if you want to do something like fern or cipher I don't
+[10:56] remember you just do something like this so now it's shiny but fully black and you can do like a lot
+[11:03] of things with this then for the clothing you just want to go here to the shader editor and sometimes
+[11:10] you have some problems like the same problems you will have with a mix and export so the metallic is
+[11:17] all the way up the roughness is bad so now you just want to decrease the metallic and if this is
+[11:23] colored you want to unplug it from the specular and go to the roughness and then add a color ramp
+[11:30] here and now you'll have something like this and you just have to flip this and then that should be it
+[11:36] then we have the alpha that we don't need you can also increase the normal if you want you want to
+[11:44] reset this thing right here placing backspace and this is already good and yeah you'll have to do that
+[11:50] kind of tweaking to all the clothes assets now in order to post this comfortably you want to go to
+[11:56] edit mall and then go to sorry wireframe mall and you want to delete everything that it's under the
+[12:04] clothes so you just want to select all this area right here everything that it's under the clothes you
+[12:10] can even delete this and delete vertices and if you go back you also want to delete like this area
+[12:18] right here delete vertices and now you can post this character comfortably so let's select the
+[12:24] armature and let's go to post mode and enable fade geometry press one and now you can post this
+[12:30] character comfortably without worrying about the clothes clipping with the body because we deleted the
+[12:37] body essentially so there you go that's how you dress mannequins you have all the resources below
+[12:43] and i'll see you in the next course lesson bye
