@@ -1,0 +1,155 @@
+[00:00] In this video, you're going to learn how to import two
+[00:02] the graphics into Blender.
+[00:04] In this case, an animated text from After Effects.
+[00:07] Let's get into it.
+[00:09] OK, so I'm here in After Effects, and I have this animation
+[00:13] right here that I extracted from a tutorial I did a while ago.
+[00:17] But that's not the important thing, but you
+[00:19] want to learn here it's the actual technique.
+[00:22] And something that you have to take into account is actually
+[00:26] your composition settings.
+[00:28] So here in Create a new composition, you
+[00:31] want to select the highest quality possible in my case, 4k.
+[00:35] And the important thing here is that your frame rate
+[00:39] matches the frame rate you have in your 3D animation.
+[00:43] That's pretty important.
+[00:44] Then in the duration, you want this to last whatever you need
+[00:48] for your animation, and then a couple seconds more, just
+[00:52] to be sure so you don't have to come back to After Effects.
+[00:56] So you get the animation, make it a little bit longer,
+[00:58] and then go back to Blender.
+[01:00] So yeah, just to be safe, add a couple more seconds.
+[01:03] And then you press OK.
+[01:04] And here in After Effects, you can animate whatever,
+[01:07] like an arrow, like a circle, or words.
+[01:10] That's completely fine.
+[01:12] The only thing you want to make sure
+[01:13] is that you don't have any background.
+[01:16] So as you can see, the only thing I have here in my timeline
+[01:20] is this text right here.
+[01:22] And that's the only thing I want.
+[01:24] Then the other important thing while exporting
+[01:27] is, well, let's export this pressing control M.
+[01:31] And here in the output model, you want
+[01:33] to make sure you select high quality with alpha.
+[01:37] I think you can also select lossless with alpha.
+[01:40] But I always use high quality with alpha.
+[01:42] And then here in the output, you select a folder
+[01:45] where you want your animation to be exported.
+[01:48] And then just press render.
+[01:50] And now I'll see you in Blender.
+[01:51] So here in Blender, I'm going to delete the default cube
+[01:56] and then shift A cube, G-seal, and control to lift this up.
+[02:01] And then shift A, mesh, plane, S.
+[02:05] And then go to edit mode 2, and E, and seal.
+[02:09] And we want something like this.
+[02:10] And now this light, we're going to make it,
+[02:14] oh, it's a pretty strong light, actually.
+[02:16] So let's increase the radius to 1.
+[02:19] And let's see, Rx, yeah, something like this.
+[02:23] G-seal, Rx.
+[02:25] Let's increase the passport to 1.
+[02:29] And then go to render view and deactivate overlays.
+[02:34] Let's decrease the strength of the world.
+[02:36] And let's change to cycles right here.
+[02:42] Now let's look at this.
+[02:44] OK, this is fine.
+[02:45] And now let's import our animation.
+[02:47] So shift A and image and mesh plane.
+[02:52] And we have this animation that we exported earlier
+[02:55] and just import images as planes.
+[02:57] And now G-seal and R-seal.
+[03:01] And obviously we have to go to the frame 100 or so
+[03:06] just to see the animation more.
+[03:09] If you want the text to receive light and cast shadows,
+[03:14] that's fine.
+[03:15] You can do that.
+[03:17] And it will look something like this.
+[03:20] And that could be like a very valid option.
+[03:22] But I'm going to show you a couple of tricks you can do.
+[03:26] So essentially give your text some effects.
+[03:29] And one of the effects you can use is actually here in the mission.
+[03:34] You can plug the color into the color.
+[03:37] And then increase the mission.
+[03:40] And now this will act as a light.
+[03:43] So as you can see, it's adding light to the scene.
+[03:46] And this is also getting brighter.
+[03:47] So this could be an option.
+[03:49] Then once you render this, you can add a glare node
+[03:53] and make this shiny, like some of the animations from Imangatsu.
+[03:59] Also you can just change the color like this.
+[04:03] And you have a different effect.
+[04:06] That's another thing you can do.
+[04:08] But yeah, if you want the text to be fully visible,
+[04:11] but don't cast light in other parts of the scene
+[04:17] and also don't create this shadow right here.
+[04:22] There's something you can do.
+[04:24] And I'm going to show you right now.
+[04:25] Basically I deleted everything.
+[04:27] And now I'm going to press Shift-A and a mission shader.
+[04:32] And I'm going to duplicate this twice.
+[04:34] And then I'm going to add a mix shader.
+[04:37] Now you should add a light path node right here.
+[04:41] And now you just plug these values right here.
+[04:44] And also the camera is camera ray.
+[04:47] You plug it here.
+[04:48] You also want to duplicate the mix shader actually.
+[04:52] And plug one here.
+[04:54] And then plug this.
+[04:56] OK, so let me show you how it looks
+[04:58] without the other mix shader.
+[05:00] So just plug this into the surface.
+[05:03] And then the color into both colors right here.
+[05:08] And now we got it to work, but the alpha isn't working.
+[05:13] And that's why you should add another mix shader
+[05:16] and plug the alpha into the factor right here.
+[05:20] And then change this right here.
+[05:22] And what you also have to do is add a transparent BSDF
+[05:28] and plug it here into the other socket.
+[05:31] And now you get this.
+[05:32] So we have two emission shaders.
+[05:35] And the one above is casting light into other objects.
+[05:40] So we want this to be at 0.
+[05:42] So it doesn't cast any light.
+[05:45] And then the other emission shader
+[05:47] is controlling the brightness of the text.
+[05:50] So if we increase this, we can make the text very right.
+[05:55] But it's not casting shadows into other objects.
+[05:58] And that's basically how you do this.
+[06:00] And also if you don't want this object to cast shadows
+[06:05] into the rest of your scene, you just have to go here
+[06:08] to object properties and then visibility.
+[06:12] And then you want to uncheck the transmission,
+[06:15] the volume and the shadow.
+[06:17] And the shadow it's the most important part, one,
+[06:19] because as you can see here, we had this shadow.
+[06:23] And now I eliminate that.
+[06:26] So now this is like a very controllable text.
+[06:30] Like you can do a lot of things with this
+[06:33] without it affecting the scene clearly.
+[06:37] And the other thing you want to take into account,
+[06:40] I think I already talked about this
+[06:41] in another section of the course.
+[06:43] But basically if you want the animation to start
+[06:46] at any given point, that it's not the first frame,
+[06:50] you want to change the start frame.
+[06:53] Two, whenever you want your animation to start.
+[06:56] And also if you want the animation to loop all the time,
+[07:01] you want to check here, cyclic.
+[07:03] And that's it.
+[07:04] With this method, you can also add arrows,
+[07:07] as I already told you, and circles.
+[07:10] Like animating just a flat circle,
+[07:13] like just a circle with a stroke in blender.
+[07:16] It's not that easy and that intuitive as after effects.
+[07:20] So you can take advantage of the scene plusness
+[07:23] of after effects and then import those animations
+[07:27] into blender and make your life super easy.
+[07:31] Obviously if you want to do like a 3D shape,
+[07:34] like a 3D circle, for example,
+[07:36] then you will have to use blender.
+[07:38] But yeah, in order to add two graphics, you'll need after effects.
+[07:43] And that's it.
+[07:44] I'll see you in the next course lesson
+[07:46] where we are going to talk about character creation.
+[07:49] So let's go.
