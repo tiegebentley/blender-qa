@@ -1,0 +1,90 @@
+[00:00] Welcome to the scene building section of this course. Here you will learn everything about
+[00:05] creating various types of scenes for your documentaries. But first let's talk about where to find assets.
+[00:12] When I say assets, I'm talking about three models ranging from something as simple as a
+[00:17] desk to something as complex as an entire building. So let's look at some websites that can help you
+[00:23] with that. The first website is Sketchfab. This is where you can find assets for free but they are not
+[00:31] that high of a quality. For example, let me find like a house and here you have to check where it
+[00:39] says downloadable so it shows you all the assets that are free. So once you're here you just scroll through
+[00:47] the assets until you find one that you like and also has this icon right here which means that you can
+[00:55] just download it. So for example, this one as you can see it's not like the highest quality out there.
+[01:03] Instead of looking for big scenes, I actually recommend you to look for for-nitor for example. Here you
+[01:09] can find a lot of furniture for free like this for example or maybe guns. Guns is another thing that it's
+[01:18] pretty easy to find for free here. You have this gun for example that looks really, really high quality
+[01:25] and it's free. You just have to click here on download and if there is an FVX, I suggest you download
+[01:32] the FVX if not just download the GLB and if there's an OBJ here you can also download that. Use
+[01:41] the seed and GLTF, I don't recommend you download those. The next website is not a website but is an
+[01:49] addon and it's blender kit. Here as you can see you can go to models and there are a lot of models
+[01:55] that are actually free. For example, you have discars right here that are completely for free, discrass,
+[02:03] there are a lot of really high quality assets as you can see that are in the free plan. So I highly
+[02:10] suggest you to just download blender kit right here. Just download it and install it as any other addon.
+[02:19] So once your blender go to edit preferences addons and click this arrow right here and then go to install
+[02:27] from this and just select the blender kit addon. It will ask you to log in but once you do that it will appear
+[02:36] right here. So you just have to select here models and then you can select something like car and
+[02:43] everyone that it's not with this lock right here is free. For example, you have this one that is
+[02:51] completely for free but I also highly recommend you to purchase the subscription which is just $13.
+[02:58] With just $13 a month you will have a lot more assets to choose from and they are very high quality
+[03:05] but don't just download it because you want. Let's say you are between two models, both models are paid
+[03:12] but the model that it's not from blender kit is actually like $20. In that case it's better to
+[03:18] choose purchase the monthly subscription of blender kit because you want just get that paid asset
+[03:24] that you want. You will get a ton more for even a lower price. So yeah it's really worth it. Here you can
+[03:32] see some models that are in the full plan. So let's say a very similar model of the cyber truck
+[03:39] is in another platform but for $20. Well in that case it's better to just purchase the full plan
+[03:47] and get the cyber truck and the other full plan assets that are right here. The third website is my
+[03:56] absolute favorite and it's CG trader and it's my favorite because here you can find the highest
+[04:02] quality assets at a very low price, very reasonable price. Other websites will charge like
+[04:09] double or triple for the same asset or a very similar one but this one is actually pretty pretty good.
+[04:15] For example here you have this really really really high quality house with really good details and all
+[04:24] that stuff with even a front yard and a back yard and trees and everything you want. It's a blend file
+[04:34] meaning that you can just drag and drop it into your blender scene. I think even Furnd used this model
+[04:43] in one of his videos. Just $9 for all this quality and royalty free license means once you purchase
+[04:50] this asset you don't have to get credit to the author which speeds up things a lot more. Here's another
+[04:58] high quality house which even has four meters for just $13. It is a blend file and it's royalty free
+[05:07] license so yeah I don't need to save more. This website is really the the best one. The next website is
+[05:14] super high and it's all about blender so here you will find blend files, things that you can import
+[05:22] into blender. Everything is optimized for blender and the prices are super reasonable. For example you
+[05:29] have this medieval bead latch house kit for just $5 and as you can see they are pretty high quality
+[05:36] and sometimes maybe you are looking for a house model but you end up finding like a house scatter
+[05:43] addon. You can make entire neighborhoods for just $15 for example so yeah it's really really good. I
+[05:49] purchased a lot of things from here and I highly recommend this website. As a bonus I also recommend
+[05:56] Meshie AI. It has a free plan that has a certain amount of credits per month. They are enough you can
+[06:03] make interesting stuff that you can position maybe in the background. Things that you can't find
+[06:09] anywhere else and it's super specific you can try to generate those with Meshie AI. Basically how it
+[06:16] works you can ask chaggity for an image and then you upload that image into Meshie AI and it will
+[06:22] transform it into a 3D mesh. So it's really good but it's kind of a last resource to be honest. So yeah
+[06:30] let's keep going. When you are building scenes you don't just need 3D models you also need
+[06:36] 3D textures. A texture would be something like wood, metal, plastic and all those variations. It could
+[06:45] be like a rusty metal or different types of woods. All of that is actually textures. So here I'm going to
+[06:53] show you some useful websites that you can use to find 3D textures. My first recommendation for materials
+[07:00] is actually blender kit. Here you can find a lot of textures and almost all of them are free. So you
+[07:07] don't need to purchase the paid plan to get really high quality textures and it's just a super easy and
+[07:13] fast way to have textures to your models. For example I have this cube selected. I just have to click
+[07:21] on this texture and it's going to apply the texture to this cube right here as you can see and it was
+[07:29] like pretty fast. It was really really fast. In the past I was recommending like a lot of websites for
+[07:35] materials but honestly this is pretty much 90% of what you need and if you don't find what you need
+[07:41] here the next website will help you and that website is 3D assets 1. Let's say you're looking for
+[07:48] wood and here you have a bunch of wood materials that are not from this website because this website
+[07:55] gathers materials from other websites that have free materials essentially. So all of these materials
+[08:03] are free but they are from different websites. For example if I go here this material is from ambient
+[08:10] CG and it's free it's a wood material and you can just download it without having to log in or
+[08:16] anything like that. And honestly I'm just recommending these two. There's a lot more but like in reality I
+[08:23] just use those two and that's it. And now that we've covered 3D models and 3D textures I know you have a
+[08:31] pretty big question in mind which is should I model everything because after all modeling is free
+[08:38] and actually making textures similar to the one that we saw is also free. Why don't you just model
+[08:45] everything yourself or texture in everything yourself from zero and by the way modeling is actually
+[08:51] going to blender and start editing your default cube to make like a building or something like that.
+[08:57] Anyways there are two reasons why you shouldn't model and texture everything by yourself. The number one
+[09:03] is time. If you want to upload every three to four or five months I guess it's fine to model everything
+[09:10] yourself but who actually wants that because if you upload less frequently you delay your learning
+[09:17] experience the feedback you can receive from your viewers and also you are less attractive to
+[09:24] sponsors. So the only two ways to get in a way with a low frequency upload schedule would be if you don't
+[09:32] care at all about results and you are only doing this for passion or your videos just get tons of
+[09:40] use every time you upload which is not realistic if you're just starting out. And the second reason why
+[09:46] you shouldn't model everything yourself is because almost every successful channel you know
+[09:52] doesn't model everything by themselves. They might model some ultra specific things but most of the
+[09:59] scene is actually achieved by gathering different assets from all the different websites we saw. So
+[10:06] for you what's the solution? My take on it is that you shouldn't model something that it's already
+[10:13] free or super cheap. After all there's no point in modeling something like a door, a lamp, a
+[10:20] desk or something super simple that you can find in Sketchfab but you should definitely model something
+[10:27] super specific that you can't find online or for free or super cheap. Obviously don't model the entire
+[10:34] white house but you know something like the frame of a room, a super basic building you know things
+[10:42] that won't take you a lot of time you should definitely model those.
